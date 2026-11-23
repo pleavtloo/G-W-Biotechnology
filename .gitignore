@@ -42,3 +42,9 @@ node_modules/
 legacy-export/
 *.tgz
 .tl-*.py
+
+# not part of the Germany build
+versions/
+site_assets/
+functions/
+.github/
