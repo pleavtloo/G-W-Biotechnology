@@ -391,7 +391,7 @@ p {
 }
 
 .brand img {
-  height: 30px;
+  height: 40px;
   width: auto;
 }
 
@@ -7268,4 +7268,91 @@ body.nav-open .mobile-menu__meta {
 
 button[aria-busy="true"] {
   cursor: progress;
+}
+
+/* ------------------------------------------------------------------
+   G&W header fit.
+   The G&W lockup carries the wordmark inside the image, so the brand
+   block is ~150px wider than the old symbol-only mark and the nav no
+   longer fits on a 1280 screen. Tighten the three header zones rather
+   than dropping a nav item.
+   ------------------------------------------------------------------ */
+.brand img {
+  height: 30px;
+}
+
+.nav__link {
+  padding: 10px 9px;
+  font-size: 0.84rem;
+}
+
+.nav__menu {
+  flex: 0 1 auto;
+  margin-right: auto;
+}
+
+.nav__actions {
+  gap: 6px;
+  margin-left: 10px;
+}
+
+.search-trigger {
+  max-width: 168px;
+}
+
+/* The nav mega panels and the hero blobs are absolutely positioned and can sit
+   past the viewport edge; without this the page gains a horizontal scrollbar
+   and the header looks pushed off-screen. */
+html,
+body {
+  overflow-x: clip;
+}
+
+.mega {
+  max-width: calc(100vw - 32px);
+}
+
+/* Second pass: the three zones still summed to ~1330px inside a 1240px
+   container, which clipped the quote button. Trim the search field and the
+   CTA so everything fits with room for the focus ring. */
+.search-trigger {
+  max-width: 118px;
+}
+
+.nav__actions .btn--sm {
+  padding-inline: 13px;
+  font-size: 0.8rem;
+}
+
+.nav__link {
+  padding: 10px 8px;
+}
+
+/* Third pass. The header carries more than the body grid can hold at 1240px,
+   so it gets its own wider container; below 1360px the search field collapses
+   to an icon so the nav and the CTA stay on one line. */
+.container.nav {
+  max-width: 1600px;
+}
+
+@media (max-width: 1360px) {
+  .search-trigger {
+    width: 46px;
+    padding-inline: 0;
+    justify-content: center;
+  }
+
+  .search-trigger > *:not(svg) {
+    display: none;
+  }
+
+  .nav__link {
+    padding: 10px 7px;
+    font-size: 0.8rem;
+  }
+
+  .nav__actions .btn--sm {
+    padding-inline: 11px;
+    font-size: 0.76rem;
+  }
 }

@@ -359,8 +359,7 @@ def header(active):
 <header class="header" id="header">
   <div class="container nav">
     <a class="brand" href="index.html" aria-label="G&W Biotechnologie GmbH — home">
-      <img src="assets/img/brand/logo-mark.png" alt="">
-      <span class="brand__tag"><b>Biotechnology</b><span>AI for science</span></span>
+      <img src="assets/img/brand/logo-mark.png" alt="G&amp;W Biotechnologie">
     </a>
     <nav class="nav__menu" aria-label="Primary">{lis}</nav>
     <div class="nav__actions">
@@ -1015,7 +1014,7 @@ def page_platform():
     dont = [
         ("We are not a model company.", "We do not sell software licences or a foundation model. "
          "The models are internal tooling that makes our experiments and reagents better."),
-        ("We are not a CRO.", "We do not take on every assay. We take work that extends the tool "
+        ("We are not a generalist CRO.", "We do not take on every assay. We take work that extends the tool "
          "stack — if it teaches the platform nothing, we will say so."),
         ("We are not an instrument company.", "We do not sell hardware, plate readers or closed "
          "cartridges. We design the experiment for the platform already on your bench, and route "
