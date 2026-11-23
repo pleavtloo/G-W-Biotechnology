@@ -7356,3 +7356,155 @@ body {
     font-size: 0.76rem;
   }
 }
+
+/* Transmembrane protein service page */
+.tsc__grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.tsc__grid--three { grid-template-columns: repeat(3, 1fr); }
+.tsc__grid--four { grid-template-columns: repeat(4, 1fr); }
+
+.tsc__item {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  padding: 20px 22px;
+}
+
+.tsc__item h3 {
+  font-size: 1rem;
+  margin: 0 0 8px;
+}
+
+.tsc__item p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.tsc__figure {
+  max-width: 680px;
+  margin: 26px auto 8px;
+  text-align: center;
+}
+
+.tsc__figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tsc__warning {
+  margin-top: 22px;
+  padding: 14px 18px;
+  border-left: 3px solid var(--accent);
+  background: var(--mist-2);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.tsc__stage {
+  margin-top: 30px;
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: #fff;
+}
+
+.tsc__stage-head h3 {
+  margin: 8px 0 6px;
+  font-size: 1.1rem;
+}
+
+.tsc__stage-head p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.tsc__badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.tsc__badge--alt { background: var(--accent); }
+
+.tsc__list {
+  margin: 14px 0 0;
+  padding-left: 20px;
+}
+
+.tsc__list li {
+  margin-bottom: 8px;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.tsc__callout {
+  margin-top: 24px;
+  padding: 18px 20px;
+  border-radius: var(--r-md);
+  background: var(--mist-2);
+  border: 1px solid var(--line);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+.tsc__note {
+  text-align: center;
+  margin: 10px 0 0;
+  font-size: 0.86rem;
+  color: var(--muted-2);
+}
+
+.tsc__close {
+  text-align: center;
+  max-width: 720px;
+}
+
+.tsc__close h2 { margin-bottom: 12px; }
+
+.tsc__close p {
+  color: var(--muted);
+  margin-bottom: 22px;
+  line-height: 1.65;
+}
+
+@media (max-width: 980px) {
+  .tsc__grid--four,
+  .tsc__grid--three { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .tsc__grid--four,
+  .tsc__grid--three { grid-template-columns: 1fr; }
+  .tsc__stage { padding: 18px; }
+}
+
+.svc__more {
+  margin: 22px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.svc__more a {
+  color: var(--brand);
+  font-weight: 600;
+  text-decoration: underline;
+}

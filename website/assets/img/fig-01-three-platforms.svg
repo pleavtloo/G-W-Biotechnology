@@ -1,0 +1,39 @@
+<svg viewBox="0 0 680 370" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, sans-serif" style="max-width:680px;height:auto;display:block">
+<title>Same protein, three membrane environments</title>
+<desc>VLP shows the protein embedded in a particle membrane measured as BCA total protein. Detergent shows the protein solubilised into micelles with detergent retained. Nanodisc shows the protein inside an SMA lipid disc.</desc>
+
+<text x="40" y="22" font-size="13" font-weight="500" fill="#081729">Same protein, three membrane environments</text>
+
+<circle cx="130" cy="90" r="40" fill="#eef3fa" stroke="#2a4299" stroke-width="0.5"/>
+<circle cx="130" cy="90" r="30" fill="none" stroke="#2a4299" stroke-width="0.5" stroke-dasharray="2 3"/>
+<rect x="125" y="38" width="10" height="24" rx="2" fill="#2a4299"/>
+<rect x="125" y="118" width="10" height="24" rx="2" fill="#2a4299"/>
+<text x="230" y="68" font-size="14" font-weight="500" fill="#081729">VLP</text>
+<text x="230" y="88" font-size="12" fill="#5b6c86">Protein displayed on a particle membrane</text>
+<text x="230" y="106" font-size="12" fill="#2f8fd0">No detergent · BCA total protein</text>
+
+<ellipse cx="130" cy="200" rx="42" ry="36" fill="#eef3fa" stroke="#2a4299" stroke-width="0.5" stroke-dasharray="3 3"/>
+<circle cx="172" cy="200" r="2.5" fill="#2f8fd0"/>
+<circle cx="160" cy="225" r="2.5" fill="#2f8fd0"/>
+<circle cx="130" cy="236" r="2.5" fill="#2f8fd0"/>
+<circle cx="100" cy="225" r="2.5" fill="#2f8fd0"/>
+<circle cx="88" cy="200" r="2.5" fill="#2f8fd0"/>
+<circle cx="100" cy="175" r="2.5" fill="#2f8fd0"/>
+<circle cx="130" cy="164" r="2.5" fill="#2f8fd0"/>
+<circle cx="160" cy="175" r="2.5" fill="#2f8fd0"/>
+<rect x="124" y="182" width="12" height="36" rx="2" fill="#2a4299"/>
+<text x="230" y="178" font-size="14" font-weight="500" fill="#081729">Detergent</text>
+<text x="230" y="198" font-size="12" fill="#5b6c86">Protein solubilised into micelles</text>
+<text x="230" y="216" font-size="12" fill="#2f8fd0">Detergent retained · target protein</text>
+
+<rect x="72" y="300" width="116" height="40" rx="20" fill="#eef3fa" stroke="#2a4299" stroke-width="0.5"/>
+<line x1="88" y1="307" x2="172" y2="307" stroke="#2f8fd0" stroke-width="0.5"/>
+<line x1="88" y1="333" x2="172" y2="333" stroke="#2f8fd0" stroke-width="0.5"/>
+<rect x="124" y="292" width="12" height="56" rx="2" fill="#2a4299"/>
+<text x="230" y="288" font-size="14" font-weight="500" fill="#081729">Nanodisc</text>
+<text x="230" y="308" font-size="12" fill="#5b6c86">Protein inside an SMA lipid disc</text>
+<text x="230" y="326" font-size="12" fill="#2f8fd0">No detergent · target protein</text>
+
+<line x1="40" y1="348" x2="640" y2="348" stroke="#e3eaf4" stroke-width="0.5"/>
+<text x="40" y="364" font-size="11" fill="#8394ab">Measurement basis differs by platform. VLP values are BCA total protein and are not comparable to target-protein quantities.</text>
+</svg>

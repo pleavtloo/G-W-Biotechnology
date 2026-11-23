@@ -88,6 +88,11 @@ SERVICES = [
     dict(icon="car", title="CAR-NK Process Support",
          desc="End-to-end process consulting for CAR-NK development, from vector and electroporation strategy to expansion and release testing.",
          tags=["CAR-NK", "Process design", "Release testing"]),
+    dict(icon="protein", title="Full-length Transmembrane Proteins",
+         desc="Three production formats for targets that resist standard expression, with "
+              "feasibility separated from scale-up.",
+         tags=["VLP", "Detergent", "Nanodisc"],
+         href="transmembrane-protein.html"),
 ]
 
 

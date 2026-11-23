@@ -251,7 +251,9 @@ def mega_services():
     links = [("services.html#custom", "Custom development", "Beads, proteins, gene editing, formulation"),
              ("services.html#automation", "Lab automation", "High-throughput capability, phased"),
              ("services.html#network", "Capacity network", "One order, routed across qualified labs"),
-             ("services.html#experts", "Application science", "Protocol review with a named scientist")]
+             ("services.html#experts", "Application science", "Protocol review with a named scientist"),
+             ("transmembrane-protein.html", "Transmembrane proteins",
+              "VLP, detergent and nanodisc, with a paid feasibility stage")]
     items = "".join(
         '<a class="mega__link" href="{h}"><span class="mega__ico">{i}</span>'
         '<span><span class="mega__name">{n}</span><span class="mega__desc">{d}</span></span></a>'.format(
@@ -437,7 +439,8 @@ def footer():
         <ul>
           <li><a href="platform.html">AI for science</a></li>
           <li><a href="products.html">Products</a></li>
-          <li><a href="services.html#automation">Lab automation</a></li>
+          <li><a href="transmembrane-protein.html">Transmembrane proteins</a></li>
+        <li><a href="services.html#automation">Lab automation</a></li>
           <li><a href="services.html#network">Capacity network</a></li>
           <li><a href="services.html#experts">Application science</a></li>
           <li><a href="quality.html">Quality &amp; regulatory</a></li>
@@ -884,6 +887,9 @@ def page_home():
   <div class="container">
     {head_svc}
     <div class="svc">{svc}</div>
+    <p class="svc__more">
+      <a href="transmembrane-protein.html">Full-length transmembrane proteins</a> &mdash;
+      VLP, Detergent and Nanodisc formats, with a paid feasibility stage before scale-up.</p>
     <div style="margin-top:32px"><a class="btn btn--ghost" href="services.html">
       All custom services {ar}</a></div>
   </div>
@@ -2605,10 +2611,11 @@ def page_services():
       <div class="svc__ico">{i}</div>
       <h3>{t}</h3><p>{d}</p>
       <div class="svc__tags">{tags}</div>
-      <a class="link-arrow" style="margin-top:10px;font-size:.85rem" href="contact.html#quote">
+      <a class="link-arrow" style="margin-top:10px;font-size:.85rem" href="{href}">
         Discuss a project {ar}</a>
     </div>""".format(i=ic(s["icon"]), t=e(s["title"]), d=e(s["desc"]), idx=i + 1,
-                     tags="".join("<span>%s</span>" % e(t) for t in s["tags"]), ar=ic("arrow"))
+                     tags="".join("<span>%s</span>" % e(t) for t in s["tags"]), ar=ic("arrow"),
+                     href=e(s.get("href") or "contact.html#quote"))
         for i, s in enumerate(SERVICES))
 
     auto = "".join("""
@@ -2753,6 +2760,260 @@ def page_services():
     return head("Services — custom development, lab automation and capacity at G&W",
                 "Custom reagent development, a published lab automation roadmap, and a qualified capacity network for high-throughput work.",
                 "services") + header("Services") + body + footer()
+
+
+def page_transmembrane():
+    WHY = [
+        ("Hydrophobic by design",
+         "Transmembrane segments aggregate once the lipid environment is gone. A clean band "
+         "on a gel is not evidence of a folded protein."),
+        ("Expression is toxic",
+         "Over-expressing a membrane protein loads the host. Yield and host choice are "
+         "coupled, not independent."),
+        ("Purification removes the context",
+         "Every step that strips detergent or lipid takes the protein further from the state "
+         "you need to assay against."),
+        ("Conformation is a separate test",
+         "Activity has to be shown, not assumed. That is why the assay panel is agreed "
+         "before the project starts."),
+    ]
+
+    FORMATS = [
+        ("VLP",
+         "Displayed on a particle membrane. No detergent. Measured as BCA total protein, so "
+         "values are not comparable with target-protein quantities."),
+        ("Detergent",
+         "Solubilised into micelles. Detergent is retained and cannot be stripped. Measured "
+         "as target protein."),
+        ("Nanodisc",
+         "Reconstituted into an SMA lipid disc. No detergent. Measured as target protein."),
+    ]
+
+    STEPS = [
+        ("01", "Enquiry", "1 business day",
+         "RFQ form or email, NDA signed. Missing sequence, UniProt ID, topology or intended "
+         "application is returned for completion."),
+        ("02", "Review", "3 business days (5 for complex targets)",
+         "Sequence analysis, topology prediction, platform recommendation, risk grading."),
+        ("03", "Quotation", "3 business days, valid 30 days",
+         "Proposal and priced quotation, one revision included."),
+        ("04", "Contract", "5 business days",
+         "MSA + SOW or PO. International orders add proforma invoice, Incoterms and export "
+         "review."),
+        ("05", "Execution", "per schedule",
+         "Prepayment releases the run. Fortnightly updates. Go/No-Go at the end of Stage 0. "
+         "Protein, CoA and cold chain. Acceptance. 30 days of technical support."),
+    ]
+
+    FAQS = [
+        ("Why can't VLP purity be measured by SDS-PAGE?",
+         "Because the product is a particle bearing the target alongside other membrane "
+         "proteins, not a purified species. Purity methods built for single proteins do not "
+         "apply. Concentration is reported as BCA total protein, and an ELISA data set is "
+         "provided so you can judge the sample against your own antibody."),
+        ("What is the difference between BCA total protein and target protein?",
+         "BCA total protein counts everything in the sample. Target protein counts only the "
+         "protein you asked for. VLP is quoted on the first basis; Detergent and Nanodisc on "
+         "the second. The two are not interchangeable and should never be compared line by "
+         "line."),
+        ("What happens if Stage 0 fails?",
+         "You pay the feasibility fee and nothing else. You keep the expression construct, the "
+         "small-scale data, the feasibility report and any trial sample produced. There is no "
+         "obligation to continue and no further charge."),
+        ("Can you start from a plasmid instead of a sequence?",
+         "Yes. Send the plasmid map or the sequence with the intended tag and host. If neither "
+         "a sequence nor a construct exists, construct design is part of Stage 0."),
+        ("Which platform should I choose?",
+         "It depends on the downstream assay, not on the target. Immune raising and antibody "
+         "screening favour VLP for cost and speed. Surface plasmon resonance, bio-layer "
+         "interferometry and structural work need a defined quantity of target protein, which "
+         "points to Detergent or Nanodisc. If the assay is not yet fixed, run all three in "
+         "parallel and decide on the comparison report."),
+        ("Is this GMP material?",
+         "No. These are research-grade custom services for discovery and characterisation. "
+         "They are not manufactured under GMP and are not intended for therapeutic use. Our "
+         "GMP raw material lines are separate and carry their own documentation."),
+        ("How much does scale-up cost?",
+         "Scale-up is priced per project against the delivered quantity and the platform, so "
+         "it is quoted after the target has been reviewed. Stage 0 pricing is published above; "
+         "Stage 1 pricing is issued with the quotation."),
+    ]
+
+    why_html = "".join(
+        '<div class="tsc__item"><h3>%s</h3><p>%s</p></div>' % (e(t), e(d)) for t, d in WHY)
+
+    fmt_html = "".join(
+        '<div class="tsc__item"><h3>%s</h3><p>%s</p></div>' % (e(t), e(d)) for t, d in FORMATS)
+
+    step_rows = "".join(
+        '<tr><td><b>%s</b></td><td>%s</td><td>%s</td><td>%s</td></tr>'
+        % (e(a), e(b), e(c), e(d)) for a, b, c, d in STEPS)
+
+    faq_html = "".join(
+        '<div class="faq__item"><button class="faq__q">%s%s</button>'
+        '<div class="faq__a"><p>%s</p></div></div>' % (e(q), ic("plus"), e(a))
+        for q, a in FAQS)
+
+    body = """
+<main id="main">
+<section class="phero">
+  <div class="phero__grid"></div>
+  <div class="container phero__inner">
+    <div class="crumbs"><a href="index.html">Home</a>{c}<a href="services.html">Services</a>{c}
+      <span>Transmembrane proteins</span></div>
+    <div class="eyebrow">Custom development</div>
+    <h1>Full-length transmembrane proteins,<br>from sequence to sample.</h1>
+    <p>Three production formats, one decision point. We confirm the target is producible before
+      you commit to scale-up &mdash; and if it is not, the data and the construct are still
+      yours.</p>
+    <div class="phero__meta">
+      <a class="btn btn--sm" href="contact.html#quote">Brief a target {ar}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {head_why}
+    <div class="tsc__grid tsc__grid--four">{why}</div>
+  </div>
+</section>
+
+<section class="section section--mist">
+  <div class="container">
+    {head_fmt}
+    <div class="tsc__figure">
+      <img src="assets/img/fig-01-three-platforms.svg" alt="Same protein, three membrane environments" width="680">
+    </div>
+    <div class="tsc__grid tsc__grid--three">{fmt}</div>
+    <div class="tsc__warning">
+      <b>VLP is a mixture, not purified target protein.</b> We do not guarantee or measure
+      target-protein content or particle count; an ELISA data set is supplied instead.
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {head_two}
+    <div class="tsc__figure">
+      <img src="assets/img/fig-02-two-stage.svg" alt="Two-stage project flow with a Go / No-Go decision point" width="680">
+    </div>
+
+    <div class="tsc__stage">
+      <div class="tsc__stage-head">
+        <span class="tsc__badge">Stage 0</span>
+        <h3>Feasibility</h3>
+        <p>The answer to "can this be made", before you pay for the quantity.</p>
+      </div>
+      <div class="table-wrap">
+        <table class="data">
+          <thead><tr><th>Format</th><th>From</th><th>Lead time</th></tr></thead>
+          <tbody>
+            <tr><td>VLP</td><td>from $850</td><td>4&ndash;6 weeks</td></tr>
+            <tr><td>Detergent</td><td>from $1,500</td><td>6&ndash;8 weeks</td></tr>
+            <tr><td>Nanodisc</td><td>from $2,000</td><td>8&ndash;10 weeks</td></tr>
+            <tr><td>All three, in parallel</td><td>from $3,500</td><td>12&ndash;15 weeks</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul class="tsc__list">
+        <li>Delivered: expression construct, small-scale expression and purification data,
+          feasibility report, 20&ndash;50 &micro;g trial sample.</li>
+        <li>A Go / Switch / Stop decision within 10 business days.</li>
+        <li>The Stage 0 fee is credited in full against Stage 1.</li>
+        <li>If the project stops, only the feasibility fee is charged.</li>
+      </ul>
+    </div>
+
+    <div class="tsc__stage">
+      <div class="tsc__stage-head">
+        <span class="tsc__badge tsc__badge--alt">Stage 1</span>
+        <h3>Scale-up</h3>
+        <p>Priced against the quantity actually delivered.</p>
+      </div>
+      <ul class="tsc__list">
+        <li>Priced by delivered protein: 100 &micro;g / 500 &micro;g / 1 mg.</li>
+        <li>Indicative pricing is issued with the quotation &mdash; request it with your target.</li>
+        <li>Delivered: purified protein, certificate of analysis, project report, retention
+          sample, raw QC data.</li>
+        <li>Below the agreed quantity or purity: the stage is not charged, or is settled pro
+          rata against what was delivered.</li>
+      </ul>
+    </div>
+
+    <div class="tsc__callout">
+      <b>All three formats in parallel.</b> One construct, three small-scale runs, a comparison
+      and recommendation report &mdash; priced below the sum of the three single-platform
+      projects.
+    </div>
+  </div>
+</section>
+
+<section class="section section--mist">
+  <div class="container">
+    {head_del}
+    <div class="tsc__figure">
+      <img src="assets/img/fig-03-deliverables.svg" alt="Deliverables at each stage" width="680">
+    </div>
+    <p class="tsc__note">Dry ice, UN1845. Retention samples held 6 months.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {head_proc}
+    <div class="table-wrap">
+      <table class="data">
+        <thead><tr><th>Step</th><th>Stage</th><th>Lead time</th><th>What happens</th></tr></thead>
+        <tbody>{steps}</tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section--mist" id="faq">
+  <div class="container">
+    {head_faq}
+    <div class="faq">{faqs}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container tsc__close">
+    <h2>Tell us the target and the assay.</h2>
+    <p>Send the sequence, the downstream application and the quantity you need. We will come
+      back with a feasibility view and an honest answer about whether we are the right
+      partner.</p>
+    <a class="btn" href="contact.html#quote">Brief a target {ar}</a>
+  </div>
+</section>
+</main>""".format(
+        c=ic("chev"), ar=ic("arrow"),
+        head_why=section_head("Process reality",
+                              "The protein is not the hard part. Keeping it folded is.",
+                              num="00"),
+        why=why_html,
+        head_fmt=section_head("Platform choice", "Same protein, three membrane environments.",
+                              num="01"),
+        fmt=fmt_html,
+        head_two=section_head("Commercial structure", "A failure should cost a known amount.",
+                              "We split feasibility from scale-up. You pay for the answer to "
+                              "\"can this be made\" before you pay for the quantity.", num="02"),
+        head_del=section_head("Deliverables", "What actually ships.", num="03"),
+        head_proc=section_head("Process", "Five steps, one working week to a price.", num="04"),
+        steps=step_rows,
+        head_faq=section_head("Questions we get first",
+                              "The things a project manager asks on the first call.", num="05"),
+        faqs=faq_html,
+    )
+
+    return head(
+        "Transmembrane Protein Production \u2014 VLP, Detergent and Nanodisc | T&amp;L Biotechnology",
+        "Full-length transmembrane protein production with a paid feasibility stage before "
+        "scale-up. VLP, Detergent and Nanodisc formats, from $850.",
+        "transmembrane-protein",
+    ) + header("Services") + body + footer()
 
 
 # --------------------------------------------------------------------------
@@ -3500,6 +3761,7 @@ def main():
         "applications.html": page_applications,
         "quality.html": page_quality,
         "services.html": page_services,
+        "transmembrane-protein.html": page_transmembrane,
         "partners.html": page_partners,
         "resources.html": page_resources,
         "about.html": page_about,
@@ -3516,7 +3778,9 @@ def main():
     # favicon from the mark (logo-mark.png holds the symbol alone, already square).
     # Falling back to logo-color.png would need guessing where the wordmark starts.
     brand = os.path.join(OUT, "assets", "img", "brand")
-    src = os.path.join(brand, "logo-mark.png")
+    src = os.path.join(brand, "favicon-source.png")
+    if not os.path.exists(src):
+        src = os.path.join(brand, "logo-mark.png")
     if os.path.exists(src):
         try:
             from PIL import Image

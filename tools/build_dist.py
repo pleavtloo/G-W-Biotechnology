@@ -37,6 +37,7 @@ SITEMAP = [
     ("/platform.html", 0.9, "monthly"),
     ("/applications.html", 0.8, "monthly"),
     ("/services.html", 0.8, "monthly"),
+    ("/transmembrane-protein.html", 0.8, "monthly"),
     ("/quality.html", 0.8, "monthly"),
     ("/resources.html", 0.7, "weekly"),
     ("/about.html", 0.6, "monthly"),

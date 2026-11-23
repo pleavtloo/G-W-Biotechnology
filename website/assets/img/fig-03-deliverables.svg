@@ -1,0 +1,38 @@
+<svg viewBox="0 0 680 298" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, sans-serif" style="max-width:680px;height:auto;display:block">
+<title>Deliverables at each stage</title>
+<desc>Stage 0 delivers an expression construct, small-scale expression data, a feasibility report and a 20 to 50 microgram trial sample, delivered whether or not the target works. Stage 1 delivers purified protein at the agreed quantity, a certificate of analysis, a project report, a retention sample held for 6 months, and raw QC data and traces.</desc>
+
+<text x="40" y="24" font-size="13" font-weight="500" fill="#081729">What arrives at each hand-off</text>
+
+<rect x="40" y="44" width="295" height="218" rx="14" fill="#f6f9fd" stroke="#e3eaf4" stroke-width="0.5"/>
+<text x="60" y="74" font-size="13" font-weight="500" fill="#081729">Stage 0 · Feasibility</text>
+<text x="60" y="92" font-size="11" fill="#5b6c86">Delivered whether or not the target works</text>
+<path d="M58 108l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="116" font-size="12" fill="#1b2c44">Expression construct</text>
+<path d="M58 134l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="142" font-size="12" fill="#1b2c44">Small-scale expression data</text>
+<path d="M58 160l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="168" font-size="12" fill="#1b2c44">Feasibility report</text>
+<path d="M58 186l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="194" font-size="12" fill="#1b2c44">Trial sample, 20–50 µg</text>
+<line x1="60" y1="216" x2="315" y2="216" stroke="#e3eaf4" stroke-width="0.5"/>
+<text x="60" y="234" font-size="11" fill="#8394ab">Paid once, credited in full if the project proceeds.</text>
+
+<rect x="345" y="44" width="295" height="218" rx="14" fill="#ffffff" stroke="#ccd8e9" stroke-width="0.5"/>
+<text x="365" y="74" font-size="13" font-weight="500" fill="#081729">Stage 1 · Scale-up</text>
+<text x="365" y="92" font-size="11" fill="#5b6c86">Released against the agreed specification</text>
+<path d="M363 108l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383" y="116" font-size="12" fill="#1b2c44">Purified protein, agreed quantity</text>
+<path d="M363 134l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383" y="142" font-size="12" fill="#1b2c44">Certificate of analysis</text>
+<path d="M363 160l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383" y="168" font-size="12" fill="#1b2c44">Project report</text>
+<path d="M363 186l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383" y="194" font-size="12" fill="#1b2c44">Retention sample, 6 months</text>
+<path d="M363 212l3 4 6-8" fill="none" stroke="#12876f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383" y="220" font-size="12" fill="#1b2c44">Raw QC data and traces</text>
+<line x1="365" y1="234" x2="620" y2="234" stroke="#e3eaf4" stroke-width="0.5"/>
+<text x="365" y="250" font-size="11" fill="#8394ab">Shipped on dry ice, UN1845.</text>
+
+<text x="40" y="284" font-size="11" fill="#8394ab">QC panel is agreed in the quotation. VLP is measured as BCA total protein; Detergent and Nanodisc as target protein.</text>
+</svg>

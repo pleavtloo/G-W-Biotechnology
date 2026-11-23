@@ -1,0 +1,41 @@
+<svg viewBox="0 0 680 232" width="100%" role="img" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, sans-serif" style="max-width:680px;height:auto;display:block">
+<title>Two-stage project flow with a Go / No-Go decision point</title>
+<desc>A sequence enters Stage 0 feasibility from 850 dollars, then a Go / No-Go decision within 10 days routes either to Stage 1 scale-up by delivered quantity, or to a stop where the customer keeps all data and constructs at no further charge.</desc>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<rect x="40" y="74" width="92" height="44" rx="8" fill="#f6f9fd" stroke="#e3eaf4" stroke-width="0.5"/>
+<text x="86" y="96" font-size="13" font-weight="500" fill="#081729" text-anchor="middle" dominant-baseline="central">Sequence</text>
+
+<path d="M132 96L168 96" fill="none" stroke="#8394ab" stroke-width="1" marker-end="url(#ar)"/>
+
+<rect x="172" y="48" width="160" height="96" rx="8" fill="#eef3fa" stroke="#2a4299" stroke-width="0.5"/>
+<text x="188" y="68" font-size="13" font-weight="500" fill="#081729">Stage 0 · Feasibility</text>
+<text x="188" y="88" font-size="11" fill="#2f8fd0">From $850 · 4–6 weeks</text>
+<text x="188" y="108" font-size="11" fill="#5b6c86">Construct · data · report</text>
+<text x="188" y="126" font-size="11" fill="#5b6c86">20–50 µg sample</text>
+
+<path d="M332 96L356 96" fill="none" stroke="#8394ab" stroke-width="1" marker-end="url(#ar)"/>
+
+<rect x="360" y="68" width="96" height="56" rx="8" fill="#ffffff" stroke="#2f8fd0" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text x="408" y="90" font-size="12" font-weight="500" fill="#081729" text-anchor="middle" dominant-baseline="central">Go / No-Go</text>
+<text x="408" y="108" font-size="11" fill="#5b6c86" text-anchor="middle" dominant-baseline="central">10 days</text>
+
+<path d="M456 96C474 96 474 66 490 66" fill="none" stroke="#2a4299" stroke-width="1" marker-end="url(#ar)"/>
+<path d="M456 96C474 96 474 176 490 176" fill="none" stroke="#12876f" stroke-width="1" marker-end="url(#ar)"/>
+
+<rect x="492" y="30" width="148" height="72" rx="8" fill="#2a4299" stroke="#2a4299" stroke-width="0.5"/>
+<text x="506" y="52" font-size="13" font-weight="500" fill="#ffffff">Stage 1 · Scale-up</text>
+<text x="506" y="72" font-size="11" fill="#ccd8e9">By delivered quantity</text>
+<text x="506" y="90" font-size="11" fill="#ccd8e9">100 µg · 500 µg · 1 mg</text>
+
+<rect x="492" y="140" width="148" height="72" rx="8" fill="#ffffff" stroke="#12876f" stroke-width="0.5"/>
+<text x="506" y="162" font-size="13" font-weight="500" fill="#081729">Stop</text>
+<text x="506" y="182" font-size="11" fill="#5b6c86">Keep all data</text>
+<text x="506" y="200" font-size="11" fill="#12876f">No further charge</text>
+
+<text x="360" y="38" font-size="11" fill="#8394ab">Go past this point and Stage 0 is credited in full.</text>
+</svg>
