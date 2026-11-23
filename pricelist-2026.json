@@ -1,0 +1,1639 @@
+[
+ {
+  "group": "Cell Culture Kit",
+  "no": 1,
+  "name": "AMMS® NK Cell Culture Kit 2.0",
+  "apps": "Optimised for Fresh Peripheral Blood, PBMC",
+  "variants": [
+   {
+    "sku": "AS-22",
+    "customized": false,
+    "spec": "AMMS® NK Cell Culture Kit 2.0",
+    "price": 830.0,
+    "validity": "18 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Cell Culture Kit",
+  "no": 2,
+  "name": "AMMS® NK Cell Culture Kit 2.0 Plus",
+  "apps": "Optimised for Fresh/ Frozen Cord Blood, CBMC, Frozen PBMC",
+  "variants": [
+   {
+    "sku": "AS-29",
+    "customized": false,
+    "spec": "AMMS® NK Cell Culture Kit 2.0",
+    "price": 910.0,
+    "validity": "18 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Cell Culture Kit",
+  "no": 2,
+  "name": "AMMS® NK Cell Culture Kit 3.0",
+  "apps": "Optimised for Fresh/ Frozen Cord Blood, CBMC, Frozen PBMC",
+  "variants": [
+   {
+    "sku": "AS-25",
+    "customized": false,
+    "spec": "AMMS® NK Cell Culture Kit 3.0",
+    "price": 970.0,
+    "validity": "18 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Cell Culture Kit",
+  "no": 3,
+  "name": "AMMS® High Purity NK Cell Culture Kit 2.0",
+  "apps": "Optimised for Fresh Peripheral Blood, PBMC, High Purity 95%, Include High-purity NK additive",
+  "variants": [
+   {
+    "sku": "AS-26",
+    "customized": false,
+    "spec": "AMMS® NK Cell Culture Kit 2.0",
+    "price": 900.0,
+    "validity": "18 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Cell Culture Kit",
+  "no": 5,
+  "name": "AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free)",
+  "apps": "MSC Cell",
+  "variants": [
+   {
+    "sku": "AS-33",
+    "customized": false,
+    "spec": "AMMS® MSC Additive 2.0 ×1 AMMS® MSC Basic Culture Medium (Phenol Red Free) ×1",
+    "price": 364.0,
+    "validity": "18 months",
+    "storage": "-20℃，protect from light",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Cell Culture Kit",
+  "no": 6,
+  "name": "AMMS®CIK Cell Expansion Reagent& Medium Kit",
+  "apps": "CIK Cell",
+  "variants": [
+   {
+    "sku": "AS-15",
+    "customized": false,
+    "spec": "AMMS® CIK Cell Expansion Kit",
+    "price": 350.0,
+    "validity": "18 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Cell Culture Kit",
+  "no": 7,
+  "name": "AMMS® Pluripotent Stem Cell Culture Medium",
+  "apps": "iPSCs",
+  "variants": [
+   {
+    "sku": "AS-35",
+    "customized": false,
+    "spec": "AMMS® Pluripotent Stem Cell Basic Culture Medium ×1",
+    "price": 140.0,
+    "validity": "12 months",
+    "storage": "2-8°C, protect from light",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Cell Culture Kit",
+  "no": 7,
+  "name": "AMMS®PrimeCell Culture  Medium",
+  "apps": "T Cells, NK, DC,CIK,Macrophage",
+  "variants": [
+   {
+    "sku": "AS-38",
+    "customized": false,
+    "spec": "AMMS® PrimeCell Immune Cell Basal Medium ×1",
+    "price": 168.0,
+    "validity": "12 months",
+    "storage": "2-8°C, protect from light",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 1,
+  "name": "ActSep® CD3/CD28 Seperation &Activation Magnetic Beads",
+  "apps": "T cell activation, Immunotherapy",
+  "variants": [
+   {
+    "sku": "GMP-TL603-1000",
+    "customized": false,
+    "spec": "1mL",
+    "price": 510.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   },
+   {
+    "sku": "GMP-TL603-5000",
+    "customized": false,
+    "spec": "5mL",
+    "price": 2310.0,
+    "validity": "",
+    "storage": "",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 2,
+  "name": "MaxSortin® CD3 Beads",
+  "apps": "T cell sorting",
+  "variants": [
+   {
+    "sku": "TL-622-2000",
+    "customized": false,
+    "spec": "2mL",
+    "price": 440.0,
+    "validity": "7 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 3,
+  "name": "MaxSortin® CD4 Beads",
+  "apps": "CD4+ T cell sorting",
+  "variants": [
+   {
+    "sku": "TL-623-2000",
+    "customized": false,
+    "spec": "2mL",
+    "price": 440.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 4,
+  "name": "MaxSortin® CD8 Beads",
+  "apps": "CD8+ T cell sorting",
+  "variants": [
+   {
+    "sku": "TL-624-2000",
+    "customized": false,
+    "spec": "2mL",
+    "price": 440.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 5,
+  "name": "MaxSortin® CD13 Beads",
+  "apps": "Myeloid cell sorting",
+  "variants": [
+   {
+    "sku": "TL-681-0200",
+    "customized": false,
+    "spec": "200μL",
+    "price": 600.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 6,
+  "name": "MaxSortin® CD14 Beads",
+  "apps": "Monocyte/macrophage sorting",
+  "variants": [
+   {
+    "sku": "TL-625-2000",
+    "customized": false,
+    "spec": "2mL",
+    "price": 440.0,
+    "validity": "10 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 7,
+  "name": "MaxSortin® CD138 Beads",
+  "apps": "Plasma cell sorting",
+  "variants": [
+   {
+    "sku": "TL-811-1000",
+    "customized": false,
+    "spec": "1mL",
+    "price": 440.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 8,
+  "name": "MaxSortin® TCRαβ  Beads",
+  "apps": "TCRαβ+ T cell sorting",
+  "variants": [
+   {
+    "sku": "TL-810-1000",
+    "customized": false,
+    "spec": "1mL",
+    "price": 620.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 9,
+  "name": "MaxSortin® CD3 Beads",
+  "apps": "T cell sorting",
+  "variants": [
+   {
+    "sku": "GMP-TL622-5000",
+    "customized": false,
+    "spec": "5mL",
+    "price": 1070.0,
+    "validity": "7 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 10,
+  "name": "MaxSortin® CD4 Beads",
+  "apps": "CD4+ T cell sorting",
+  "variants": [
+   {
+    "sku": "GMP-TL623-2000",
+    "customized": false,
+    "spec": "2mL",
+    "price": 946.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 11,
+  "name": "MaxSortin® CD8 Beads",
+  "apps": "CD8+ T cell sorting",
+  "variants": [
+   {
+    "sku": "GMP-TL624-2000",
+    "customized": false,
+    "spec": "2mL",
+    "price": 946.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 20,
+  "name": "MaxSortin® CD4 Beads (Custom mized)",
+  "apps": "CD4+ T cell sorting",
+  "variants": [
+   {
+    "sku": "GMP-TL614-5000",
+    "customized": false,
+    "spec": "5mL",
+    "price": 915.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 21,
+  "name": "MaxSortin® CD8 Beads (Custom mized)",
+  "apps": "CD8+ T cell sorting",
+  "variants": [
+   {
+    "sku": "GMP-TL618-5000",
+    "customized": false,
+    "spec": "5mL",
+    "price": 915.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 12,
+  "name": "MaxSortin® CD14 Beads",
+  "apps": "Monocyte/macrophage sorting",
+  "variants": [
+   {
+    "sku": "GMP-TL625-2000",
+    "customized": false,
+    "spec": "2mL",
+    "price": 580.0,
+    "validity": "10 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 13,
+  "name": "ActCel T Cell Activation Reagent",
+  "apps": "T cell activation",
+  "variants": [
+   {
+    "sku": "GMP-TL6001-1000",
+    "customized": false,
+    "spec": "1mL",
+    "price": 2072.0,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 14,
+  "name": "ActCel T Cell Activation Reagent",
+  "apps": "T cell activation",
+  "variants": [
+   {
+    "sku": "TL-6001-1000",
+    "customized": false,
+    "spec": "1mL",
+    "price": 487.2,
+    "validity": "6 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 15,
+  "name": "MaxSortin® CD3 Isolation Kit",
+  "apps": "T cell sorting kit",
+  "variants": [
+   {
+    "sku": "TL-622KIT",
+    "customized": false,
+    "spec": "1KIT",
+    "price": 460.0,
+    "validity": "See instructions",
+    "storage": "See instructions",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 16,
+  "name": "MaxSortin® CD4 Isolation Kit",
+  "apps": "CD4+ T cell sorting kit",
+  "variants": [
+   {
+    "sku": "TL-623KIT",
+    "customized": false,
+    "spec": "1KIT",
+    "price": 460.0,
+    "validity": "See instructions",
+    "storage": "See instructions",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 17,
+  "name": "MaxSortin® CD8 Isolation Kit",
+  "apps": "CD8+ T cell sorting kit",
+  "variants": [
+   {
+    "sku": "TL-624KIT",
+    "customized": false,
+    "spec": "1KIT",
+    "price": 460.0,
+    "validity": "See instructions",
+    "storage": "See instructions",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 18,
+  "name": "MaxSortin® CD14 Isolation Kit",
+  "apps": "Monocyte sorting kit",
+  "variants": [
+   {
+    "sku": "TL-625KIT",
+    "customized": false,
+    "spec": "1KIT",
+    "price": 460.0,
+    "validity": "See instructions",
+    "storage": "See instructions",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 19,
+  "name": "MaxSortin® CD138 Isolation Kit",
+  "apps": "Plasma cell sorting kit",
+  "variants": [
+   {
+    "sku": "TL-811KIT",
+    "customized": false,
+    "spec": "1KIT",
+    "price": 460.0,
+    "validity": "See instructions",
+    "storage": "See instructions",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 20,
+  "name": "MaxSortin® TCRαβ Isolation Kit",
+  "apps": "TCRαβ+ T cell sorting kit",
+  "variants": [
+   {
+    "sku": "TL-810KIT",
+    "customized": false,
+    "spec": "1KIT",
+    "price": 640.0,
+    "validity": "See instructions",
+    "storage": "See instructions",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 21,
+  "name": "MaxSortin® Seperation Buffer",
+  "apps": "Cell sorting buffer",
+  "variants": [
+   {
+    "sku": "MS-BF100",
+    "customized": false,
+    "spec": "100mL",
+    "price": 14.0,
+    "validity": "12 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Magnetic Beads",
+  "no": 22,
+  "name": "MaxSortin® L-Separation Columns",
+  "apps": "Cell separation",
+  "variants": [
+   {
+    "sku": "MS-CL01",
+    "customized": false,
+    "spec": "1Column",
+    "price": 20.0,
+    "validity": "12 months",
+    "storage": "10-35℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Anti-human Monoclonal Antibody",
+  "no": 1,
+  "name": "Anti-Human CD3 Monoclonal Antibody",
+  "apps": "T cell activation, Immunotherapy",
+  "variants": [
+   {
+    "sku": "GMP-TL101-0500",
+    "customized": false,
+    "spec": "500μg",
+    "price": 140.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Anti-human Monoclonal Antibody",
+  "no": 2,
+  "name": "Anti-Human CD28 Monoclonal Antibody",
+  "apps": "T cell activation, Immunotherapy",
+  "variants": [
+   {
+    "sku": "GMP-TL102-0500",
+    "customized": false,
+    "spec": "500μg",
+    "price": 140.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Anti-human Monoclonal Antibody",
+  "no": 3,
+  "name": "Anti-Human CD20 Monoclonal Antibody",
+  "apps": "B cell depletion, Cancer treatment",
+  "variants": [
+   {
+    "sku": "GMP-TL502-0500",
+    "customized": false,
+    "spec": "500μg",
+    "price": 250.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Anti-human Monoclonal Antibody",
+  "no": 4,
+  "name": "Anti-Human CD52 Monoclonal Antibody",
+  "apps": "T cell depletion, Cancer treatment",
+  "variants": [
+   {
+    "sku": "GMP-TL112-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 350.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Anti-human Monoclonal Antibody",
+  "no": 5,
+  "name": "Anti-Human CD137 Monoclonal Antibody",
+  "apps": "T cell activation, Cancer therapy",
+  "variants": [
+   {
+    "sku": "GMP-TL778-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 350.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Anti-human Monoclonal Antibody",
+  "no": 6,
+  "name": "Anti-Human CD16 Monoclonal Antibody",
+  "apps": "NK cell activation, Immunotherapy",
+  "variants": [
+   {
+    "sku": "GMP-TL201-0500",
+    "customized": false,
+    "spec": "500μg",
+    "price": 500.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Anti-human Monoclonal Antibody",
+  "no": 7,
+  "name": "Anti-Human CD16 Monoclonal Antibody",
+  "apps": "NK cell activation, Immunotherapy",
+  "variants": [
+   {
+    "sku": "TL-201-0500",
+    "customized": false,
+    "spec": "500μg",
+    "price": 250.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 1,
+  "name": "Recombinant Human IL-2 Protein (High Efficiency)",
+  "apps": "T cell, CIK",
+  "variants": [
+   {
+    "sku": "GMP-TL906-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 110.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": "E.coli"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 2,
+  "name": "Recombinant Human IL-3 Protein",
+  "apps": "T cell, CIK",
+  "variants": [
+   {
+    "sku": "GMP-TL511-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 350.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL511-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 500.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 3,
+  "name": "Recombinant Human IL-6 Protein",
+  "apps": "T cell, MSC",
+  "variants": [
+   {
+    "sku": "GMP-TL512-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 350.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL512-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 500.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 4,
+  "name": "Recombinant Human IL-7 Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "GMP-TL506-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 500.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "CHO"
+   },
+   {
+    "sku": "GMP-TL506-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 800.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   },
+   {
+    "sku": "GMP-TL506-1000",
+    "customized": true,
+    "spec": "1mg",
+    "price": "inquiry",
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 5,
+  "name": "Recombinant Human IL-12 Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "GMP-TL508-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 460.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL508-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 720.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   },
+   {
+    "sku": "GMP-TL508-1000",
+    "customized": true,
+    "spec": "1mg",
+    "price": "inquiry",
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 6,
+  "name": "Recombinant Human IL-15 Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "GMP-TL202-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 345.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL202-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 500.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   },
+   {
+    "sku": "GMP-TL202-1000",
+    "customized": true,
+    "spec": "1mg",
+    "price": "inquiry",
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 7,
+  "name": "Recombinant Human IL-18 Protein",
+  "apps": "NK",
+  "variants": [
+   {
+    "sku": "GMP-TL902-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 345.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   },
+   {
+    "sku": "GMP-TL902-1000",
+    "customized": true,
+    "spec": "1mg",
+    "price": "inquiry",
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 8,
+  "name": "Recombinant Human IL-21 Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "GMP-TL509-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 430.0,
+    "validity": "48 months",
+    "storage": "-20℃",
+    "expression": "CHO"
+   },
+   {
+    "sku": "GMP-TL509-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 690.0,
+    "validity": "48 months",
+    "storage": "-20℃",
+    "expression": ""
+   },
+   {
+    "sku": "GMP-TL509-1000",
+    "customized": true,
+    "spec": "1mg",
+    "price": "inquiry",
+    "validity": "48 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 9,
+  "name": "Recombinant Human bFGF Protein (Heat-Stable)",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-787-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 345.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 10,
+  "name": "Recombinant Human bFGF Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-901-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 65.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   },
+   {
+    "sku": "GMP-TL901-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 120.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 11,
+  "name": "Recombinant Human EGF Protein",
+  "apps": "iPSCs, MSC",
+  "variants": [
+   {
+    "sku": "TL-613-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 39.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL613-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 60.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 12,
+  "name": "Recombinant Human Fibronectin (FN) Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "GMP-TL903-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 56.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   },
+   {
+    "sku": "GMP-TL903-0250",
+    "customized": false,
+    "spec": "250μg",
+    "price": 170.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 13,
+  "name": "Recombinant Human FLT3 Ligand Protein",
+  "apps": "NK, CIK",
+  "variants": [
+   {
+    "sku": "GMP-TL505-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 350.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 14,
+  "name": "Recombinant Human GM-CSF Protein",
+  "apps": "T cell, CIK",
+  "variants": [
+   {
+    "sku": "TL-302-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 60.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL302-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 280.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 15,
+  "name": "Recombinant Human IFN-γ Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "TL-105-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 39.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL105-0200",
+    "customized": false,
+    "spec": "200μg",
+    "price": 226.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 16,
+  "name": "Recombinant Human LIF Protein (10mg minimum order)",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "GMP-TL633-0100",
+    "customized": false,
+    "spec": "100 μg × 10 vials (1 mg reference price)",
+    "price": "inquiry",
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 17,
+  "name": "Recombinant Human PDGF-BB Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "GMP-TL644-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 420.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL644-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 720.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 18,
+  "name": "Recombinant Human SCF Protein",
+  "apps": "MSC, NK",
+  "variants": [
+   {
+    "sku": "TL-504-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 110.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL504-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 360.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   },
+   {
+    "sku": "GMP-TL504-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 560.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 19,
+  "name": "Recombinant Human TNF α Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "TL-303-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 88.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL303-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 320.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 20,
+  "name": "Recombinant Human TPO Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "TL-650-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 276.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 21,
+  "name": "Recombinant Human Vitronectin Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "GMP-TL651-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 105.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL651L-1000",
+    "customized": false,
+    "spec": "1000μg",
+    "price": 270.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 22,
+  "name": "OK432",
+  "apps": "NK",
+  "variants": [
+   {
+    "sku": "GMP-TL107-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 207.0,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": "/"
+   },
+   {
+    "sku": "GMP-TL107-0500",
+    "customized": false,
+    "spec": "500μg",
+    "price": 837.2,
+    "validity": "24 months",
+    "storage": "2-8℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 23,
+  "name": "Recombinant Human 4-1BB Ligand Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "GMP-TL695-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 422.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "GMP-TL695-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 700.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 24,
+  "name": "Recombinant Human IL-1α Protein",
+  "apps": "T cell, MSC",
+  "variants": [
+   {
+    "sku": "TL-109-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 140.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 25,
+  "name": "Recombinant Human IL-1β Protein",
+  "apps": "T cell, MSC",
+  "variants": [
+   {
+    "sku": "TL-513-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 448.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 26,
+  "name": "Recombinant Human IL-4 Protein",
+  "apps": "T cell, NK",
+  "variants": [
+   {
+    "sku": "TL-301-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 480.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 27,
+  "name": "Recombinant Human Activin A Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-910-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 280.0,
+    "validity": "24 months",
+    "storage": "Store below -20°C",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 28,
+  "name": "Recombinant Human BDNF Protein",
+  "apps": "iPSCs, MSC",
+  "variants": [
+   {
+    "sku": "TL-770-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 350.0,
+    "validity": "24 months",
+    "storage": "Store below -20°C",
+    "expression": "E.coli"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 29,
+  "name": "Recombinant Human FGF4 Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-782-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 350.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 30,
+  "name": "Recombinant Human GDNF Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-771-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 470.0,
+    "validity": "24 months",
+    "storage": "Store below -20°C",
+    "expression": "E.coli"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 31,
+  "name": "Recombinant Human M-CSF Protein",
+  "apps": "MSC, CIK",
+  "variants": [
+   {
+    "sku": "TL-514-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 67.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "E.coli"
+   },
+   {
+    "sku": "TL-514-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 240.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 32,
+  "name": "Recombinant Human Noggin Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-642-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 240.0,
+    "validity": "24 months",
+    "storage": "Store below -20°C",
+    "expression": "CHO"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 33,
+  "name": "Recombinant Human OSM Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-772-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 260.0,
+    "validity": "24 months",
+    "storage": "Store below -20°C",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 34,
+  "name": "Recombinant Human TGF-β1 Protein",
+  "apps": "T cell, MSC",
+  "variants": [
+   {
+    "sku": "TL-643-0010",
+    "customized": false,
+    "spec": "10μg",
+    "price": 120.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "TL-643-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 360.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 35,
+  "name": "Recombinant Human Wnt3a Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-783-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 390.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 36,
+  "name": "Recombinant Human EPO Protein",
+  "apps": "T cell, CIK",
+  "variants": [
+   {
+    "sku": "TL-636-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 225.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   },
+   {
+    "sku": "TL-636-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 394.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 37,
+  "name": "Recombinant Human Laminin-511 E8 Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-766-0100",
+    "customized": false,
+    "spec": "100μg",
+    "price": 140.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Recombinant Human Protein",
+  "no": 38,
+  "name": "Recombinant Human BMP-4 Protein",
+  "apps": "MSC, iPSCs",
+  "variants": [
+   {
+    "sku": "TL-607-0050",
+    "customized": false,
+    "spec": "50μg",
+    "price": 470.0,
+    "validity": "24 months",
+    "storage": "-20℃",
+    "expression": "HEK293"
+   }
+  ]
+ },
+ {
+  "group": "Serum-free Medium",
+  "no": 1,
+  "name": "AMMS®HEK293 Serum-free Medium",
+  "apps": "Culturing HEK293 cells, Serum-free culture",
+  "variants": [
+   {
+    "sku": "AS-11",
+    "customized": false,
+    "spec": "1000mL",
+    "price": 191.0,
+    "validity": "12 months",
+    "storage": "2-8°C, protect from light",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Serum-free Medium",
+  "no": 2,
+  "name": "Cell Cryopreservation Solution",
+  "apps": "Cryopreservation of cells",
+  "variants": [
+   {
+    "sku": "AS-36",
+    "customized": false,
+    "spec": "100mL",
+    "price": 208.0,
+    "validity": "12 months",
+    "storage": "2-8°C, protect from light",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Serum-free Medium",
+  "no": 3,
+  "name": "Lymphocyte Separation Medium",
+  "apps": "Isolation and separation of lymphocytes",
+  "variants": [
+   {
+    "sku": "AS-37L-200",
+    "customized": false,
+    "spec": "200mL",
+    "price": 42.0,
+    "validity": "24 months",
+    "storage": "4~30°C, protect from light",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Serum-free Medium",
+  "no": 4,
+  "name": "AMMS® Matrix, for Organoid Culture",
+  "apps": "Culturing and embedding organoids",
+  "variants": [
+   {
+    "sku": "AS-41-5",
+    "customized": false,
+    "spec": "5mL",
+    "price": 220.0,
+    "validity": "24 months",
+    "storage": "See instructions",
+    "expression": ""
+   }
+  ]
+ },
+ {
+  "group": "Serum-free Medium",
+  "no": 5,
+  "name": "InSure DNA Transfection Reagent",
+  "apps": "DNA transfection into cells",
+  "variants": [
+   {
+    "sku": "AS-50-01",
+    "customized": false,
+    "spec": "1mL",
+    "price": 140.0,
+    "validity": "See tube label",
+    "storage": "See test tube label",
+    "expression": ""
+   }
+  ]
+ }
+]

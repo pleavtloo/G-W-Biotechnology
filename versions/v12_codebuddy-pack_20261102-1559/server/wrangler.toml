@@ -1,0 +1,17 @@
+name = "tl-site-api"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# Static assets are served by Cloudflare Pages; this worker only handles /api/*.
+# In the Pages project, bind this worker as a route: /api/*
+
+[vars]
+LEAD_FROM = "site@tlbiotechnology.com"
+
+# Secrets (set with `wrangler secret put NAME`):
+#   RESEND_API_KEY, LEAD_TO, TURNSTILE_SECRET, CHAT_API_URL, CHAT_API_KEY
+
+# COA index: lot number -> { file, sku, released }
+# [[kv_namespaces]]
+# binding = "COA_INDEX"
+# id = "<kv-id>"

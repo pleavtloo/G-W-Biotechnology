@@ -1,0 +1,46 @@
+order: 21
+sku_code: TL-PR-121
+slug: il21
+name: Recombinant Human IL-21
+cat: proteins
+apps:
+- tcell
+price: 430
+variants:
+  - sku: GMP-TL509-0050
+    spec: 50 μg
+    price: 430
+  - sku: GMP-TL509-0100
+    spec: 100 μg
+    price: 690
+  - sku: GMP-TL509-1000
+    spec: 1 mg (custom order)
+    price: null
+    custom: true
+sizes:
+  - 50 μg
+  - 100 μg
+  - 1 mg
+blurb: Pleiotropic cytokine that improves CAR-T persistence.
+desc: Secreted by CD4⁺ T cells, IL-21 shapes effector differentiation and is used to favour memory-like phenotypes
+  during CAR-T expansion.
+highlights:
+- Memory-phenotype expansion
+- Used with IL-2 / IL-7
+- Carrier-free
+specs:
+- k: Expression system
+  v: E. coli
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/il21-tile.webp
+image: assets/img/products/il21.webp
+shop_product_id: 622

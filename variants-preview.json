@@ -1,0 +1,940 @@
+[
+ {
+  "slug": "actsep-cd3-cd28",
+  "name": "ActSep® CD3/CD28 Separation & Activation Beads",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\actsep-cd3-cd28.yaml",
+  "old_price": 510,
+  "old_sizes": [
+   "1 mL",
+   "2 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL603-1000",
+    "spec": "1 mL",
+    "price": 510.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL603-5000",
+    "spec": "5 mL",
+    "price": 2310.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "maxsortin-cd3",
+  "name": "MaxSortin® CD3 Beads",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\maxsortin-cd3.yaml",
+  "old_price": 1070,
+  "old_sizes": [
+   "1 mL",
+   "2 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "TL-622-2000",
+    "spec": "2 mL",
+    "price": 440.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL622-5000",
+    "spec": "5 mL (GMP)",
+    "price": 1070.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "maxsortin-cd4",
+  "name": "MaxSortin® CD4 Beads",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\maxsortin-cd4.yaml",
+  "old_price": 440,
+  "old_sizes": [
+   "1 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "TL-623-2000",
+    "spec": "2 mL",
+    "price": 440.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL614-5000",
+    "spec": "5 mL (GMP)",
+    "price": 915.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL623-2000",
+    "spec": "2 mL (GMP)",
+    "price": 946.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cd8-beads",
+  "name": "MaxSortin® CD8 Beads",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cd8-beads.yaml",
+  "old_price": 915,
+  "old_sizes": [
+   "1 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "TL-624-2000",
+    "spec": "2 mL",
+    "price": 440.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL618-5000",
+    "spec": "5 mL (GMP)",
+    "price": 915.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL624-2000",
+    "spec": "2 mL (GMP)",
+    "price": 946.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "maxsortin-cd14",
+  "name": "MaxSortin® CD14 Beads",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\maxsortin-cd14.yaml",
+  "old_price": 580,
+  "old_sizes": [
+   "1 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "TL-625-2000",
+    "spec": "2 mL",
+    "price": 440.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL625-2000",
+    "spec": "2 mL (GMP)",
+    "price": 580.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "maxsortin-cd14-kit",
+  "name": "MaxSortin® CD14 Isolation Kit",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\maxsortin-cd14-kit.yaml",
+  "old_price": null,
+  "old_sizes": [
+   "1 kit (10⁹ cells)"
+  ],
+  "variants": [
+   {
+    "sku": "TL-625KIT",
+    "spec": "1 kit",
+    "price": 460.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "tcr-ab-beads",
+  "name": "MaxSortin® TCR αβ Beads",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\tcr-ab-beads.yaml",
+  "old_price": 620,
+  "old_sizes": [
+   "1 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "TL-810-1000",
+    "spec": "1 mL",
+    "price": 620.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "actcel-t-activation",
+  "name": "ActCel T Cell Activation Reagent",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\actcel-t-activation.yaml",
+  "old_price": 2072,
+  "old_sizes": [
+   "1 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "TL-6001-1000",
+    "spec": "1 mL",
+    "price": 487.2,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL6001-1000",
+    "spec": "1 mL (GMP)",
+    "price": 2072.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cd3-mab",
+  "name": "Anti-Human CD3 Monoclonal Antibody",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cd3-mab.yaml",
+  "old_price": 140,
+  "old_sizes": [
+   "100 µg",
+   "500 µg",
+   "1 mg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL101-0500",
+    "spec": "500 μg",
+    "price": 140.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cd28-mab",
+  "name": "Anti-Human CD28 Monoclonal Antibody",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cd28-mab.yaml",
+  "old_price": 140,
+  "old_sizes": [
+   "100 µg",
+   "500 µg",
+   "1 mg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL102-0500",
+    "spec": "500 μg",
+    "price": 140.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cd16-mab",
+  "name": "Anti-Human CD16 Monoclonal Antibody",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cd16-mab.yaml",
+  "old_price": 500,
+  "old_sizes": [
+   "500 µg",
+   "1 mg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-201-0500",
+    "spec": "500 μg",
+    "price": 250.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL201-0500",
+    "spec": "500 μg (GMP)",
+    "price": 500.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cd20-mab",
+  "name": "Anti-Human CD20 Monoclonal Antibody",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cd20-mab.yaml",
+  "old_price": 250,
+  "old_sizes": [
+   "100 µg",
+   "500 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL502-0500",
+    "spec": "500 μg",
+    "price": 250.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cd52-mab",
+  "name": "Anti-Human CD52 Monoclonal Antibody",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cd52-mab.yaml",
+  "old_price": 350,
+  "old_sizes": [
+   "100 µg",
+   "500 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL112-0100",
+    "spec": "100 μg",
+    "price": 350.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cd137-mab",
+  "name": "Anti-Human CD137 (4-1BB) Monoclonal Antibody",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cd137-mab.yaml",
+  "old_price": 350,
+  "old_sizes": [
+   "100 µg",
+   "500 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL778-0100",
+    "spec": "100 μg",
+    "price": 350.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "il2",
+  "name": "Recombinant Human IL-2",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\il2.yaml",
+  "old_price": 110,
+  "old_sizes": [
+   "10 µg",
+   "50 µg",
+   "100 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL906-0100",
+    "spec": "100 μg",
+    "price": 110.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "il3",
+  "name": "Recombinant Human IL-3",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\il3.yaml",
+  "old_price": 350,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL511-0050",
+    "spec": "50 μg",
+    "price": 350.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL511-0100",
+    "spec": "100 μg",
+    "price": 500.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "il7",
+  "name": "Recombinant Human IL-7",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\il7.yaml",
+  "old_price": 500,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL506-0050",
+    "spec": "50 μg",
+    "price": 500.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL506-0100",
+    "spec": "100 μg",
+    "price": 800.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL506-1000",
+    "spec": "1 mg (custom order)",
+    "price": null,
+    "custom": true
+   }
+  ]
+ },
+ {
+  "slug": "il12",
+  "name": "Recombinant Human IL-12",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\il12.yaml",
+  "old_price": 460,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL508-0050",
+    "spec": "50 μg",
+    "price": 460.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL508-0100",
+    "spec": "100 μg",
+    "price": 720.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL508-1000",
+    "spec": "1 mg (custom order)",
+    "price": null,
+    "custom": true
+   }
+  ]
+ },
+ {
+  "slug": "il15",
+  "name": "Recombinant Human IL-15",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\il15.yaml",
+  "old_price": 345,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL202-0050",
+    "spec": "50 μg",
+    "price": 345.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL202-0100",
+    "spec": "100 μg",
+    "price": 500.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL202-1000",
+    "spec": "1 mg (custom order)",
+    "price": null,
+    "custom": true
+   }
+  ]
+ },
+ {
+  "slug": "il18",
+  "name": "Recombinant Human IL-18",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\il18.yaml",
+  "old_price": 345,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL902-0050",
+    "spec": "50 μg",
+    "price": 345.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL902-1000",
+    "spec": "1 mg (custom order)",
+    "price": null,
+    "custom": true
+   }
+  ]
+ },
+ {
+  "slug": "il21",
+  "name": "Recombinant Human IL-21",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\il21.yaml",
+  "old_price": 430,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL509-0050",
+    "spec": "50 μg",
+    "price": 430.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL509-0100",
+    "spec": "100 μg",
+    "price": 690.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL509-1000",
+    "spec": "1 mg (custom order)",
+    "price": null,
+    "custom": true
+   }
+  ]
+ },
+ {
+  "slug": "activin-a",
+  "name": "Recombinant Human Activin A",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\activin-a.yaml",
+  "old_price": 280,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-910-0050",
+    "spec": "50 μg",
+    "price": 280.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "bfgf",
+  "name": "Recombinant Human bFGF (FGF2)",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\bfgf.yaml",
+  "old_price": 120,
+  "old_sizes": [
+   "10 µg",
+   "50 µg",
+   "100 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-901-0010",
+    "spec": "10 μg",
+    "price": 65.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL901-0050",
+    "spec": "50 μg (GMP)",
+    "price": 120.0,
+    "custom": false
+   },
+   {
+    "sku": "TL-787-0050",
+    "spec": "50 μg",
+    "price": 345.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "egf",
+  "name": "Recombinant Human EGF",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\egf.yaml",
+  "old_price": 39,
+  "old_sizes": [
+   "10 µg",
+   "100 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-613-0010",
+    "spec": "10 μg",
+    "price": 39.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL613-0050",
+    "spec": "50 μg (GMP)",
+    "price": 60.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "fibronectin",
+  "name": "Recombinant Human Fibronectin (FN)",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\fibronectin.yaml",
+  "old_price": 67,
+  "old_sizes": [
+   "100 µg",
+   "500 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL903-0050",
+    "spec": "50 μg",
+    "price": 56.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL903-0250",
+    "spec": "250 μg",
+    "price": 170.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "vitronectin",
+  "name": "Recombinant Human Vitronectin",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\vitronectin.yaml",
+  "old_price": 105,
+  "old_sizes": [
+   "100 µg",
+   "500 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL651-0100",
+    "spec": "100 μg",
+    "price": 105.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL651L-1000",
+    "spec": "1000 μg",
+    "price": 270.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "laminin-511",
+  "name": "Recombinant Human Laminin-511 E8",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\laminin-511.yaml",
+  "old_price": 140,
+  "old_sizes": [
+   "100 µg",
+   "500 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-766-0100",
+    "spec": "100 μg",
+    "price": 140.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "noggin",
+  "name": "Recombinant Human Noggin",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\noggin.yaml",
+  "old_price": 240,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-642-0050",
+    "spec": "50 μg",
+    "price": 240.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "tgf-b1",
+  "name": "Recombinant Human TGF-β1",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\tgf-b1.yaml",
+  "old_price": 120,
+  "old_sizes": [
+   "5 µg",
+   "20 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-643-0010",
+    "spec": "10 μg",
+    "price": 120.0,
+    "custom": false
+   },
+   {
+    "sku": "TL-643-0050",
+    "spec": "50 μg",
+    "price": 360.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "4-1bb-ligand",
+  "name": "Recombinant Human 4-1BB Ligand",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\4-1bb-ligand.yaml",
+  "old_price": 422,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL695-0050",
+    "spec": "50 μg",
+    "price": 422.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL695-0100",
+    "spec": "100 μg",
+    "price": 700.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "scf",
+  "name": "Recombinant Human SCF",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\scf.yaml",
+  "old_price": 110,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-504-0010",
+    "spec": "10 μg",
+    "price": 110.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL504-0050",
+    "spec": "50 μg (GMP)",
+    "price": 360.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL504-0100",
+    "spec": "100 μg (GMP)",
+    "price": 560.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "flt3l",
+  "name": "Recombinant Human FLT3 Ligand",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\flt3l.yaml",
+  "old_price": 350,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL505-0050",
+    "spec": "50 μg",
+    "price": 350.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "tnfa",
+  "name": "Recombinant Human TNF-α",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\tnfa.yaml",
+  "old_price": 320,
+  "old_sizes": [
+   "10 µg",
+   "50 µg"
+  ],
+  "variants": [
+   {
+    "sku": "TL-303-0010",
+    "spec": "10 μg",
+    "price": 88.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL303-0100",
+    "spec": "100 μg (GMP)",
+    "price": 320.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "nk-kit-30",
+  "name": "AMMS® NK Cell Culture Kit 3.0 (Plus)",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\nk-kit-30.yaml",
+  "old_price": 970,
+  "old_sizes": [
+   "1 kit (10⁹ PBMC)"
+  ],
+  "variants": [
+   {
+    "sku": "AS-25",
+    "spec": "AMMS® NK Cell Culture kit 3.0",
+    "price": 970.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "nk-kit-20",
+  "name": "AMMS® NK Cell Culture Kit 2.0 Plus (AS29)",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\nk-kit-20.yaml",
+  "old_price": 910,
+  "old_sizes": [
+   "1 kit (10⁹ PBMC)"
+  ],
+  "variants": [
+   {
+    "sku": "AS-22",
+    "spec": "AMMS® NK Cell Culture kit 2.0",
+    "price": 830.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "msc-kit-20",
+  "name": "AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free)",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\msc-kit-20.yaml",
+  "old_price": 364,
+  "old_sizes": [
+   "500 mL",
+   "1 L"
+  ],
+  "variants": [
+   {
+    "sku": "AS-33",
+    "spec": "AMMS® MSC Additive 2.0 ×1 AMMS® MSC Basic Culture Medium (Phenol Red Free) ×1",
+    "price": 364.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "psc-medium",
+  "name": "AMMS® Pluripotent Stem Cell Culture Medium",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\psc-medium.yaml",
+  "old_price": 140,
+  "old_sizes": [
+   "100 mL",
+   "500 mL"
+  ],
+  "variants": [
+   {
+    "sku": "AS-35",
+    "spec": "AMMS® Pluripotent Stem Cell Basic Culture Medium ×1",
+    "price": 140.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "hek293-medium",
+  "name": "AMMS® HEK293 Serum-Free Medium",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\hek293-medium.yaml",
+  "old_price": 191,
+  "old_sizes": [
+   "500 mL",
+   "1 L"
+  ],
+  "variants": [
+   {
+    "sku": "AS-11",
+    "spec": "1000 mL",
+    "price": 191.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "organoid-matrix",
+  "name": "AMMS® Matrix for Organoid Culture",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\organoid-matrix.yaml",
+  "old_price": 220,
+  "old_sizes": [
+   "1 mL",
+   "5 mL"
+  ],
+  "variants": [
+   {
+    "sku": "AS-41-5",
+    "spec": "5 mL",
+    "price": 220.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cik-kit",
+  "name": "AMMS® CIK Cell Expansion Reagent & Medium Kit",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cik-kit.yaml",
+  "old_price": null,
+  "old_sizes": [
+   "1 kit"
+  ],
+  "variants": [
+   {
+    "sku": "AS-15",
+    "spec": "AMMS® CIK Cell Expansion kit",
+    "price": 350.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "cryo-solution",
+  "name": "Cell Cryopreservation Solution",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\cryo-solution.yaml",
+  "old_price": 208,
+  "old_sizes": [
+   "50 mL",
+   "100 mL"
+  ],
+  "variants": [
+   {
+    "sku": "AS-36",
+    "spec": "100 mL",
+    "price": 208.0,
+    "custom": false
+   }
+  ]
+ },
+ {
+  "slug": "ok432",
+  "name": "OK432 (Picibanil)",
+  "path": "c:\\Users\\pleav\\WorkBuddy AI\\2026-10-23-17-27-11\\content\\products\\ok432.yaml",
+  "old_price": 207,
+  "old_sizes": [
+   "1 vial",
+   "5 vials"
+  ],
+  "variants": [
+   {
+    "sku": "GMP-TL107-0100",
+    "spec": "100 μg",
+    "price": 207.0,
+    "custom": false
+   },
+   {
+    "sku": "GMP-TL107-0500",
+    "spec": "500 μg",
+    "price": 837.2,
+    "custom": false
+   }
+  ]
+ }
+]

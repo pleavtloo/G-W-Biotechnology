@@ -1,0 +1,40 @@
+order: 11
+sku_code: TL-AB-111
+slug: cd16-mab
+name: Anti-Human CD16 Monoclonal Antibody
+cat: antibodies
+apps:
+- nk
+price: 250
+variants:
+  - sku: TL-201-0500
+    spec: 500 μg
+    price: 250
+  - sku: GMP-TL201-0500
+    spec: 500 μg (GMP)
+    price: 500
+sizes:
+  - 500 μg
+blurb: Recombinant humanised, high-affinity anti-CD16 for NK engagement.
+desc: Produced in a stable CHO cell line, this recombinant humanised antibody targets CD16 (FcγRIII) and is used
+  to study ADCC potency and NK-cell engagement in CAR-NK development.
+highlights:
+- CHO stable cell line production
+- Humanised backbone
+- ADCC and NK-engagement assays
+specs:
+- k: Target
+  v: Human CD16
+- k: Format
+  v: Recombinant, humanised
+- k: Expression system
+  v: CHO
+- k: Purity
+  v: ≥ 95% (SEC-HPLC)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Storage
+  v: ≤ -20 °C
+image_tile: assets/img/products/cd16-mab-tile.webp
+image: assets/img/products/cd16-mab.webp
+shop_product_id: 597

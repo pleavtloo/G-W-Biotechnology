@@ -1,0 +1,23 @@
+order: 2
+id: nk
+name: NK Cell Therapy
+title: High-purity NK expansion without feeder cells
+desc: Kits that take PBMC or cord blood to high-purity NK populations, paired with the cytokines and CD16 mAbs needed
+  for ADCC-competent products.
+pill: CAR-NK · NK · NKT
+steps:
+- label: Isolate
+  text: CD56⁺ enrichment from PBMC or CBMC
+- label: Activate
+  text: IL-12 / IL-15 / IL-18 priming
+- label: Expand
+  text: NK Culture Kit 2.0 / 3.0 (feeder-free)
+- label: Harvest
+  text: Cryopreservation in 5% DMSO solution
+products:
+- nk-kit-30
+- nk-kit-20
+- il15
+- il12
+- il18
+- cd16-mab

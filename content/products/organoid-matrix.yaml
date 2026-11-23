@@ -1,0 +1,35 @@
+order: 39
+sku_code: TL-MD-139
+slug: organoid-matrix
+name: AMMS® Matrix for Organoid Culture
+cat: media
+apps:
+- ipsc
+price: 220
+variants:
+  - sku: AS-41-5
+    spec: 5 mL
+    price: 220
+sizes:
+  - 5 mL
+blurb: Basement-membrane matrix for 3D organoid assembly.
+desc: A solubilised basement-membrane preparation for embedding organoids and 3D spheroid cultures, with lot-level
+  protein concentration and gelation data.
+highlights:
+- 3D organoid embedding
+- Lot-level gelation data
+- Protein-concentration qualified
+specs:
+- k: Format
+  v: Basement membrane matrix
+- k: Application
+  v: Organoid / 3D culture
+- k: Gelation
+  v: 37 °C
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/organoid-matrix-tile.webp
+image: assets/img/products/organoid-matrix.webp
+shop_product_id: 638

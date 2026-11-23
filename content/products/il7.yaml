@@ -1,0 +1,47 @@
+order: 17
+sku_code: TL-PR-117
+slug: il7
+name: Recombinant Human IL-7
+cat: proteins
+apps:
+- tcell
+- hsc
+price: 500
+variants:
+  - sku: GMP-TL506-0050
+    spec: 50 μg
+    price: 500
+  - sku: GMP-TL506-0100
+    spec: 100 μg
+    price: 800
+  - sku: GMP-TL506-1000
+    spec: 1 mg (custom order)
+    price: null
+    custom: true
+sizes:
+  - 50 μg
+  - 100 μg
+  - 1 mg
+blurb: Survival and differentiation of T, B and NK cells.
+desc: IL-7 is a key cytokine for the growth, survival and differentiation of T, B and NK cells. Widely used in T-cell
+  manufacturing to preserve a less-differentiated, stem-like phenotype.
+highlights:
+- FDA DMF re-registered (GMP-TL506)
+- Preserves less-differentiated T cells
+- GMP-grade available
+specs:
+- k: Expression system
+  v: E. coli
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/il7-tile.webp
+image: assets/img/products/il7.webp
+shop_product_id: 533

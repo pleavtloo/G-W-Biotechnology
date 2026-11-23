@@ -1,0 +1,36 @@
+order: 38
+sku_code: TL-MD-138
+slug: hek293-medium
+name: AMMS® HEK293 Serum-Free Medium
+cat: media
+apps: []
+price: 191
+variants:
+  - sku: AS-11
+    spec: 1000 mL
+    price: 191
+sizes:
+  - 1000 mL
+blurb: Chemically defined, protein-free medium for HEK293 suspension.
+desc: Supports high-density HEK293 suspension culture for transient transfection and AAV or lentiviral vector production,
+  with no serum, protein or animal-derived components.
+highlights:
+- Chemically defined, protein-free
+- Suspension culture to high density
+- Vector production compatible
+specs:
+- k: Format
+  v: Liquid medium
+- k: Serum
+  v: Serum-free
+- k: Protein
+  v: Protein-free
+- k: Origin
+  v: Animal-origin-free
+- k: Application
+  v: HEK293 suspension
+- k: Storage
+  v: 2–8 °C
+image_tile: assets/img/products/hek293-medium-tile.webp
+image: assets/img/products/hek293-medium.webp
+shop_product_id: 603

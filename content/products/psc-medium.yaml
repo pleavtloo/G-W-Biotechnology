@@ -1,0 +1,38 @@
+order: 37
+sku_code: TL-MD-137
+slug: psc-medium
+name: AMMS® Pluripotent Stem Cell Culture Medium
+cat: media
+apps:
+- ipsc
+price: 140
+variants:
+  - sku: AS-35
+    spec: AMMS® Pluripotent Stem Cell Basic Culture Medium ×1
+    price: 140
+sizes:
+- 100 mL
+- 500 mL
+blurb: Defined medium for feeder-free pluripotent maintenance.
+desc: A chemically defined medium for feeder-free culture of human pluripotent stem cells on laminin-511 E8 or vitronectin,
+  formulated to hold pluripotency markers through multiple passages.
+highlights:
+- Chemically defined
+- Feeder-free compatible
+- Lot-to-lot consistency testing
+specs:
+- k: Format
+  v: Basal medium + supplement
+- k: Serum
+  v: Serum-free
+- k: Origin
+  v: Animal-origin-free
+- k: Application
+  v: Feeder-free PSC culture
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 12 months
+image_tile: assets/img/products/psc-medium-tile.webp
+image: assets/img/products/psc-medium.webp
+shop_product_id: null

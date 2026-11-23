@@ -1,0 +1,45 @@
+order: 31
+sku_code: TL-PR-131
+slug: scf
+name: Recombinant Human SCF
+cat: proteins
+apps:
+- hsc
+price: 110
+variants:
+  - sku: TL-504-0010
+    spec: 10 μg
+    price: 110
+  - sku: GMP-TL504-0050
+    spec: 50 μg (GMP)
+    price: 360
+  - sku: GMP-TL504-0100
+    spec: 100 μg (GMP)
+    price: 560
+sizes:
+  - 10 μg
+  - 50 μg
+  - 100 μg
+blurb: Stem cell factor (KIT ligand) for progenitor maintenance.
+desc: Also known as kit-ligand, KL or KITLG. SCF is a dimeric molecule that maintains haematopoietic progenitors
+  and is a required component of HSC expansion and transduction cocktails.
+highlights:
+- HSC maintenance
+- KIT ligand / KITLG
+- Low endotoxin
+specs:
+- k: Expression system
+  v: E. coli
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/scf-tile.webp
+image: assets/img/products/scf.webp
+shop_product_id: 554

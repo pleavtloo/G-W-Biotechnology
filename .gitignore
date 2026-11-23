@@ -1,0 +1,44 @@
+# 构建产物（由 tools/build_dist.py 生成）
+dist/
+
+# 本地验证产物
+shots/
+server/outbox/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 本地环境与密钥
+.env
+.dev.vars
+server/.dev.vars
+*.log
+
+# Wrangler 本地状态（含账号缓存）
+.wrangler/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 额外保护（2026-11-17 加入）
+.env.*
+*.env
+!*.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.content-snapshot.tgz
+*.tmp
+.DS_Store
+Thumbs.db
+node_modules/
+/tmp-restore/
+
+# local exports and migration scratch
+legacy-export/
+*.tgz
+.tl-*.py

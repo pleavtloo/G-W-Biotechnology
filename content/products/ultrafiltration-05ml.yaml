@@ -1,0 +1,68 @@
+order: 45
+sku_code: TL-UF-005
+slug: ultrafiltration-05ml
+name: Ultrafiltration Centrifuge Tube, 0.5 mL
+cat: consumables
+apps:
+- sample_prep
+price: 120
+sizes:
+- 3 kD
+- 10 kD
+- 30 kD
+- 50 kD
+- 100 kD
+blurb: 0.5 mL sample, two 2 mL outer tubes, supports reverse centrifugation.
+desc: 'The smallest format in the range, built for samples of a few hundred microlitres where every microlitre
+  counts. Each box contains two 2 mL outer tubes so one inner cup can be spun in the normal orientation
+  and the other used for reverse centrifugation to pull the concentrate back off the membrane.
+
+
+  Retention exceeds 96% and recovery exceeds 88% across all five cut-offs, matching the larger formats
+  on the same test protocol.
+
+
+  Suited to concentrating immunoprecipitates, cleaning up low-yield nucleic acid preps, and exchanging
+  buffer before mass spectrometry.'
+highlights:
+- Reverse centrifugation supported by the second outer tube
+- Recovery above 88% with only 0.5 mL of sample
+- Supplied as 24 pcs/box with 48 outer tubes
+variants:
+- sku: CYPES003S5
+  spec: 3 kD, 24 pcs/box
+  price: 120
+- sku: CYPES010S5
+  spec: 10 kD, 24 pcs/box
+  price: 120
+- sku: CYPES030S5
+  spec: 30 kD, 24 pcs/box
+  price: 120
+- sku: CYPES050S5
+  spec: 50 kD, 24 pcs/box
+  price: 120
+- sku: CYPES100S5
+  spec: 100 kD, 24 pcs/box
+  price: 120
+specs:
+- k: Sample volume
+  v: 0.5 mL
+- k: Outer tube
+  v: 2 mL x 2 per device
+- k: MWCO
+  v: 3 / 10 / 30 / 50 / 100 kD
+- k: Membrane
+  v: Modified PES
+- k: Packaging
+  v: 24 pcs/box
+- k: Reverse spin
+  v: Supported
+- k: Recovery
+  v: '>88%'
+- k: Reusability
+  v: 20+ cycles
+- k: Max RCF
+  v: Contact us
+image_tile: assets/img/products/ultrafiltration-05ml-tile.webp
+image: assets/img/products/ultrafiltration-05ml.webp
+shop_product_id: 0

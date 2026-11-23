@@ -1,0 +1,41 @@
+order: 24
+sku_code: TL-PR-124
+slug: egf
+name: Recombinant Human EGF
+cat: proteins
+apps:
+- msc
+price: 39
+variants:
+  - sku: TL-613-0010
+    spec: 10 μg
+    price: 39
+  - sku: GMP-TL613-0050
+    spec: 50 μg (GMP)
+    price: 60
+sizes:
+  - 10 μg
+  - 50 μg
+blurb: Stimulates epithelial and fibroblast proliferation.
+desc: Epidermal growth factor stimulates the growth of a wide range of epidermal and epithelial tissues and fibroblasts
+  in vivo and in vitro, and is a standard supplement in keratinocyte and MSC media.
+highlights:
+- Entry-level pack size
+- Epithelial and fibroblast mitogen
+- Carrier-free
+specs:
+- k: Expression system
+  v: E. coli
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/egf-tile.webp
+image: assets/img/products/egf.webp
+shop_product_id: 619

@@ -1,0 +1,46 @@
+name = "tl-site-api"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# Static assets are served by Cloudflare Pages; this worker only handles /api/*.
+# In the Pages project, bind this worker as a route: /api/*
+
+[vars]
+# "production" switches on the fail-closed check: no TURNSTILE_SECRET -> 503.
+ENVIRONMENT = "production"
+LEAD_FROM = "site@tlbiotechnology.com"
+
+# ---------------------------------------------------------------------------
+# !! MUST BE DONE BEFORE THE FIRST PRODUCTION DEPLOY !!
+#
+#   TURNSTILE_SECRET          wrangler secret put TURNSTILE_SECRET
+#                             Miss it and /api/lead answers 503 by design
+#                             (fails closed instead of accepting bot traffic).
+#                             The matching public site key lives in
+#                             tools/content.py -> COMPANY["turnstile_sitekey"]
+#                             and is injected into data.js as turnstileSiteKey.
+#
+#   LEAD_KV                   KV namespace for the rate limiter (rl:*) and the
+#                             7-day failed-mail archive (failed:*).
+#                             wrangler kv namespace create LEAD_KV
+#                             then uncomment the binding below and paste the id.
+#                             Without it the limiter stays off (logs rl:"off").
+#
+#   Sending domain            SPF / DKIM / DMARC must be verified on the domain
+#                             in LEAD_FROM, otherwise every lead lands in spam.
+# ---------------------------------------------------------------------------
+#
+# Required secrets:  RESEND_API_KEY, LEAD_TO, TURNSTILE_SECRET
+# Optional:          LEAD_REPLY_TO (defaults to the first LEAD_TO),
+#                    RECEIPT_SIGNER, CRM_WEBHOOK, IP_SALT,
+#                    CHAT_API_URL, CHAT_API_KEY
+
+# Rate limiting + failed-mail archive (REQUIRED in production)
+[[kv_namespaces]]
+binding = "LEAD_KV"
+id = "cbb9fcd826e64670ad3e752e5ffca45a"
+
+# COA index: lot number -> { file, sku, released }
+# [[kv_namespaces]]
+# binding = "COA_INDEX"
+# id = "<kv-id>"

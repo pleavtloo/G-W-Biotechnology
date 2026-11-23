@@ -1,0 +1,49 @@
+﻿old_id,name,sku,specs,price_from,price_to
+530,Anti-Human CD137 mAb,GMP-TL778-0100,1,350.0,350.0
+532,Recombinant Human IL-6 Protein,GMP-TL512-0050,2,350.0,500.0
+547,Recombinant Human M-CSF Protein,TL-514-0010,2,67.0,240.0
+551,Recombinant Human LIF Protein,GMP-TL633-0100,1,,
+552,Recombinant Human TNFα Protein,TL-303-0010,1,88.0,88.0
+555,Recombinant Human PDGF-BB Protein,GMP-TL644-0050,2,420.0,720.0
+556,Recombinant Human IFN-γ Protein,GMP-TL105-0200,1,226.0,226.0
+588,MaxSortin®CD14 beads,TL-625-2000,2,440.0,580.0
+601,AMMS® High Purity NK Cell Culture Kit 2.0,AS-26,1,900.0,900.0
+605,MaxSortin®CD3 beads,TL-622-2000,1,440.0,440.0
+606,MaxSortin®CD4 beads,GMP-TL614-5000,1,915.0,915.0
+609,MaxSortin®CD14 beads,GMP-TL625-2000,1,580.0,580.0
+610,MaxSortin®CD8 beads,TL-624-2000,1,440.0,440.0
+616,ActCel T Cell Activation Reagent,TL-6001-1000,1,487.0,487.0
+617,Anti-Human CD16 mAb,TL-201-0500,1,250.0,250.0
+618,Recombinant Human bFGF Protein,TL-901-0010,1,65.0,65.0
+619,Recombinant Human EGF Protein,TL-613-0010,1,39.0,39.0
+620,Recombinant Human GM-CSF Protein,TL-302-0010,1,60.0,60.0
+623,Recombinant Human bFGF Protein (Heat-Stable),TL-787-0050,1,345.0,345.0
+624,Recombinant Human TPO Protein,TL-650-0050,1,276.0,276.0
+625,Recombinant Human IL-1α Protein,TL-109-0010,1,140.0,140.0
+626,Recombinant Human IL-1β Protein,TL-513-0100,1,448.0,448.0
+627,Recombinant Human IL-4 Protein,TL-301-0100,1,480.0,480.0
+628,Recombinant Human BDNF Protein,TL-770-0050,1,350.0,350.0
+629,Recombinant Human FGF4 Protein,TL-782-0050,1,350.0,350.0
+630,Recombinant Human GDNF Protein,TL-771-0050,1,470.0,470.0
+633,Recombinant Human Wnt3a Protein,TL-783-0050,1,390.0,390.0
+634,Recombinant Human EPO Protein,TL-636-0050,2,225.0,394.0
+636,Recombinant Human BMP-4 Protein,TL-607-0050,1,470.0,470.0
+641,"Ultrafiltration Centrifuge Tube, 15 mL, 3 kDa",CYPES00315,0,,
+642,"Ultrafiltration Centrifuge Tube, 15 mL, 10 kDa",CYPES01015,0,,
+643,"Ultrafiltration Centrifuge Tube, 15 mL, 30 kDa",CYPES03015,0,,
+644,"Ultrafiltration Centrifuge Tube, 15 mL, 50 kDa",CYPES05015,0,,
+645,"Ultrafiltration Centrifuge Tube, 15 mL, 100 kDa",CYPES10015,0,,
+646,"Ultrafiltration Centrifuge Tube, 4 mL, 3 kDa",CYPES00304,0,,
+647,"Ultrafiltration Centrifuge Tube, 4 mL, 10 kDa",CYPES01004,0,,
+648,"Ultrafiltration Centrifuge Tube, 4 mL, 30 kDa",CYPES03004,0,,
+649,"Ultrafiltration Centrifuge Tube, 4 mL, 50 kDa",CYPES05004,0,,
+650,"Ultrafiltration Centrifuge Tube, 4 mL, 100 kDa",CYPES10004,0,,
+651,"Ultrafiltration Centrifuge Tube, 0.5 mL, 3 kDa",CYPES003S5,0,,
+652,"Ultrafiltration Centrifuge Tube, 0.5 mL, 10 kDa",CYPES010S5,0,,
+653,"Ultrafiltration Centrifuge Tube, 0.5 mL, 30 kDa",CYPES030S5,0,,
+654,"Ultrafiltration Centrifuge Tube, 0.5 mL, 50 kDa",CYPES050S5,0,,
+655,"Ultrafiltration Centrifuge Tube, 0.5 mL, 100 kDa",CYPES100S5,0,,
+656,0.22 um PVDF Transfer Membrane (Pre-Cut),CYWBPVDF022P,0,,
+657,0.22 um PVDF Transfer Membrane (Roll),CYWBPVDF022L,0,,
+658,0.45 um PVDF Transfer Membrane (Pre-Cut),CYWBPVDF045P,0,,
+659,0.45 um PVDF Transfer Membrane (Roll),CYWBPVDF045L,0,,

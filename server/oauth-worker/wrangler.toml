@@ -1,0 +1,22 @@
+name = "tl-oauth"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# GitHub OAuth bridge for the Decap CMS editor at /admin.
+#
+# Deploy:
+#   cd server/oauth-worker
+#   wrangler deploy
+#   wrangler secret put GITHUB_CLIENT_ID
+#   wrangler secret put GITHUB_CLIENT_SECRET
+#
+# The GitHub OAuth app's callback URL must be exactly:
+#   https://tl-oauth.<your-subdomain>.workers.dev/callback
+#
+# Then set the same URL in website/admin/config.yml -> backend.base_url.
+
+[vars]
+# Optional overrides
+# STATE_SECRET = "a random string used to sign the OAuth state parameter"
+
+# No KV, no D1: state is HMAC-signed, tokens are never stored.

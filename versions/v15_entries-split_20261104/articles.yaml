@@ -1,0 +1,19 @@
+articles:
+- tag: Regulatory
+  date: 12 Sep 2026
+  img: texture-network
+  title: What an FDA DMF actually buys you when you licence a CGT raw material
+  excerpt: A Type II DMF is not an approval — it is a closed reference. Here is how sponsors use DMF 038124 during
+    an IND review, and what the auditor will ask for next.
+- tag: Technical
+  date: 28 Aug 2026
+  img: texture-molecule
+  title: Bead size, steric hindrance and why 50 nm changes your activation readout
+  excerpt: 'Comparing 4.5 µm and 50 nm particles in CD3/CD28 activation: the effect on cell-surface availability,
+    expansion fold and downstream transduction efficiency.'
+- tag: Protocol
+  date: 09 Aug 2026
+  img: banner-service
+  title: 'Feeder-free NK expansion from cryopreserved CBMC: a 14-day protocol'
+  excerpt: A step-by-step protocol using AMMS® NK Cell Culture Kit 3.0, including seeding density, feeding cadence
+    and the purity you should expect at day 14.

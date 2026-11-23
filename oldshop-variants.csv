@@ -1,0 +1,66 @@
+﻿new_slug,new_name,new_price,old_pid,old_name,old_sku,match,spec,spec_price
+4-1bb-ligand,Recombinant Human 4-1BB Ligand,422,543,Recombinant Human 4-1BB Ligand Protein,GMP-TL695-0050,1.0,GMP grade - 500μg,422.0
+4-1bb-ligand,Recombinant Human 4-1BB Ligand,422,543,Recombinant Human 4-1BB Ligand Protein,GMP-TL695-0050,1.0,GMP grade - 500μg,700.0
+actcel-t-activation,ActCel T Cell Activation Reagent,2072,616,ActCel T Cell Activation Reagent,TL-6001-1000,1.0,1ml,487.0
+actcel-t-activation,ActCel T Cell Activation Reagent,2072,593,ActCel T Cell Activation Reagent,GMP-TL6001-1000,1.0,GMP-2ml,2072.0
+activin-a,Recombinant Human Activin A,280,595,Recombinant Human Activin A Protein,TL-910-0050,1.0,50μg,280.0
+actsep-cd3-cd28,ActSep® CD3/CD28 Separation & Activation Beads,510,568,ActSep®CD3/CD28 Separation & Activation Magnetic Beads,GMP-TL603-5000,1.0,1ml,510.0
+actsep-cd3-cd28,ActSep® CD3/CD28 Separation & Activation Beads,510,568,ActSep®CD3/CD28 Separation & Activation Magnetic Beads,GMP-TL603-5000,1.0,5ml,2310.0
+bfgf,Recombinant Human bFGF (FGF2),120,618,Recombinant Human bFGF Protein,TL-901-0010,0.5,10μg,65.0
+bfgf,Recombinant Human bFGF (FGF2),120,544,Recombinant Human bFGF Protein,GMP-TL901-0050,0.5,GMP grade - 500μg,120.0
+cd137-mab,Anti-Human CD137 (4-1BB) Monoclonal Antibody,350,530,Anti-Human CD137 mAb,GMP-TL778-0100,0.33,GMP grade - 500μg,350.0
+cd16-mab,Anti-Human CD16 Monoclonal Antibody,500,617,Anti-Human CD16 mAb,TL-201-0500,0.5,500μg,250.0
+cd16-mab,Anti-Human CD16 Monoclonal Antibody,500,597,Anti-Human CD16 mAb,GMP-TL201-0500,0.5,500μg,500.0
+cd20-mab,Anti-Human CD20 Monoclonal Antibody,250,560,Anti-Human CD20 mAb,GMP-TL502-0500,0.5,GMP grade - 500μg,250.0
+cd28-mab,Anti-Human CD28 Monoclonal Antibody,140,559,Anti-Human CD28 mAb,GMP-TL102-0500,0.5,GMP grade - 500μg,140.0
+cd3-mab,Anti-Human CD3 Monoclonal Antibody,140,561,Anti-Human CD3 mAb,GMP-TL101-0500,0.5,GMP grade - 500μg,140.0
+cd52-mab,Anti-Human CD52 Monoclonal Antibody,350,558,Anti-Human CD52 mAb,GMP-TL112-0100,0.5,GMP grade - 500μg,350.0
+cd8-beads,MaxSortin® CD8 Beads,915,610,MaxSortin®CD8 beads,TL-624-2000,1.0,2ml,440.0
+cd8-beads,MaxSortin® CD8 Beads,915,607,MaxSortin®CD8 beads,GMP-TL618-5000,1.0,5ml,915.0
+cik-kit,AMMS® CIK Cell Expansion Reagent & Medium Kit,,566,AMMS®CIK Cell Expansion Reagent& Medium Kit,AS-15,1.0,1 Kit,350.0
+cryo-solution,Cell Cryopreservation Solution,208,596,Cell Cryopreservation Solution,AS-36,1.0,100ml,208.0
+egf,Recombinant Human EGF,39,619,Recombinant Human EGF Protein,TL-613-0010,1.0,10μg,39.0
+egf,Recombinant Human EGF,39,570,Recombinant Human EGF Protein,GMP-TL613-0050,1.0,GMP grade - 500μg,60.0
+fibronectin,Recombinant Human Fibronectin (FN),67,546,Recombinant Human Fibronectin(FN) Protein,GMP-TL903-0050,1.0,GMP grade - 500μg,56.0
+fibronectin,Recombinant Human Fibronectin (FN),67,546,Recombinant Human Fibronectin(FN) Protein,GMP-TL903-0050,1.0,GMP grade - 500μg,170.0
+flt3l,Recombinant Human FLT3 Ligand,350,545,Recombinant Human FLT3 Ligand Protein,GMP-TL505-0050,1.0,GMP grade - 500μg,350.0
+hek293-medium,AMMS® HEK293 Serum-Free Medium,191,603,AMMS®HEK293 serum-free medium,AS-11,1.0,500ml,191.0
+il12,Recombinant Human IL-12,460,539,Recombinant Human IL-12 Protein,GMP-TL508-0050,1.0,GMP grade - 500μg,460.0
+il12,Recombinant Human IL-12,460,539,Recombinant Human IL-12 Protein,GMP-TL508-0050,1.0,GMP grade - 500μg,720.0
+il15,Recombinant Human IL-15,345,572,Recombinant Human IL-15 Protein,GMP-TL202-0050,1.0,GMP grade - 500μg,345.0
+il15,Recombinant Human IL-15,345,572,Recombinant Human IL-15 Protein,GMP-TL202-0050,1.0,GMP grade - 500μg,500.0
+il18,Recombinant Human IL-18,345,541,Recombinant Human IL-18 Protein,GMP-TL902-0050,1.0,GMP grade - 500μg,345.0
+il2,Recombinant Human IL-2,110,528,Recombinant Human IL-2 Protein,GMP-TL906-0100,1.0,GMP grade - 500μg,110.0
+il21,Recombinant Human IL-21,430,622,Recombinant Human IL-21 Protein,GMP-TL509-0050,1.0,GMP grade - 500μg,430.0
+il21,Recombinant Human IL-21,430,622,Recombinant Human IL-21 Protein,GMP-TL509-0050,1.0,GMP grade - 500μg,690.0
+il3,Recombinant Human IL-3,350,569,Recombinant Human IL-3 Protein,GMP-TL511-0050,1.0,GMP grade - 500μg,350.0
+il3,Recombinant Human IL-3,350,569,Recombinant Human IL-3 Protein,GMP-TL511-0050,1.0,GMP grade - 500μg,500.0
+il7,Recombinant Human IL-7,500,533,Recombinant Human IL-7 Protein,GMP-TL506-0050,1.0,GMP grade - 500μg,500.0
+il7,Recombinant Human IL-7,500,533,Recombinant Human IL-7 Protein,GMP-TL506-0050,1.0,GMP grade - 500μg,800.0
+laminin-511,Recombinant Human Laminin-511 E8,140,635,Recombinant Human Laminin-511 E8 Protein,TL-766-0100,1.0,100μg,140.0
+maxsortin-cd14,MaxSortin® CD14 Beads,580,588,MaxSortin®CD14 beads,TL-625-2000,1.0,GMP-2ml,440.0
+maxsortin-cd14,MaxSortin® CD14 Beads,580,588,MaxSortin®CD14 beads,TL-625-2000,1.0,GMP-2ml,580.0
+maxsortin-cd14,MaxSortin® CD14 Beads,580,609,MaxSortin®CD14 beads,GMP-TL625-2000,1.0,2ml,580.0
+maxsortin-cd14-kit,MaxSortin® CD14 Isolation Kit,,576,MaxSortin®CD14 Isolation Kit,TL-625KIT,1.0,1 Kit,460.0
+maxsortin-cd3,MaxSortin® CD3 Beads,1070,605,MaxSortin®CD3 beads,TL-622-2000,1.0,GMP-2ml,440.0
+maxsortin-cd3,MaxSortin® CD3 Beads,1070,581,MaxSortin®CD3 beads,GMP-TL622-5000,1.0,5ml,1070.0
+maxsortin-cd4,MaxSortin® CD4 Beads,440,586,MaxSortin®CD4 beads,TL-623-2000,1.0,GMP-2ml,440.0
+maxsortin-cd4,MaxSortin® CD4 Beads,440,606,MaxSortin®CD4 beads,GMP-TL614-5000,1.0,5ml,915.0
+msc-kit-20,AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free),364,565,AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free),AS-33,1.0,1 Kit,364.0
+nk-kit-20,AMMS® NK Cell Culture Kit 2.0 Plus (AS29),910,564,AMMS® NK Cell Culture Kit 2.0 Plus,AS-29,0.8,1 Kit,910.0
+nk-kit-30,AMMS® NK Cell Culture Kit 3.0 (Plus),970,600,AMMS® NK Cell Culture Kit 3.0 (Plus),AS-45,1.0,1 Kit,970.0
+noggin,Recombinant Human Noggin,240,631,Recombinant Human Noggin Protein,TL-642-0050,1.0,50μg,240.0
+ok432,OK432 (Picibanil),207,548,OK432,GMP-TL107-0100,0.5,GMP grade - 500μg,207.0
+ok432,OK432 (Picibanil),207,548,OK432,GMP-TL107-0100,0.5,GMP grade - 500μg,837.0
+organoid-matrix,AMMS® Matrix for Organoid Culture,220,638,"AMMS® Matrix, for Organoid Culture",AS-41-5,1.0,GMP-2ml,220.0
+psc-medium,AMMS® Pluripotent Stem Cell Culture Medium,140,562,AMMS® Pluripotent Stem Cell Culture Medium,AS-35,1.0,GMP-2ml,140.0
+scf,Recombinant Human SCF,110,554,Recombinant Human SCF Protein,GMP-TL504-0050,1.0,GMP grade - 500μg,110.0
+scf,Recombinant Human SCF,110,554,Recombinant Human SCF Protein,GMP-TL504-0050,1.0,GMP grade - 500μg,360.0
+scf,Recombinant Human SCF,110,554,Recombinant Human SCF Protein,GMP-TL504-0050,1.0,GMP grade - 500μg,560.0
+tcr-ab-beads,MaxSortin® TCR αβ Beads,620,589,MaxSortin®TCR αβ beads,TL-810-1000,1.0,1ml,620.0
+tgf-b1,Recombinant Human TGF-β1,120,632,Recombinant Human TGF-β1 Protein,TL-643-0010,1.0,10μg,120.0
+tgf-b1,Recombinant Human TGF-β1,120,632,Recombinant Human TGF-β1 Protein,TL-643-0010,1.0,50μg,360.0
+tnfa,Recombinant Human TNF-α,320,552,Recombinant Human TNFα Protein,TL-303-0010,0.0,10μg,88.0
+tnfa,Recombinant Human TNF-α,320,615,Recombinant Human TNFα Protein,GMP-TL303-0100,0.0,GMP grade - 500μg,320.0
+vitronectin,Recombinant Human Vitronectin,105,549,Recombinant Human Vitronectin Protein,GMP-TL651-0100,1.0,GMP grade - 500μg,105.0
+vitronectin,Recombinant Human Vitronectin,105,549,Recombinant Human Vitronectin Protein,GMP-TL651-0100,1.0,GMP grade - 500μg,270.0

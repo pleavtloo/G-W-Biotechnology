@@ -1,0 +1,23 @@
+order: 5
+id: hsc
+name: Hematopoietic
+title: HSC expansion and gene correction
+desc: Early-acting cytokines for HSC maintenance during transduction, with the endotoxin control required for ex
+  vivo gene therapy workflows.
+pill: HSC · gene therapy
+steps:
+- label: Enrich
+  text: CD34⁺ selection support
+- label: Prime
+  text: SCF + FLT3-L + IL-6 cocktail
+- label: Transduce
+  text: Low-endotoxin cytokine panel
+- label: Engraft
+  text: Cryopreservation and QC release
+products:
+- scf
+- flt3l
+- il7
+- cryo-solution
+- maxsortin-cd14
+- il2

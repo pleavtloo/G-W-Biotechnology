@@ -1,0 +1,19 @@
+[Unit]
+Description=T&L site API (server/worker.js running on Node)
+After=network.target tl-mail.service
+Wants=tl-mail.service
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/tl-api
+EnvironmentFile=/etc/tl-api.env
+Environment=ENVIRONMENT=staging
+Environment=PORT=8081
+ExecStart=/usr/bin/node /opt/tl-api/node-bridge/bridge.js
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

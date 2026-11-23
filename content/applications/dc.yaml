@@ -1,0 +1,23 @@
+order: 6
+id: dc
+name: Dendritic & Macrophage
+title: Monocyte-derived DC and macrophage protocols
+desc: CD14⁺ isolation paired with GM-CSF / IL-4 maturation cocktails and TLR adjuvants for vaccine and immunotherapy
+  research.
+pill: moDC · macrophage · vaccine
+steps:
+- label: Isolate
+  text: CD14⁺ monocytes or isolation kit
+- label: Differentiate
+  text: GM-CSF + IL-4, 5–6 days
+- label: Mature
+  text: TNF-α, IL-1β, IL-6, OK432
+- label: Assay
+  text: 4-1BBL / CD137 co-stimulation readouts
+products:
+- maxsortin-cd14
+- maxsortin-cd14-kit
+- ok432
+- tnfa
+- 4-1bb-ligand
+- cd137-mab

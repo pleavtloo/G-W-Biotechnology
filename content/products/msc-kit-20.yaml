@@ -1,0 +1,38 @@
+order: 36
+sku_code: TL-MD-136
+slug: msc-kit-20
+name: AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free)
+cat: media
+apps:
+- msc
+price: 364
+variants:
+  - sku: AS-33
+    spec: AMMS® MSC Additive 2.0 ×1 AMMS® MSC Basic Culture Medium (Phenol Red Free) ×1
+    price: 364
+sizes:
+- 500 mL
+- 1 L
+blurb: Standardised, xeno-free MSC expansion without phenol red.
+desc: A serum-free, animal-origin-free MSC culture system with phenol red removed to avoid oestrogen-mimetic interference
+  in sensitive assays and to simplify colourimetric readouts.
+highlights:
+- Phenol-red free
+- Xeno-free, serum-free
+- Stable doubling time to P5
+specs:
+- k: Format
+  v: Kit (basal medium + supplement)
+- k: Serum
+  v: Serum-free
+- k: Origin
+  v: Animal-origin-free
+- k: Phenol red
+  v: Free
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 12 months
+image_tile: assets/img/products/msc-kit-20-tile.webp
+image: assets/img/products/msc-kit-20.webp
+shop_product_id: 565

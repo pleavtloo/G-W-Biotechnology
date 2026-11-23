@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design draft — Digital human avatar options</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  body { background: #f7f9fc; }
+
+  .draft-bar {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(255,255,255,.92); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .draft-bar__in { display: flex; align-items: center; justify-content: space-between; gap: 20px; height: 60px; }
+  .draft-bar b { font-size: .9rem; color: var(--ink); }
+  .draft-bar span { font-size: .78rem; color: var(--muted-2); }
+  .draft-tag {
+    font-size: .66rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    color: #7a5b00; background: #fff4d6; border: 1px solid #f0dca6;
+    border-radius: 999px; padding: 4px 10px;
+  }
+
+  .dsec { padding: 56px 0; border-bottom: 1px solid var(--line); }
+  .dsec:last-child { border-bottom: 0; }
+  .dsec__head { max-width: 760px; margin-bottom: 34px; }
+  .dsec__head h2 { font-size: clamp(1.4rem, 2.2vw, 1.85rem); }
+  .dsec__head p { margin-top: 12px; color: var(--muted); line-height: 1.65; font-size: .95rem; }
+  .dnum { display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: .14em; color: var(--accent); margin-bottom: 10px; }
+
+  /* option grid */
+  .opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .opt {
+    background: #fff; border: 1px solid var(--line); border-radius: 18px; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .opt--pick { border-color: var(--brand); box-shadow: 0 0 0 3px rgba(42,66,153,.08); }
+  .opt__img { position: relative; aspect-ratio: 1/1; background: #0a1526; }
+  .opt__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .opt__badge {
+    position: absolute; top: 12px; left: 12px; z-index: 2;
+    font-size: .6rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+    color: #fff; background: var(--brand); border-radius: 999px; padding: 4px 10px;
+  }
+  .opt__body { padding: 20px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .opt__name { font-size: 1.02rem; font-weight: 650; color: var(--ink); }
+  .opt__desc { font-size: .84rem; color: var(--muted); line-height: 1.6; }
+  .opt__pros { list-style: none; padding: 0; margin: 4px 0 0; display: grid; gap: 6px; }
+  .opt__pros li {
+    font-size: .78rem; color: var(--ink-soft); padding-left: 16px; position: relative; line-height: 1.45;
+  }
+  .opt__pros li::before {
+    content: ""; position: absolute; left: 0; top: 6px; width: 6px; height: 6px;
+    border-radius: 50%; background: var(--brand); opacity: .8;
+  }
+  .opt__pros li.con::before { background: #c9a227; }
+
+  /* real-size strip */
+  .sizes {
+    margin-top: 6px; padding-top: 14px; border-top: 1px solid var(--line);
+    display: flex; align-items: flex-end; gap: 12px; flex-wrap: nowrap;
+  }
+  .sizes__item { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .sizes__cap { font-size: .6rem; color: var(--muted-2); letter-spacing: .04em; }
+  .sz-96 { width: 72px; height: 72px; border-radius: 50%; overflow: hidden; border: 1px solid var(--line); }
+  .sz-40 { width: 38px; height: 38px; border-radius: 50%; overflow: hidden; border: 1px solid var(--line); }
+  .sz-36 { width: 32px; height: 32px; border-radius: 50%; overflow: hidden; border: 1px solid var(--line); }
+  .sz-24 { width: 24px; height: 24px; border-radius: 50%; overflow: hidden; border: 1px solid var(--line); }
+  .sizes img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  /* launcher preview */
+  .launch-demo {
+    display: flex; align-items: center; gap: 10px;
+    padding: 7px 16px 7px 7px; border-radius: 999px; width: max-content;
+    background: #0a1b33; color: #fff; border: 1px solid rgba(255,255,255,.14);
+    box-shadow: 0 20px 44px -18px rgba(8,23,41,.6), 0 0 0 6px rgba(42,66,153,.08);
+    font-size: .8rem; font-weight: 600;
+  }
+  .launch-demo__av { width: 36px; height: 36px; border-radius: 50%; overflow: hidden; flex: none; }
+  .launch-demo__av img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .launch-demo__dot { width: 6px; height: 6px; border-radius: 50%; background: #46d8a8; box-shadow: 0 0 0 3px rgba(70,216,168,.18); }
+
+  .launchrow { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
+
+  .note {
+    display: flex; gap: 10px; padding: 16px 18px; border-radius: 12px;
+    background: #fff8e8; border: 1px solid #f2e2b8; font-size: .84rem;
+    color: #6b5200; line-height: 1.6;
+  }
+  .note b { color: #4a3900; }
+  .note > span {
+    flex: none; width: 18px; height: 18px; border-radius: 50%;
+    background: #f0dca6; color: #6b5200; font-size: .68rem; font-weight: 700;
+    display: grid; place-items: center; margin-top: 1px;
+  }
+
+  .old { display: grid; grid-template-columns: 160px 1fr; gap: 20px; align-items: center; margin-top: 26px;
+    background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px; }
+  .old img { width: 160px; height: 160px; object-fit: cover; border-radius: 12px; }
+  .old h4 { font-size: .95rem; margin-bottom: 6px; }
+  .old p { font-size: .84rem; color: var(--muted); line-height: 1.6; }
+
+  .panel-demo {
+    position: relative; width: 396px; max-width: 100%;
+    background: #fff; border: 1px solid var(--line); border-radius: 22px; overflow: hidden;
+    box-shadow: 0 40px 80px -34px rgba(8,23,41,.55);
+  }
+  .pd-head {
+    display: flex; align-items: center; gap: 11px; padding: 13px 14px;
+    background: linear-gradient(120deg, #0a1b33, #1d3170 70%, #2a4299); color: #fff;
+  }
+  .pd-av { width: 40px; height: 40px; border-radius: 50%; overflow: hidden; flex: none; border: 1px solid rgba(255,255,255,.35); }
+  .pd-av img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .pd-name { font-size: .86rem; font-weight: 650; }
+  .pd-status { display: flex; align-items: center; gap: 6px; margin-top: 2px; font-size: .66rem; color: rgba(255,255,255,.66); }
+  .pd-status i { width: 5px; height: 5px; border-radius: 50%; background: #46d8a8; display: block; }
+  .pd-presence { position: relative; height: 210px; overflow: hidden; background: #0a1526; }
+  .pd-presence img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
+  .pd-presence__cap {
+    position: absolute; left: 14px; right: 14px; bottom: 12px;
+    display: flex; align-items: center; gap: 8px;
+    background: rgba(6,15,29,.62); border: 1px solid rgba(255,255,255,.14);
+    border-radius: 10px; padding: 7px 10px; font-size: .72rem; color: rgba(255,255,255,.86);
+    backdrop-filter: blur(6px);
+  }
+  .wave { display: flex; align-items: center; gap: 2px; flex: none; }
+  .wave i { width: 2px; background: #5fb7e8; border-radius: 2px; display: block; }
+  .wave i:nth-child(1) { height: 6px; } .wave i:nth-child(2) { height: 12px; }
+  .wave i:nth-child(3) { height: 8px; } .wave i:nth-child(4) { height: 14px; }
+  .wave i:nth-child(5) { height: 5px; }
+
+  .pd-body { padding: 14px; background: #fbfcfe; }
+  .pd-bubble {
+    background: #fff; border: 1px solid var(--line); border-radius: 4px 14px 14px 14px;
+    padding: 10px 12px; font-size: .82rem; line-height: 1.55; color: var(--ink-soft); max-width: 280px;
+  }
+  .pd-input {
+    display: flex; align-items: center; gap: 8px; padding: 10px 12px;
+    border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted-2);
+  }
+  .pd-input div {
+    flex: 1; border: 1px solid var(--line-strong); border-radius: 999px; height: 38px;
+    display: flex; align-items: center; padding: 0 14px; background: #fbfcfe;
+  }
+
+  .demo-row { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
+
+  @media (max-width: 1000px) {
+    .opts { grid-template-columns: 1fr; }
+    .old { grid-template-columns: 1fr; }
+    .old img { width: 100%; height: auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="draft-bar">
+  <div class="container draft-bar__in">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span class="draft-tag">Design draft</span>
+      <b>数字人形象 · 三版对比</b>
+    </div>
+    <span>v0.2 · 2026-10-26</span>
+  </div>
+</div>
+
+<main>
+
+<section class="dsec">
+  <div class="container">
+    <div class="dsec__head">
+      <span class="dnum">01 / OPTIONS</span>
+      <h2>三种形象，同一套入口</h2>
+      <p>每张都按接近真实的尺寸给你看：72px 接近面板里的数字人区，38px 是聊天面板头像，32px 是右下角悬浮按钮。
+        缩到 32px 还能认出来，才算能用。</p>
+    </div>
+
+    <div class="opts">
+      <!-- A -->
+      <div class="opt">
+        <div class="opt__img"><img src="assets/img/avatar/avatar-a.jpg" alt=""></div>
+        <div class="opt__body">
+          <div class="opt__name">A · 写实科学家</div>
+          <div class="opt__desc">真人质感，专业、克制。最像“大厂官网的专家页”，不像 AI。</div>
+          <ul class="opt__pros">
+            <li>可信度最高，B2B 客户接受度最好</li>
+            <li>小尺寸下最清晰，36px 仍能看清脸</li>
+            <li class="con">看不出“虚拟”属性，容易被当成真人照片</li>
+            <li class="con">需要真人授权或长期维护形象一致性</li>
+          </ul>
+          <div class="sizes">
+            <div class="sizes__item"><div class="sz-96"><img src="assets/img/avatar/avatar-a.jpg" alt=""></div><span class="sizes__cap">72</span></div>
+            <div class="sizes__item"><div class="sz-40"><img src="assets/img/avatar/avatar-a.jpg" alt=""></div><span class="sizes__cap">38</span></div>
+            <div class="sizes__item"><div class="sz-36"><img src="assets/img/avatar/avatar-a.jpg" alt=""></div><span class="sizes__cap">32</span></div>
+            <div class="sizes__item"><div class="sz-24"><img src="assets/img/avatar/avatar-a.jpg" alt=""></div><span class="sizes__cap">24</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- B1 -->
+      <div class="opt opt--pick">
+        <div class="opt__img">
+          <span class="opt__badge">Recommended</span>
+          <img src="assets/img/avatar/avatar-b1.jpg" alt="">
+        </div>
+        <div class="opt__body">
+          <div class="opt__name">B1 · 柔光生物影像</div>
+          <div class="opt__desc">半透明光体，体内流动着 DNA 双螺旋与分子链。既有“人”，也一眼看出是生物技术。</div>
+          <ul class="opt__pros">
+            <li>柔和、克制，不像科幻反派</li>
+            <li>生物技术符号内嵌在形象里，不是贴上去的</li>
+            <li>明显是“虚拟”的，不会和真人混淆</li>
+            <li class="con">细节多，24px 下会糊成一团光</li>
+          </ul>
+          <div class="sizes">
+            <div class="sizes__item"><div class="sz-96"><img src="assets/img/avatar/avatar-b1.jpg" alt=""></div><span class="sizes__cap">72</span></div>
+            <div class="sizes__item"><div class="sz-40"><img src="assets/img/avatar/avatar-b1.jpg" alt=""></div><span class="sizes__cap">38</span></div>
+            <div class="sizes__item"><div class="sz-36"><img src="assets/img/avatar/avatar-b1.jpg" alt=""></div><span class="sizes__cap">32</span></div>
+            <div class="sizes__item"><div class="sz-24"><img src="assets/img/avatar/avatar-b1.jpg" alt=""></div><span class="sizes__cap">24</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- B2 -->
+      <div class="opt">
+        <div class="opt__img"><img src="assets/img/avatar/avatar-b2.jpg" alt=""></div>
+        <div class="opt__body">
+          <div class="opt__name">B2 · 极简光带</div>
+          <div class="opt__desc">更抽象：只有流动的光带缠绕出一个人的轮廓，中间穿过一条螺旋曲线。</div>
+          <ul class="opt__pros">
+            <li>最柔和、最有高级感，留白多</li>
+            <li>不抢内容，适合放在深色区块里</li>
+            <li class="con">脸部被光带遮住，亲和力弱</li>
+            <li class="con">小尺寸几乎看不出是人</li>
+          </ul>
+          <div class="sizes">
+            <div class="sizes__item"><div class="sz-96"><img src="assets/img/avatar/avatar-b2.jpg" alt=""></div><span class="sizes__cap">72</span></div>
+            <div class="sizes__item"><div class="sz-40"><img src="assets/img/avatar/avatar-b2.jpg" alt=""></div><span class="sizes__cap">38</span></div>
+            <div class="sizes__item"><div class="sz-36"><img src="assets/img/avatar/avatar-b2.jpg" alt=""></div><span class="sizes__cap">32</span></div>
+            <div class="sizes__item"><div class="sz-24"><img src="assets/img/avatar/avatar-b2.jpg" alt=""></div><span class="sizes__cap">24</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="note" style="margin-top:24px">
+      <span>i</span>
+      <div><b>我的判断：B1 做主角，A 做备用。</b> B1 在 72px 和 38px 下都能看出是“发光的人形 + 螺旋结构”，生物技术语义最清楚；
+        24px 会糊，所以悬浮按钮只在 32px 以上使用，再小就退回品牌标记。
+        A 可以留作“真人科学家背书”位，和数字人并存，不冲突。</div>
+    </div>
+  </div>
+</section>
+
+<section class="dsec">
+  <div class="container">
+    <div class="dsec__head">
+      <span class="dnum">02 / IN UI</span>
+      <h2>放进真实界面看</h2>
+      <p>左边是 B1 展开后的数字人区，右边是三种形象做悬浮按钮时的对比。</p>
+    </div>
+
+    <div class="demo-row">
+      <div class="panel-demo">
+        <div class="pd-head">
+          <span class="pd-av"><img src="assets/img/avatar/avatar-b1.jpg" alt=""></span>
+          <div>
+            <div class="pd-name">T&amp;L Application AI</div>
+            <div class="pd-status"><i></i>Online · 42 tools indexed</div>
+          </div>
+        </div>
+        <div class="pd-presence">
+          <img src="assets/img/avatar/avatar-b1.jpg" alt="">
+          <div class="pd-presence__cap">
+            <span class="wave"><i></i><i></i><i></i><i></i><i></i></span>
+            <span>“Ask me which beads suit CD3 isolation.”</span>
+          </div>
+        </div>
+        <div class="pd-body">
+          <div class="pd-bubble">Hi — I'm the T&amp;L application AI. Ask me about a tool, a DMF reference, or a protocol.</div>
+        </div>
+        <div class="pd-input"><div>Ask about a tool, protocol or document…</div></div>
+      </div>
+
+      <div>
+        <div style="font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted-2);font-weight:650;margin-bottom:14px">悬浮按钮 · 36px</div>
+        <div class="launchrow">
+          <div class="launch-demo">
+            <span class="launch-demo__av"><img src="assets/img/avatar/avatar-a.jpg" alt=""></span>
+            <span class="launch-demo__dot"></span><span>Ask T&amp;L AI</span>
+          </div>
+          <div class="launch-demo">
+            <span class="launch-demo__av"><img src="assets/img/avatar/avatar-b1.jpg" alt=""></span>
+            <span class="launch-demo__dot"></span><span>Ask T&amp;L AI</span>
+          </div>
+          <div class="launch-demo">
+            <span class="launch-demo__av"><img src="assets/img/avatar/avatar-b2.jpg" alt=""></span>
+            <span class="launch-demo__dot"></span><span>Ask T&amp;L AI</span>
+          </div>
+        </div>
+        <p style="margin-top:18px;font-size:.84rem;color:var(--muted);line-height:1.65;max-width:44ch">
+          32px 是判断生死线：A 清楚，B1 能看出是发光人形，B2 基本只剩一团灰。
+          所以如果选 B2，悬浮按钮必须改用品牌标记，数字人只在面板里出现。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dsec">
+  <div class="container">
+    <div class="dsec__head">
+      <span class="dnum">03 / BEFORE</span>
+      <h2>上一版为什么不行</h2>
+    </div>
+    <div class="old">
+      <img src="assets/img/avatar/avatar-b0.jpg" alt="">
+      <div>
+        <h4>线框骷髅 · 已弃用</h4>
+        <p>问题在三个地方：一是细节密度太高，明暗对比强，缩小后像噪点；二是面部结构过于写实，
+          容易读成骷髅而不是人；三是只有线条，没有任何生物技术语义——DNA、细胞、分子一个都没有。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+</body>
+</html>

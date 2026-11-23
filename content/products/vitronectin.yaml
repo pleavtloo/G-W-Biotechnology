@@ -1,0 +1,41 @@
+order: 26
+sku_code: TL-PR-126
+slug: vitronectin
+name: Recombinant Human Vitronectin
+cat: proteins
+apps:
+- ipsc
+price: 105
+variants:
+  - sku: GMP-TL651-0100
+    spec: 100 μg
+    price: 105
+  - sku: GMP-TL651L-1000
+    spec: 1000 μg
+    price: 270
+sizes:
+  - 100 μg
+  - 1000 μg
+blurb: Defined, xeno-free coating for pluripotent culture.
+desc: A truncated recombinant vitronectin that binds integrin αVβ5 and supports feeder-free pluripotent attachment
+  in defined media, replacing Matrigel in GMP-relevant workflows.
+highlights:
+- Xeno-free Matrigel alternative
+- Defined coating density
+- Pluripotent attachment
+specs:
+- k: Expression system
+  v: HEK293
+- k: Purity
+  v: ≥ 90% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/vitronectin-tile.webp
+image: assets/img/products/vitronectin.webp
+shop_product_id: 549

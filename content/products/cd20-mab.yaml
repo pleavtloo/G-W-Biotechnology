@@ -1,0 +1,36 @@
+order: 12
+sku_code: TL-AB-112
+slug: cd20-mab
+name: Anti-Human CD20 Monoclonal Antibody
+cat: antibodies
+apps: []
+price: 250
+variants:
+  - sku: GMP-TL502-0500
+    spec: 500 μg
+    price: 250
+sizes:
+  - 500 μg
+blurb: B-cell lineage marker expressed on >95% of normal and malignant B cells.
+desc: Targets CD20, the B-lymphocyte surface antigen used throughout B-cell depletion studies and as a comparator
+  in CAR-T development.
+highlights:
+- B-cell depletion studies
+- Flow-validated binding
+- Bulk quantities available
+specs:
+- k: Target
+  v: Human CD20
+- k: Clonality
+  v: Monoclonal
+- k: Host
+  v: Mouse
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Storage
+  v: ≤ -20 °C
+image_tile: assets/img/products/cd20-mab-tile.webp
+image: assets/img/products/cd20-mab.webp
+shop_product_id: 560

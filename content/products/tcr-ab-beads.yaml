@@ -1,0 +1,37 @@
+order: 7
+sku_code: TL-BD-107
+slug: tcr-ab-beads
+name: MaxSortin® TCR αβ Beads
+cat: beads
+apps:
+- tcell
+price: 620
+variants:
+  - sku: TL-810-1000
+    spec: 1 mL
+    price: 620
+sizes:
+  - 1 mL
+blurb: Deplete or isolate human TCR αβ⁺ cells from mixed populations.
+desc: Covalently coupled anti-human TCR αβ monoclonal antibody on 50 nm nanobeads, used to deplete αβ T cells ahead
+  of γδ T-cell or allogeneic product manufacturing.
+highlights:
+- Depletion or positive selection
+- Suitable for γδ T-cell enrichment
+- 50 nm nanobead format
+specs:
+- k: Target
+  v: Human TCR αβ⁺ cells
+- k: Bead size
+  v: 50 nm
+- k: Application
+  v: Depletion / isolation
+- k: Endotoxin
+  v: ≤ 0.5 EU/mL
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/tcr-ab-beads-tile.webp
+image: assets/img/products/tcr-ab-beads.webp
+shop_product_id: 589

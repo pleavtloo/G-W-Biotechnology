@@ -1,0 +1,42 @@
+order: 20
+sku_code: TL-PR-120
+slug: il18
+name: Recombinant Human IL-18
+cat: proteins
+apps:
+- nk
+price: 345
+variants:
+  - sku: GMP-TL902-0050
+    spec: 50 μg
+    price: 345
+  - sku: GMP-TL902-1000
+    spec: 1 mg (custom order)
+    price: null
+    custom: true
+sizes:
+  - 50 μg
+  - 1 mg
+blurb: Pro-inflammatory cytokine for NK activation and Th1 responses.
+desc: IL-18 acts with IL-12 to drive IFN-γ production, NK cytotoxicity and Th1 polarisation, and is a common third
+  signal in NK priming cocktails.
+highlights:
+- NK priming cocktails
+- Synergy with IL-12
+- Low endotoxin
+specs:
+- k: Expression system
+  v: E. coli
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/il18-tile.webp
+image: assets/img/products/il18.webp
+shop_product_id: 541

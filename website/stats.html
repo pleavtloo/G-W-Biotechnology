@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Traffic — T&amp;L Biotechnology</title>
+<style>
+  :root { --ink:#1a2233; --muted:#6b7688; --line:#e3e8ef; --accent:#1b6fb5; --bg:#f6f8fb; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:40px 24px; font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  .wrap { max-width:880px; margin:0 auto; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--muted); font-size:13px; margin-bottom:28px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-bottom:28px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:16px 18px; }
+  .card b { display:block; font-size:26px; line-height:1.2; }
+  .card span { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+  .panel { background:#fff; border:1px solid var(--line); border-radius:10px; padding:20px; margin-bottom:20px; }
+  .panel h2 { font-size:14px; margin:0 0 16px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+  .bars { display:flex; align-items:flex-end; gap:6px; height:120px; }
+  .bar { flex:1; background:var(--accent); border-radius:3px 3px 0 0; min-height:2px; opacity:.85; }
+  .bar:hover { opacity:1; }
+  .axis { display:flex; gap:6px; margin-top:6px; font-size:10px; color:var(--muted); }
+  .axis span { flex:1; text-align:center; overflow:hidden; }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .empty { color:var(--muted); font-size:13px; }
+  .err { color:#b42318; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Traffic</h1>
+  <div class="sub">Cookie-free pageviews for this site. Updated on every request.</div>
+
+  <div class="cards">
+    <div class="card"><b id="pv">—</b><span>Pageviews</span></div>
+    <div class="card"><b id="uv">—</b><span>Visitors</span></div>
+    <div class="card"><b id="days">—</b><span>Window (days)</span></div>
+  </div>
+
+  <div class="panel">
+    <h2>Daily pageviews</h2>
+    <div class="bars" id="bars"></div>
+    <div class="axis" id="axis"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Top pages</h2>
+    <table>
+      <thead><tr><th>Page</th><th class="num">Views</th><th class="num">Visitors</th></tr></thead>
+      <tbody id="pages"></tbody>
+    </table>
+    <div class="empty" id="empty" style="display:none">No data yet — browse the site and reload.</div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var pick = new URLSearchParams(location.search).get("days") || "14";
+  fetch("/api/stats?days=" + encodeURIComponent(pick))
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (!data.ok) throw new Error("bad response");
+      document.getElementById("pv").textContent = data.total.pv;
+      document.getElementById("uv").textContent = data.total.uv;
+      document.getElementById("days").textContent = data.days;
+
+      var max = Math.max.apply(null, data.series.map(function (d) { return d.pv; }).concat([1]));
+      var bars = document.getElementById("bars");
+      var axis = document.getElementById("axis");
+      data.series.forEach(function (d) {
+        var bar = document.createElement("div");
+        bar.className = "bar";
+        bar.style.height = Math.round((d.pv / max) * 100) + "%";
+        bar.title = d.d + ": " + d.pv;
+        bars.appendChild(bar);
+        var tick = document.createElement("span");
+        tick.textContent = d.d.slice(5);
+        axis.appendChild(tick);
+      });
+
+      var tbody = document.getElementById("pages");
+      if (!data.pages.length) {
+        document.getElementById("empty").style.display = "block";
+        return;
+      }
+      data.pages.forEach(function (row) {
+        var tr = document.createElement("tr");
+        tr.innerHTML = "<td></td><td class='num'>" + row.pv + "</td><td class='num'>" + row.uv + "</td>";
+        tr.firstChild.textContent = row.p;
+        tbody.appendChild(tr);
+      });
+    })
+    .catch(function () {
+      document.getElementById("pv").textContent = "—";
+      document.querySelector(".sub").className = "sub err";
+      document.querySelector(".sub").textContent = "Could not load statistics.";
+    });
+})();
+</script>
+</body>
+</html>

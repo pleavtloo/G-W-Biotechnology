@@ -1,0 +1,37 @@
+order: 10
+sku_code: TL-AB-110
+slug: cd28-mab
+name: Anti-Human CD28 Monoclonal Antibody
+cat: antibodies
+apps:
+- tcell
+price: 140
+variants:
+  - sku: GMP-TL102-0500
+    spec: 500 μg
+    price: 140
+sizes:
+  - 500 μg
+blurb: Co-stimulatory signal 2 for T-cell activation and expansion.
+desc: Binds CD28 on the majority of T cells and supplies the co-stimulatory signal required for full activation,
+  IL-2 production and sustained proliferation. Commonly paired with anti-CD3 in bead or plate-bound formats.
+highlights:
+- FDA DMF 038820
+- Functional grade, low endotoxin
+- Paired with anti-CD3 for activation
+specs:
+- k: Target
+  v: Human CD28
+- k: Clonality
+  v: Monoclonal
+- k: Host
+  v: Mouse
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Storage
+  v: ≤ -20 °C
+image_tile: assets/img/products/cd28-mab-tile.webp
+image: assets/img/products/cd28-mab.webp
+shop_product_id: 559

@@ -1,0 +1,37 @@
+order: 14
+sku_code: TL-AB-114
+slug: cd137-mab
+name: Anti-Human CD137 (4-1BB) Monoclonal Antibody
+cat: antibodies
+apps:
+- tcell
+price: 350
+variants:
+  - sku: GMP-TL778-0100
+    spec: 100 μg
+    price: 350
+sizes:
+  - 100 μg
+blurb: Inducible TNF-receptor-family co-stimulation for persistence studies.
+desc: CD137 / 4-1BB is an inducible co-stimulatory receptor of the TNF receptor family. This antibody is used to
+  probe costimulation strength, memory formation and T-cell persistence.
+highlights:
+- TNF receptor family target
+- Persistence and memory studies
+- Flow and functional grade
+specs:
+- k: Target
+  v: Human CD137 / 4-1BB
+- k: Clonality
+  v: Monoclonal
+- k: Host
+  v: Mouse
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Storage
+  v: ≤ -20 °C
+image_tile: assets/img/products/cd137-mab-tile.webp
+image: assets/img/products/cd137-mab.webp
+shop_product_id: 530

@@ -1,0 +1,23 @@
+order: 1
+id: tcell
+name: T Cell Therapy
+title: Engineered T cells, from apheresis to fill-finish
+desc: A matched isolation–activation–expansion set built around CD3/CD28 signalling, so your process development
+  team can lock a single vendor for the critical reagents.
+pill: CAR-T · TCR-T · TIL
+steps:
+- label: Isolate
+  text: CD3⁺, CD4⁺, CD8⁺ or TCRαβ⁺ selection
+- label: Activate
+  text: CD3/CD28 beads or soluble ActCel reagent
+- label: Expand
+  text: IL-2 / IL-7 / IL-15 and IL-21 cocktails
+- label: Engineer
+  text: Viral or non-viral gene delivery support
+products:
+- actsep-cd3-cd28
+- actcel-t-activation
+- maxsortin-cd3
+- il2
+- il7
+- il15

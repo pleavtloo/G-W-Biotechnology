@@ -1,0 +1,15 @@
+[Unit]
+Description=T&L mail sidecar (SMTP relay for the site API)
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/tl-mail.env
+ExecStart=/usr/bin/python3 /opt/tl-api/node-bridge/smtp_send.py
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

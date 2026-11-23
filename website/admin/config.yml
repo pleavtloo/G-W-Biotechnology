@@ -1,0 +1,269 @@
+# Decap CMS configuration — T&L Biotechnology
+#
+# Edits land as commits on the branch below; the build (GitHub Actions or
+# Cloudflare Pages) regenerates the site and runs tools/check.py. If the gate
+# fails, the live site keeps the previous version.
+#
+# Read CONTENT-SCHEMA.md before adding fields: the loader in tools/content.py
+# expects the exact key names used here.
+
+backend:
+  name: github
+  repo: pleavtloo/T-L-Biotechnology
+  branch: main
+  # GitHub OAuth handshake, served by the site's own API process (server/oauth-worker
+  # mounted at /oauth on the same origin). Same-origin means the editor works without
+  # any access to *.workers.dev. Change this when the site moves to its final domain.
+  base_url: https://47.93.183.103:8443/oauth
+  auth_endpoint: auth
+
+# Uploads land next to the product tiles so the paths in products/*.yaml stay valid.
+media_folder: "website/assets/img/products"
+public_folder: "assets/img/products"
+
+site_url: https://www.tlbiotechnology.com
+display_url: https://www.tlbiotechnology.com
+logo_url: ../assets/img/brand/logo-color.png
+locale: en
+
+collections:
+  - name: products
+    label: Products
+    label_singular: product
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    # Plain YAML files, not markdown with front matter (this is the default).
+    extension: "yaml"
+    format: "yaml"
+    identifier_field: name
+    summary: "{{name}}"
+    sortable_fields: [order, name, cat]
+    view_filters:
+      - { label: Beads, field: cat, pattern: beads }
+      - { label: Antibodies, field: cat, pattern: antibodies }
+      - { label: Proteins, field: cat, pattern: proteins }
+      - { label: Media, field: cat, pattern: media }
+      - { label: In store, field: shop_product_id, pattern: "^[0-9]+$" }
+      - { label: Quote only, field: shop_product_id, pattern: "^(null)?$" }
+    fields:
+      - label: Order
+        name: order
+        widget: number
+        value_type: int
+        hint: "Catalogue position. A new product goes at the end: highest number + 1."
+      - label: SKU code
+        name: sku_code
+        widget: string
+        hint: "Frozen — printed on the datasheet and COA PDFs. Do not change."
+      - label: Slug
+        name: slug
+        widget: string
+        pattern:
+          - "^[a-z0-9-]+$"
+          - "Lowercase letters, digits and hyphens only. Do not edit this field."
+        hint: "Do not change. The product URL, image file and PDF file all use it. A stray character here breaks the build."
+      - label: Name
+        name: name
+        widget: string
+        hint: "Registered marks such as ® are kept as typed."
+      - label: Category
+        name: cat
+        widget: select
+        options: [beads, antibodies, proteins, media]
+      - label: Applications
+        name: apps
+        widget: list
+        required: true
+        hint: "Which application pages show this product."
+        field:
+          label: Application
+          name: app
+          widget: select
+          options: [tcell, nk, msc, ipsc, hsc, dc]
+      - label: Price (USD)
+        name: price
+        widget: number
+        required: false
+        value_type: int
+        min: 0
+        hint: "Leave empty for “Price on request”."
+      - label: Pack sizes
+        name: sizes
+        widget: list
+        field:
+          label: Size
+          name: size
+          widget: string
+        hint: "The first size is used as the “from” pack size."
+      - label: Blurb
+        name: blurb
+        widget: text
+        hint: "One sentence. Cards cut it at 58 characters."
+      - label: Description
+        name: desc
+        widget: text
+      - label: Highlights
+        name: highlights
+        widget: list
+        field:
+          label: Highlight
+          name: item
+          widget: string
+        hint: "Three short claims. Do not add specifications that QA has not signed off."
+      - label: Specifications
+        name: specs
+        widget: list
+        summary: "{{fields.k}}: {{fields.v}}"
+        fields:
+          - { label: Field, name: k, widget: string }
+          - { label: Value, name: v, widget: string }
+        hint: "Order is the order shown on the page and in the datasheet PDF."
+      - label: Tile image
+        name: image_tile
+        widget: string
+        hint: "Card and product page image. Use the media button to upload (WebP, 1600x900, <200 KB); a bare file name is resolved under assets/img/products/. Leave empty to fall back to <slug>-tile.webp."
+      - label: JSON-LD image
+        name: image
+        widget: string
+        required: false
+        hint: "Social sharing image only, not shown on the page. Usually <slug>.webp."
+      - label: Shop product ID
+        name: shop_product_id
+        widget: number
+        required: false
+        value_type: int
+        min: 1
+        hint: "OpenCart product_id. Leave empty if the store does not carry this item — the page then shows Request a quote instead of Buy."
+
+  - name: applications
+    label: Applications
+    label_singular: application
+    folder: "content/applications"
+    create: true
+    slug: "{{id}}"
+    identifier_field: name
+    summary: "{{name}}"
+    extension: "yaml"
+    format: "yaml"
+    sortable_fields: [order, name]
+    fields:
+      - label: Order
+        name: order
+        widget: number
+        value_type: int
+        required: true
+        hint: "Page order. Must be unique."
+      - label: Id
+        name: id
+        widget: string
+        hint: "Do not change. Links and product filters use it."
+      - { label: Name, name: name, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: desc, widget: text }
+      - { label: Pill, name: pill, widget: string, hint: "Short tags separated by ·" }
+      - label: Steps
+        name: steps
+        widget: list
+        hint: "Exactly four steps, in process order. The product count is calculated — do not type it."
+        fields:
+          - { label: Label, name: label, widget: string }
+          - { label: Text, name: text, widget: string }
+      - label: Products
+        name: products
+        widget: list
+        field:
+          label: Product slug
+          name: slug
+          widget: string
+
+  - name: faq
+    label: FAQ
+    label_singular: question
+    folder: "content/faq"
+    create: true
+    slug: "faq-{{order}}"
+    identifier_field: question
+    summary: "{{question}}"
+    extension: "yaml"
+    format: "yaml"
+    sortable_fields: [order]
+    fields:
+      - label: Order
+        name: order
+        widget: number
+        value_type: int
+        required: true
+        hint: "Display order on the Resources page."
+      - { label: Question, name: question, widget: string }
+      - { label: Answer, name: answer, widget: text }
+
+  - name: articles
+    label: Resource cards
+    label_singular: article
+    folder: "content/articles"
+    create: true
+    slug: "article-{{order}}"
+    identifier_field: title
+    summary: "{{title}}"
+    extension: "yaml"
+    format: "yaml"
+    sortable_fields: [order, date]
+    fields:
+      - label: Order
+        name: order
+        widget: number
+        value_type: int
+        required: true
+        hint: "Display order on the Resources page."
+      - label: Image
+        name: img
+        widget: string
+        hint: "File name only, without path or extension — assets/img/brand/<img>.webp"
+      - { label: Tag, name: tag, widget: string }
+      - label: Date
+        name: date
+        widget: string
+        hint: "Shown as typed, e.g. 12 Sep 2026"
+      - { label: Title, name: title, widget: string }
+      - { label: Excerpt, name: excerpt, widget: text }
+
+  - name: settings
+    label: Site settings
+    files:
+      - name: site
+        label: Company & contact
+        file: content/site.yaml
+        description: "Changing the email here also changes the fallback mailto on every form."
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Legal name, name: legal, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Phone (display), name: phone, widget: string }
+          - label: Phone (dial)
+            name: phone_raw
+            widget: string
+            hint: "Digits only, used in tel: links."
+          - { label: Address, name: us_address, widget: string }
+          - { label: Business hours, name: hours, widget: string }
+          - { label: Founded, name: founded, widget: number, value_type: int }
+          - label: DMF numbers
+            name: dmf
+            widget: list
+            field:
+              label: DMF
+              name: number
+              widget: string
+          - label: Site URL
+            name: site_url
+            widget: string
+            hint: "Deployment setting — do not change without a developer."
+          - label: Shop URL
+            name: shop_url
+            widget: string
+            hint: "Live OpenCart storefront used by the Buy buttons."
+          - { label: OG image, name: og_image, widget: string }
+          - label: Turnstile site key
+            name: turnstile_sitekey
+            widget: string
+            hint: "Deployment setting. Must match the worker secret TURNSTILE_SECRET."

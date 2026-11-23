@@ -1,0 +1,52 @@
+order: 47
+sku_code: TL-MB-045
+slug: pvdf-membrane-045
+name: PVDF Transfer Membrane, 0.45 um
+cat: consumables
+apps:
+- western_blot
+price: 240
+sizes:
+- Pre-cut sheets
+- Roll
+blurb: Pre-cut sheets or roll, for routine western blots with faster wetting.
+desc: 'The 0.45 um grade is the workhorse for routine western blotting. Larger pores wet out faster and
+  drain more freely, which shortens transfer time for standard proteins in the 20-100 kD range.
+
+
+  Like the 0.22 um grade it needs methanol activation, works with chemiluminescence and conventional stains,
+  and survives stripping for reprobing.
+
+
+  Supplied as pre-cut sheets (8.5 x 7.5 cm, 150 per box) or a 27 cm x 4 m roll.'
+highlights:
+- Faster wetting and transfer for routine blots
+- Lower cost per blot than the 0.22 um grade
+- Same stripping and staining compatibility
+variants:
+- sku: CYWBPVDF045P
+  spec: Pre-cut, 8.5 x 7.5 cm, 150 sheets/box
+  price: 240
+- sku: CYWBPVDF045L
+  spec: Roll, 27 cm x 4 m, 1 roll/box
+  price: 220
+specs:
+- k: Membrane material
+  v: PVDF
+- k: Pore size
+  v: 0.45 um
+- k: Thickness
+  v: 150 +/- 20 um
+- k: Methanol activation
+  v: Required
+- k: Detection
+  v: Chemiluminescence, Ponceau S, Coomassie
+- k: Reusability
+  v: Yes, supports stripping
+- k: Chemical stability
+  v: Good
+- k: Formats
+  v: Pre-cut sheets or roll
+image_tile: assets/img/products/pvdf-membrane-045-tile.webp
+image: assets/img/products/pvdf-membrane-045.webp
+shop_product_id: 0

@@ -1,0 +1,40 @@
+order: 5
+sku_code: TL-BD-105
+slug: maxsortin-cd14
+name: MaxSortin® CD14 Beads
+cat: beads
+apps:
+- dc
+price: 440
+variants:
+  - sku: TL-625-2000
+    spec: 2 mL
+    price: 440
+  - sku: GMP-TL625-2000
+    spec: 2 mL (GMP)
+    price: 580
+sizes:
+  - 2 mL
+blurb: 50 nm nanobeads for human CD14⁺ monocyte isolation.
+desc: Depletes or positively selects CD14⁺ monocytes ahead of dendritic-cell or macrophage differentiation, with
+  bead carry-over low enough to leave differentiation kinetics unaffected.
+highlights:
+- 50 nm colloidal nanobeads
+- Positive selection or depletion
+- Validated for moDC workflows
+specs:
+- k: Target
+  v: Human CD14⁺ monocytes
+- k: Bead size
+  v: 50 nm
+- k: Purity
+  v: '> 90% CD14⁺'
+- k: Endotoxin
+  v: ≤ 0.5 EU/mL
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/maxsortin-cd14-tile.webp
+image: assets/img/products/maxsortin-cd14.webp
+shop_product_id: 609

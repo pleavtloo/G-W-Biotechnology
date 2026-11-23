@@ -1,0 +1,40 @@
+order: 8
+sku_code: TL-BD-108
+slug: actcel-t-activation
+name: ActCel T Cell Activation Reagent
+cat: beads
+apps:
+- tcell
+price: 487.20
+variants:
+  - sku: TL-6001-1000
+    spec: 1 mL
+    price: 487.20
+  - sku: GMP-TL6001-1000
+    spec: 1 mL (GMP)
+    price: 2072
+sizes:
+  - 1 mL
+blurb: Soluble, bead-free activation for clinical T-cell expansion.
+desc: A bead-free activation reagent for in-vitro T-cell activation and expansion, designed for manufacturing workflows
+  where a magnetic separation step is undesirable or where activation must be quenched before harvest.
+highlights:
+- No magnetic removal step
+- Scalable to closed bioreactors
+- Designed for T-cell therapy manufacturing
+specs:
+- k: Target
+  v: Human T cells
+- k: Format
+  v: Soluble reagent
+- k: Application
+  v: Activation & expansion
+- k: Endotoxin
+  v: ≤ 0.5 EU/mL
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 18 months
+image_tile: assets/img/products/actcel-t-activation-tile.webp
+image: assets/img/products/actcel-t-activation.webp
+shop_product_id: 593

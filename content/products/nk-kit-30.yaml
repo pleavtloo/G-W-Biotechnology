@@ -1,0 +1,37 @@
+order: 34
+sku_code: TL-MD-134
+slug: nk-kit-30
+name: AMMS® NK Cell Culture Kit 3.0 (Plus)
+cat: media
+apps:
+- nk
+price: 970
+variants:
+  - sku: AS-25
+    spec: AMMS® NK Cell Culture kit 3.0
+    price: 970
+sizes:
+- 1 kit (10⁹ PBMC)
+blurb: Feeder-free expansion from fresh or cryopreserved PBMC and CBMC.
+desc: Kit 3.0 (Plus) takes fresh or cryopreserved PBMC and cord-blood mononuclear cells to high-purity NK populations
+  without feeder cells, with a defined medium and supplement set supplied together.
+highlights:
+- Feeder-free, high purity NK
+- Works from cryopreserved starting material
+- Animal-origin-free components
+specs:
+- k: Starting material
+  v: PBMC / CBMC
+- k: Format
+  v: Kit (medium + supplement)
+- k: Serum
+  v: Serum-free
+- k: Origin
+  v: Animal-origin-free
+- k: Storage
+  v: 2–8 °C (medium), ≤ -20 °C (supplement)
+- k: Shelf life
+  v: 12 months
+image_tile: assets/img/products/nk-kit-30-tile.webp
+image: assets/img/products/nk-kit-30.webp
+shop_product_id: 600

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Content — T&amp;L Biotechnology</title>
+  <link rel="icon" href="../assets/img/brand/favicon.png">
+  <style>
+    body { margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: #2a3142; background: #f6f8fb; }
+    #boot { max-width: 460px; margin: 18vh auto; padding: 0 24px; text-align: center; }
+    #boot b { display: block; font-size: 17px; margin-bottom: 10px; }
+    #boot p { color: #6b7488; margin: 0; }
+    #boot code { background: #eef1f6; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+
+    /* deploy status pill: sits over the CMS, never in its layout */
+    .deploy { position: fixed; left: 14px; bottom: 14px; z-index: 99999; display: flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 999px; background: #fff; border: 1px solid #e3e8ef; box-shadow: 0 6px 20px rgba(16,24,40,.14); font-size: 12.5px; color: #2a3142; max-width: min(420px, calc(100vw - 28px)); }
+    .deploy i { width: 8px; height: 8px; border-radius: 50%; background: #12b76a; flex: none; }
+    .deploy.is-running i { background: #2e90fa; animation: dpulse 1s ease-in-out infinite; }
+    .deploy.is-failed i { background: #f04438; }
+    @keyframes dpulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+    .deploy span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .deploy button { border: 0; background: none; color: #1b6fb5; font: inherit; font-size: 12px; cursor: pointer; padding: 0; text-decoration: underline; flex: none; }
+    .deploy-log { position: fixed; left: 14px; bottom: 58px; z-index: 99999; max-width: min(560px, calc(100vw - 28px)); max-height: 260px; overflow: auto; margin: 0; padding: 12px 14px; background: #1a2233; color: #e3e8ef; border-radius: 10px; font: 11.5px/1.5 ui-monospace, Menlo, Consolas, monospace; white-space: pre-wrap; box-shadow: 0 10px 30px rgba(16,24,40,.3); }
+  </style>
+</head>
+<body>
+  <div id="boot">
+    <b>Loading the content editor…</b>
+    <p>If this stays on screen, the editor script could not load — check the network, then reload.
+      Nothing here affects the public site.</p>
+  </div>
+
+  <div id="deploy" class="deploy">
+    <i></i>
+    <span id="deploy-text">发布状态加载中…</span>
+    <button type="button" id="deploy-toggle" hidden>看原因</button>
+  </div>
+  <pre id="deploy-log" class="deploy-log" hidden></pre>
+
+  <script>
+    // Hide the boot notice once Decap has painted; keep it if the script never loads.
+    (function () {
+      var boot = document.getElementById("boot");
+      var tries = 0;
+      var timer = setInterval(function () {
+        var root = document.getElementById("nc-root");
+        if (root && root.children.length) {
+          boot.style.display = "none";
+          clearInterval(timer);
+        } else if (++tries > 50) {
+          clearInterval(timer);
+        }
+      }, 300);
+    })();
+  </script>
+
+  <script>
+    // Deploy status: polls the site API so editors know whether a save went live.
+    (function () {
+      var bar = document.getElementById("deploy");
+      var text = document.getElementById("deploy-text");
+      var toggle = document.getElementById("deploy-toggle");
+      var logBox = document.getElementById("deploy-log");
+      var lastKey = "";
+
+      function clock(iso) {
+        var m = /T(\d{2}:\d{2})/.exec(iso || "");
+        return m ? m[1] : "";
+      }
+
+      function paint(s) {
+        var key = [s.state, s.commit, s.error || "", s.at || ""].join("|");
+        if (key === lastKey) return;
+        lastKey = key;
+
+        bar.className = "deploy";
+        logBox.hidden = true;
+        toggle.hidden = true;
+
+        if (s.state === "ok") {
+          text.textContent = "已上线 · " + clock(s.at) + (s.commit ? " · " + s.commit : "");
+        } else if (s.state === "running") {
+          bar.classList.add("is-running");
+          text.textContent = "正在发布…";
+        } else if (s.state === "failed") {
+          bar.classList.add("is-failed");
+          text.textContent = "发布失败" + (s.error ? ": " + s.error : "");
+          if (s.log) {
+            logBox.textContent = s.log;
+            toggle.hidden = false;
+          }
+        } else {
+          text.textContent = "尚无发布记录";
+        }
+      }
+
+      function poll() {
+        fetch("/api/deploy-status", { cache: "no-store" })
+          .then(function (r) { return r.json(); })
+          .then(paint)
+          .catch(function () { text.textContent = "状态不可用"; })
+          .then(function () { setTimeout(poll, 5000); });
+      }
+
+      toggle.addEventListener("click", function () {
+        logBox.hidden = !logBox.hidden;
+      });
+
+      poll();
+    })();
+  </script>
+
+  <!-- Decap CMS: config lives in ./config.yml, auth is handled by server/oauth-worker -->
+  <script src="https://unpkg.com/decap-cms@3/dist/decap-cms.js"></script>
+</body>
+</html>

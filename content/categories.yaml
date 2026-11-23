@@ -1,0 +1,37 @@
+categories:
+- id: beads
+  name: Cell Separation & Activation
+  short: Beads
+  blurb: Nanoscale magnetic beads and activation reagents for reproducible T-cell, NK-cell and monocyte isolation.
+  icon: magnet
+  tag: Nanobeads and activation reagents
+  img: actsep-cd3-cd28
+- id: antibodies
+  name: Monoclonal Antibodies
+  short: mAbs
+  blurb: Functional-grade anti-human mAbs for activation, depletion and phenotyping in closed processes.
+  icon: antibody
+  tag: Functional-grade anti-human mAbs
+  img: cd3-mab
+- id: proteins
+  name: Recombinant Proteins
+  short: Proteins
+  blurb: Cytokines, growth factors and matrix proteins expressed in E. coli, HEK293 or CHO systems.
+  icon: protein
+  tag: Cytokines, growth factors, matrix
+  img: il2
+- id: media
+  name: Media & Culture Kits
+  short: Media
+  blurb: Chemically defined, serum-free and animal-origin-free media for expansion and cryopreservation.
+  icon: flask
+  tag: Serum-free, chemically defined
+  img: nk-kit-30
+- id: consumables
+  name: Filtration & Blotting
+  short: Consumables
+  blurb: Centrifugal concentrators with 3-100 kD cut-offs and PVDF transfer membranes for western blotting, in pre-cut
+    sheets or rolls.
+  icon: flask
+  tag: Ultrafiltration devices and transfer membranes
+  img: ultrafiltration-15ml

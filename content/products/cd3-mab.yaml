@@ -1,0 +1,37 @@
+order: 9
+sku_code: TL-AB-109
+slug: cd3-mab
+name: Anti-Human CD3 Monoclonal Antibody
+cat: antibodies
+apps:
+- tcell
+price: 140
+variants:
+  - sku: GMP-TL101-0500
+    spec: 500 μg
+    price: 140
+sizes:
+  - 500 μg
+blurb: Binds the CD3 complex (γ, δ, ε, ζ, η chains) to trigger T-cell signalling.
+desc: A functional-grade anti-human CD3 antibody that engages the CD3 protein complex and delivers signal 1 during
+  T-cell activation, either in solution or immobilised on a plate or bead surface.
+highlights:
+- FDA DMF filed
+- Functional grade, low endotoxin
+- Bulk and GMP-grade supply
+specs:
+- k: Target
+  v: Human CD3
+- k: Clonality
+  v: Monoclonal
+- k: Host
+  v: Mouse
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Storage
+  v: ≤ -20 °C
+image_tile: assets/img/products/cd3-mab-tile.webp
+image: assets/img/products/cd3-mab.webp
+shop_product_id: 561

@@ -1,0 +1,39 @@
+order: 42
+sku_code: TL-MD-142
+slug: ok432
+name: OK432 (Picibanil)
+cat: media
+apps:
+- dc
+price: 207
+variants:
+  - sku: GMP-TL107-0100
+    spec: 100 μg
+    price: 207
+  - sku: GMP-TL107-0500
+    spec: 500 μg
+    price: 837.20
+sizes:
+  - 100 μg
+  - 500 μg
+blurb: Lyophilised, heat-inactivated Streptococcus for immune modulation.
+desc: A lyophilised, inactivated bacterial preparation widely studied as an immune modulator and used as a maturation
+  adjuvant in dendritic-cell protocols.
+highlights:
+- DC maturation adjuvant
+- Lyophilised, inactivated
+- Research use
+specs:
+- k: Format
+  v: Lyophilised powder
+- k: Presentation
+  v: Inactivated bacterial preparation
+- k: Application
+  v: Immune modulation / DC maturation
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/ok432-tile.webp
+image: assets/img/products/ok432.webp
+shop_product_id: 548

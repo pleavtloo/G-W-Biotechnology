@@ -1,0 +1,68 @@
+order: 44
+sku_code: TL-UF-04
+slug: ultrafiltration-4ml
+name: Ultrafiltration Centrifuge Tube, 4 mL
+cat: consumables
+apps:
+- sample_prep
+price: 80
+sizes:
+- 3 kD
+- 10 kD
+- 30 kD
+- 50 kD
+- 100 kD
+blurb: 4 mL sample in a 15 mL outer tube, five cut-offs from 3 to 100 kD.
+desc: 'The 4 mL format concentrates and desalts small sample volumes in a standard 15 mL swinging-bucket
+  or fixed-angle rotor. Load, spin, and recover the concentrate from the inner cup without pipetting against
+  a membrane.
+
+
+  Retention stays above 96% and recovery above 88% across the 3-100 kD range, and the device can be reused
+  after rinsing, holding performance through twenty cycles.
+
+
+  Typical uses are concentrating eluted antibodies, exchanging buffers before labelling, and cleaning
+  up PCR or enzymatic reactions.'
+highlights:
+- Fits standard 15 mL rotors
+- Recovery above 88%, retention above 96%
+- Reusable 20+ times after rinsing
+variants:
+- sku: CYPES00304
+  spec: 3 kD, 12 pcs/box
+  price: 80
+- sku: CYPES01004
+  spec: 10 kD, 12 pcs/box
+  price: 80
+- sku: CYPES03004
+  spec: 30 kD, 12 pcs/box
+  price: 80
+- sku: CYPES05004
+  spec: 50 kD, 12 pcs/box
+  price: 80
+- sku: CYPES10004
+  spec: 100 kD, 12 pcs/box
+  price: 80
+specs:
+- k: Sample volume
+  v: 4 mL
+- k: Outer tube
+  v: 15 mL
+- k: MWCO
+  v: 3 / 10 / 30 / 50 / 100 kD
+- k: Membrane
+  v: Modified PES
+- k: Packaging
+  v: 12 pcs/box
+- k: Recovery
+  v: '>88%'
+- k: Retention
+  v: '>96% after 20 cycles'
+- k: Reusability
+  v: 20+ cycles
+- k: Max RCF
+  v: Contact us
+image_tile: assets/img/products/ultrafiltration-4ml-tile.webp
+image: assets/img/products/ultrafiltration-4ml.webp
+shop_product_id: 0

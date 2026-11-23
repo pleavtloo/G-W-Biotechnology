@@ -1,0 +1,36 @@
+order: 13
+sku_code: TL-AB-113
+slug: cd52-mab
+name: Anti-Human CD52 Monoclonal Antibody
+cat: antibodies
+apps: []
+price: 350
+variants:
+  - sku: GMP-TL112-0100
+    spec: 100 μg
+    price: 350
+sizes:
+  - 100 μg
+blurb: GPI-anchored glycoprotein target used in lymphodepletion research.
+desc: Binds the 12-amino-acid CD52 GPI-anchored antigen present at high density on lymphocytes, supporting lymphodepletion
+  modelling and conditioning studies.
+highlights:
+- Lymphodepletion modelling
+- High target density
+- RUO and GMP-grade
+specs:
+- k: Target
+  v: Human CD52
+- k: Clonality
+  v: Monoclonal
+- k: Host
+  v: Mouse
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Storage
+  v: ≤ -20 °C
+image_tile: assets/img/products/cd52-mab-tile.webp
+image: assets/img/products/cd52-mab.webp
+shop_product_id: 558

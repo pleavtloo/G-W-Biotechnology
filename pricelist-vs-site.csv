@@ -1,0 +1,64 @@
+﻿new_slug,new_name,site_sku,site_price,official_name,group,match,spec,official_sku,official_price
+actsep-cd3-cd28,ActSep® CD3/CD28 Separation & Activation Beads,TL-BD-101,510,ActSep® CD3/CD28 Seperation &Activation Magnetic Beads,Magnetic Beads,1.0,1mL,GMP-TL603-1000,510.0
+actsep-cd3-cd28,ActSep® CD3/CD28 Separation & Activation Beads,TL-BD-101,510,ActSep® CD3/CD28 Seperation &Activation Magnetic Beads,Magnetic Beads,1.0,5mL,GMP-TL603-5000,2310.0
+maxsortin-cd3,MaxSortin® CD3 Beads,TL-BD-102,1070,MaxSortin® CD3 Beads,Magnetic Beads,1.0,2mL,TL-622-2000,440.0
+maxsortin-cd4,MaxSortin® CD4 Beads,TL-BD-103,440,MaxSortin® CD4 Beads,Magnetic Beads,1.0,2mL,TL-623-2000,440.0
+cd8-beads,MaxSortin® CD8 Beads,TL-BD-104,915,MaxSortin® CD8 Beads,Magnetic Beads,1.0,2mL,TL-624-2000,440.0
+maxsortin-cd14,MaxSortin® CD14 Beads,TL-BD-105,580,MaxSortin® CD14 Beads,Magnetic Beads,1.0,2mL,TL-625-2000,440.0
+maxsortin-cd14-kit,MaxSortin® CD14 Isolation Kit,TL-BD-106,,MaxSortin® CD14 Beads,Magnetic Beads,1.0,2mL,TL-625-2000,440.0
+tcr-ab-beads,MaxSortin® TCR αβ Beads,TL-BD-107,620,MaxSortin® TCRαβ  Beads,Magnetic Beads,1.0,1mL,TL-810-1000,620.0
+actcel-t-activation,ActCel T Cell Activation Reagent,TL-BD-108,2072,ActCel T Cell Activation Reagent,Magnetic Beads,1.0,1mL,GMP-TL6001-1000,2072.0
+cd3-mab,Anti-Human CD3 Monoclonal Antibody,TL-AB-109,140,Anti-Human CD3 Monoclonal Antibody,Anti-human Monoclonal Antibody,1.0,500μg,GMP-TL101-0500,140.0
+cd28-mab,Anti-Human CD28 Monoclonal Antibody,TL-AB-110,140,Anti-Human CD28 Monoclonal Antibody,Anti-human Monoclonal Antibody,1.0,500μg,GMP-TL102-0500,140.0
+cd16-mab,Anti-Human CD16 Monoclonal Antibody,TL-AB-111,500,Anti-Human CD16 Monoclonal Antibody,Anti-human Monoclonal Antibody,1.0,500μg,GMP-TL201-0500,500.0
+cd20-mab,Anti-Human CD20 Monoclonal Antibody,TL-AB-112,250,Anti-Human CD20 Monoclonal Antibody,Anti-human Monoclonal Antibody,1.0,500μg,GMP-TL502-0500,250.0
+cd52-mab,Anti-Human CD52 Monoclonal Antibody,TL-AB-113,350,Anti-Human CD52 Monoclonal Antibody,Anti-human Monoclonal Antibody,1.0,100μg,GMP-TL112-0100,350.0
+cd137-mab,Anti-Human CD137 (4-1BB) Monoclonal Antibody,TL-AB-114,350,Anti-Human CD137 Monoclonal Antibody,Anti-human Monoclonal Antibody,0.67,100μg,GMP-TL778-0100,350.0
+il2,Recombinant Human IL-2,TL-PR-115,110,Recombinant Human IL-2 Protein (High Efficiency),Recombinant Human Protein,1.0,100μg,GMP-TL906-0100,110.0
+il3,Recombinant Human IL-3,TL-PR-116,350,Recombinant Human IL-3 Protein,Recombinant Human Protein,1.0,50μg,GMP-TL511-0050,350.0
+il3,Recombinant Human IL-3,TL-PR-116,350,Recombinant Human IL-3 Protein,Recombinant Human Protein,1.0,100μg,GMP-TL511-0100,500.0
+il7,Recombinant Human IL-7,TL-PR-117,500,Recombinant Human IL-7 Protein,Recombinant Human Protein,1.0,50μg,GMP-TL506-0050,500.0
+il7,Recombinant Human IL-7,TL-PR-117,500,Recombinant Human IL-7 Protein,Recombinant Human Protein,1.0,100μg,GMP-TL506-0100,800.0
+il7,Recombinant Human IL-7,TL-PR-117,500,Recombinant Human IL-7 Protein,Recombinant Human Protein,1.0,1mg,GMP-TL506-1000,inquiry
+il12,Recombinant Human IL-12,TL-PR-118,460,Recombinant Human IL-12 Protein,Recombinant Human Protein,1.0,50μg,GMP-TL508-0050,460.0
+il12,Recombinant Human IL-12,TL-PR-118,460,Recombinant Human IL-12 Protein,Recombinant Human Protein,1.0,100μg,GMP-TL508-0100,720.0
+il12,Recombinant Human IL-12,TL-PR-118,460,Recombinant Human IL-12 Protein,Recombinant Human Protein,1.0,1mg,GMP-TL508-1000,inquiry
+il15,Recombinant Human IL-15,TL-PR-119,345,Recombinant Human IL-15 Protein,Recombinant Human Protein,1.0,50μg,GMP-TL202-0050,345.0
+il15,Recombinant Human IL-15,TL-PR-119,345,Recombinant Human IL-15 Protein,Recombinant Human Protein,1.0,100μg,GMP-TL202-0100,500.0
+il15,Recombinant Human IL-15,TL-PR-119,345,Recombinant Human IL-15 Protein,Recombinant Human Protein,1.0,1mg,GMP-TL202-1000,inquiry
+il18,Recombinant Human IL-18,TL-PR-120,345,Recombinant Human IL-18 Protein,Recombinant Human Protein,1.0,50μg,GMP-TL902-0050,345.0
+il18,Recombinant Human IL-18,TL-PR-120,345,Recombinant Human IL-18 Protein,Recombinant Human Protein,1.0,1mg,GMP-TL902-1000,inquiry
+il21,Recombinant Human IL-21,TL-PR-121,430,Recombinant Human IL-21 Protein,Recombinant Human Protein,1.0,50μg,GMP-TL509-0050,430.0
+il21,Recombinant Human IL-21,TL-PR-121,430,Recombinant Human IL-21 Protein,Recombinant Human Protein,1.0,100μg,GMP-TL509-0100,690.0
+il21,Recombinant Human IL-21,TL-PR-121,430,Recombinant Human IL-21 Protein,Recombinant Human Protein,1.0,1mg,GMP-TL509-1000,inquiry
+activin-a,Recombinant Human Activin A,TL-PR-122,280,Recombinant Human Activin A Protein,Recombinant Human Protein,1.0,50μg,TL-910-0050,280.0
+bfgf,Recombinant Human bFGF (FGF2),TL-PR-123,120,Recombinant Human bFGF Protein,Recombinant Human Protein,1.0,10μg,TL-901-0010,65.0
+bfgf,Recombinant Human bFGF (FGF2),TL-PR-123,120,Recombinant Human bFGF Protein,Recombinant Human Protein,1.0,50μg,GMP-TL901-0050,120.0
+egf,Recombinant Human EGF,TL-PR-124,39,Recombinant Human EGF Protein,Recombinant Human Protein,1.0,10μg,TL-613-0010,39.0
+egf,Recombinant Human EGF,TL-PR-124,39,Recombinant Human EGF Protein,Recombinant Human Protein,1.0,50μg,GMP-TL613-0050,60.0
+fibronectin,Recombinant Human Fibronectin (FN),TL-PR-125,67,Recombinant Human Fibronectin (FN) Protein,Recombinant Human Protein,1.0,50μg,GMP-TL903-0050,56.0
+fibronectin,Recombinant Human Fibronectin (FN),TL-PR-125,67,Recombinant Human Fibronectin (FN) Protein,Recombinant Human Protein,1.0,250μg,GMP-TL903-0250,170.0
+vitronectin,Recombinant Human Vitronectin,TL-PR-126,105,Recombinant Human Vitronectin Protein,Recombinant Human Protein,1.0,100μg,GMP-TL651-0100,105.0
+vitronectin,Recombinant Human Vitronectin,TL-PR-126,105,Recombinant Human Vitronectin Protein,Recombinant Human Protein,1.0,1000μg,GMP-TL651L-1000,270.0
+laminin-511,Recombinant Human Laminin-511 E8,TL-PR-127,140,Recombinant Human Laminin-511 E8 Protein,Recombinant Human Protein,1.0,100μg,TL-766-0100,140.0
+noggin,Recombinant Human Noggin,TL-PR-128,240,Recombinant Human Noggin Protein,Recombinant Human Protein,1.0,50μg,TL-642-0050,240.0
+tgf-b1,Recombinant Human TGF-β1,TL-PR-129,120,Recombinant Human TGF-β1 Protein,Recombinant Human Protein,1.0,10μg,TL-643-0010,120.0
+tgf-b1,Recombinant Human TGF-β1,TL-PR-129,120,Recombinant Human TGF-β1 Protein,Recombinant Human Protein,1.0,50μg,TL-643-0050,360.0
+4-1bb-ligand,Recombinant Human 4-1BB Ligand,TL-PR-130,422,Recombinant Human 4-1BB Ligand Protein,Recombinant Human Protein,1.0,50μg,GMP-TL695-0050,422.0
+4-1bb-ligand,Recombinant Human 4-1BB Ligand,TL-PR-130,422,Recombinant Human 4-1BB Ligand Protein,Recombinant Human Protein,1.0,100μg,GMP-TL695-0100,700.0
+scf,Recombinant Human SCF,TL-PR-131,110,Recombinant Human SCF Protein,Recombinant Human Protein,1.0,10μg,TL-504-0010,110.0
+scf,Recombinant Human SCF,TL-PR-131,110,Recombinant Human SCF Protein,Recombinant Human Protein,1.0,50μg,GMP-TL504-0050,360.0
+scf,Recombinant Human SCF,TL-PR-131,110,Recombinant Human SCF Protein,Recombinant Human Protein,1.0,100μg,GMP-TL504-0100,560.0
+flt3l,Recombinant Human FLT3 Ligand,TL-PR-132,350,Recombinant Human FLT3 Ligand Protein,Recombinant Human Protein,1.0,50μg,GMP-TL505-0050,350.0
+tnfa,Recombinant Human TNF-α,TL-PR-133,320,Recombinant Human TNF α Protein,Recombinant Human Protein,1.0,10μg,TL-303-0010,88.0
+tnfa,Recombinant Human TNF-α,TL-PR-133,320,Recombinant Human TNF α Protein,Recombinant Human Protein,1.0,100μg,GMP-TL303-0100,320.0
+nk-kit-30,AMMS® NK Cell Culture Kit 3.0 (Plus),TL-MD-134,970,AMMS® NK Cell Culture Kit 3.0,Cell Culture Kit,1.0,AMMS® NK Cell Culture Kit 3.0,AS-25,970.0
+nk-kit-20,AMMS® NK Cell Culture Kit 2.0 Plus (AS29),TL-MD-135,910,AMMS® NK Cell Culture Kit 2.0,Cell Culture Kit,0.8,AMMS® NK Cell Culture Kit 2.0,AS-22,830.0
+msc-kit-20,AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free),TL-MD-136,364,AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free),Cell Culture Kit,1.0,AMMS® MSC Additive 2.0 ×1 AMMS® MSC Basic Culture Medium (Phenol Red Free) ×1,AS-33,364.0
+psc-medium,AMMS® Pluripotent Stem Cell Culture Medium,TL-MD-137,140,AMMS® Pluripotent Stem Cell Culture Medium,Cell Culture Kit,1.0,AMMS® Pluripotent Stem Cell Basic Culture Medium ×1,AS-35,140.0
+hek293-medium,AMMS® HEK293 Serum-Free Medium,TL-MD-138,191,AMMS®HEK293 Serum-free Medium,Serum-free Medium,1.0,1000mL,AS-11,191.0
+organoid-matrix,AMMS® Matrix for Organoid Culture,TL-MD-139,220,"AMMS® Matrix, for Organoid Culture",Serum-free Medium,1.0,5mL,AS-41-5,220.0
+cik-kit,AMMS® CIK Cell Expansion Reagent & Medium Kit,TL-MD-140,,AMMS®CIK Cell Expansion Reagent& Medium Kit,Cell Culture Kit,1.0,AMMS® CIK Cell Expansion Kit,AS-15,350.0
+cryo-solution,Cell Cryopreservation Solution,TL-MD-141,208,Cell Cryopreservation Solution,Serum-free Medium,1.0,100mL,AS-36,208.0
+ok432,OK432 (Picibanil),TL-MD-142,207,OK432,Recombinant Human Protein,1.0,100μg,GMP-TL107-0100,207.0
+ok432,OK432 (Picibanil),TL-MD-142,207,OK432,Recombinant Human Protein,1.0,500μg,GMP-TL107-0500,837.2

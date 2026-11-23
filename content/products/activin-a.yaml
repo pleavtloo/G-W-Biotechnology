@@ -1,0 +1,37 @@
+order: 22
+sku_code: TL-PR-122
+slug: activin-a
+name: Recombinant Human Activin A
+cat: proteins
+apps:
+- ipsc
+price: 280
+variants:
+  - sku: TL-910-0050
+    spec: 50 μg
+    price: 280
+sizes:
+  - 50 μg
+blurb: TGF-β superfamily dimer for endoderm and definitive differentiation.
+desc: A disulphide-linked dimeric glycoprotein of the TGF-β superfamily, Activin A drives embryonic differentiation,
+  endoderm specification and is a core component of organoid and iPSC differentiation protocols.
+highlights:
+- Endoderm / organoid differentiation
+- High specific activity
+- Carrier-free
+specs:
+- k: Expression system
+  v: HEK293
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/activin-a-tile.webp
+image: assets/img/products/activin-a.webp
+shop_product_id: 595

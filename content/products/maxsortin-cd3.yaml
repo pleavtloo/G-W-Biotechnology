@@ -1,0 +1,41 @@
+order: 2
+sku_code: TL-BD-102
+slug: maxsortin-cd3
+name: MaxSortin® CD3 Beads
+cat: beads
+apps:
+- tcell
+price: 440
+variants:
+  - sku: TL-622-2000
+    spec: 2 mL
+    price: 440
+  - sku: GMP-TL622-5000
+    spec: 5 mL (GMP)
+    price: 1070
+sizes:
+  - 2 mL
+  - 5 mL
+blurb: 50 nm nanobeads for untouched human CD3⁺ T-cell isolation.
+desc: MaxSortin® nanobeads are an order of magnitude smaller than conventional Dynabead-class particles, which reduces
+  steric interference during downstream activation and leaves the cell surface free for staining and transduction.
+highlights:
+- 50 nm colloidal nanobeads
+- No bead removal step required
+- GMP-grade available
+specs:
+- k: Target
+  v: Human CD3⁺ T cells
+- k: Bead size
+  v: 50 nm
+- k: Purity
+  v: '> 90% CD3⁺'
+- k: Endotoxin
+  v: ≤ 0.5 EU/mL
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/maxsortin-cd3-tile.webp
+image: assets/img/products/maxsortin-cd3.webp
+shop_product_id: 581

@@ -1,0 +1,17 @@
+[Unit]
+Description=T&L content API (YAML read/write for the admin UI)
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/tl-api.env
+WorkingDirectory=/opt/tl-api
+ExecStart=/usr/bin/python3 /opt/tl-api/content_api.py
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=tl-content
+
+[Install]
+WantedBy=multi-user.target

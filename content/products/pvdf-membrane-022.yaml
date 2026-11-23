@@ -1,0 +1,55 @@
+order: 46
+sku_code: TL-MB-022
+slug: pvdf-membrane-022
+name: PVDF Transfer Membrane, 0.22 um
+cat: consumables
+apps:
+- western_blot
+price: 270
+sizes:
+- Pre-cut sheets
+- Roll
+blurb: Pre-cut sheets or roll, for low-abundance and high-molecular-weight blots.
+desc: 'PVDF membranes bind proteins transferred from SDS-PAGE gels and hold them through antibody incubation
+  and detection. The 0.22 um grade traps more protein per unit area, which gives sharper bands for low-abundance
+  targets and keeps high-molecular-weight proteins from passing through during transfer.
+
+
+  Methanol activation is required before use. Once wet, the membrane is compatible with chemiluminescence
+  and with conventional stains such as Ponceau S and Coomassie blue, and it tolerates stripping and reprobing
+  without losing signal.
+
+
+  Available as pre-cut sheets (8.5 x 7.5 cm, 150 per box) sized for standard mini-gel cassettes, or as
+  a 27 cm x 4 m roll for cutting to a custom format.'
+highlights:
+- Sharper bands for low-abundance proteins than 0.45 um
+- Superior transfer of large proteins versus imported brands
+- Supports stripping and reprobing; Ponceau S and Coomassie compatible
+variants:
+- sku: CYWBPVDF022P
+  spec: Pre-cut, 8.5 x 7.5 cm, 150 sheets/box
+  price: 270
+- sku: CYWBPVDF022L
+  spec: Roll, 27 cm x 4 m, 1 roll/box
+  price: 260
+specs:
+- k: Membrane material
+  v: PVDF
+- k: Pore size
+  v: 0.22 um
+- k: Thickness
+  v: 200 +/- 20 um
+- k: Methanol activation
+  v: Required
+- k: Detection
+  v: Chemiluminescence, Ponceau S, Coomassie
+- k: Reusability
+  v: Yes, supports stripping
+- k: Chemical stability
+  v: Good
+- k: Formats
+  v: Pre-cut sheets or roll
+image_tile: assets/img/products/pvdf-membrane-022-tile.webp
+image: assets/img/products/pvdf-membrane-022.webp
+shop_product_id: 0

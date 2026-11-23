@@ -1,0 +1,17 @@
+[Unit]
+Description=GoatCounter pageview analytics (cookie-free)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/goatcounter
+# -base-path keeps every link working behind the /stats/ reverse proxy.
+ExecStart=/opt/goatcounter/goatcounter serve -listen 127.0.0.1:8083 \
+    -db "sqlite+/opt/goatcounter/data.sqlite3" -base-path /stats -public-port 8443 -automigrate
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

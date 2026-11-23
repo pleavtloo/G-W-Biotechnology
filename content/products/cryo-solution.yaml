@@ -1,0 +1,39 @@
+order: 41
+sku_code: TL-MD-141
+slug: cryo-solution
+name: Cell Cryopreservation Solution
+cat: media
+apps:
+- tcell
+- nk
+- msc
+price: 208
+variants:
+  - sku: AS-36
+    spec: 100 mL
+    price: 208
+sizes:
+  - 100 mL
+blurb: 5% DMSO, animal-origin-free, ready to use.
+desc: A clear to pale-yellow viscous solution containing 5% DMSO for cell cryopreservation, formulated without animal-derived
+  components and compatible with closed-system fill.
+highlights:
+- 5% DMSO, low toxicity
+- Animal-origin-free
+- Closed-system compatible
+specs:
+- k: DMSO
+  v: 5%
+- k: Appearance
+  v: Clear to pale yellow
+- k: Origin
+  v: Animal-origin-free
+- k: Application
+  v: Cell cryopreservation
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/cryo-solution-tile.webp
+image: assets/img/products/cryo-solution.webp
+shop_product_id: 596

@@ -1,0 +1,47 @@
+order: 19
+sku_code: TL-PR-119
+slug: il15
+name: Recombinant Human IL-15
+cat: proteins
+apps:
+- nk
+- tcell
+price: 345
+variants:
+  - sku: GMP-TL202-0050
+    spec: 50 μg
+    price: 345
+  - sku: GMP-TL202-0100
+    spec: 100 μg
+    price: 500
+  - sku: GMP-TL202-1000
+    spec: 1 mg (custom order)
+    price: null
+    custom: true
+sizes:
+  - 50 μg
+  - 100 μg
+  - 1 mg
+blurb: Activates and expands NK and memory CD8⁺ T cells.
+desc: IL-15 regulates the activation and proliferation of T and NK cells and is the backbone of feeder-free NK expansion
+  protocols.
+highlights:
+- Feeder-free NK expansion
+- GMP-grade available
+- Carrier-free
+specs:
+- k: Expression system
+  v: E. coli
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/il15-tile.webp
+image: assets/img/products/il15.webp
+shop_product_id: 572

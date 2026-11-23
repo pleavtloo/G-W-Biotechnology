@@ -1,0 +1,23 @@
+order: 3
+id: msc
+name: MSC & Regenerative
+title: Consistent MSC expansion across donors
+desc: Xeno-free, phenol-red-free culture systems with the matrix and growth-factor pairings that keep doubling times
+  and surface markers stable through passage 5.
+pill: MSC · exosome
+steps:
+- label: Seed
+  text: Fibronectin or vitronectin coating
+- label: Expand
+  text: MSC Culture Kit 2.0 (phenol-red free)
+- label: Differentiate
+  text: TGF-β1 / BMP-4 lineage control
+- label: Harvest
+  text: Animal-origin-free dissociation
+products:
+- msc-kit-20
+- fibronectin
+- tgf-b1
+- bfgf
+- vitronectin
+- cryo-solution

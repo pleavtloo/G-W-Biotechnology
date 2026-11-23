@@ -1,0 +1,37 @@
+order: 6
+sku_code: TL-BD-106
+slug: maxsortin-cd14-kit
+name: MaxSortin® CD14 Isolation Kit
+cat: beads
+apps:
+- dc
+price: 460
+variants:
+  - sku: TL-625KIT
+    spec: 1 kit
+    price: 460
+sizes:
+  - 1 kit
+blurb: Complete monocyte isolation kit — beads, buffer and protocol.
+desc: Bundles MaxSortin® CD14 beads with separation buffer and a validated protocol, removing the buffer-compatibility
+  work from your tech-transfer package.
+highlights:
+- Beads + buffer + protocol
+- Closed-process compatible
+- RUO and GMP-grade options
+specs:
+- k: Target
+  v: Human CD14⁺ monocytes
+- k: Format
+  v: Kit
+- k: Components
+  v: Beads, buffer, protocol
+- k: Endotoxin
+  v: ≤ 0.5 EU/mL
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/maxsortin-cd14-kit-tile.webp
+image: assets/img/products/maxsortin-cd14-kit.webp
+shop_product_id: 576

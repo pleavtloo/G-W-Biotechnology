@@ -1,0 +1,133 @@
+applications:
+- id: tcell
+  name: T Cell Therapy
+  title: Engineered T cells, from apheresis to fill-finish
+  desc: A matched isolation–activation–expansion set built around CD3/CD28 signalling, so your process development
+    team can lock a single vendor for the critical reagents.
+  pill: CAR-T · TCR-T · TIL
+  steps:
+  - label: Isolate
+    text: CD3⁺, CD4⁺, CD8⁺ or TCRαβ⁺ selection
+  - label: Activate
+    text: CD3/CD28 beads or soluble ActCel reagent
+  - label: Expand
+    text: IL-2 / IL-7 / IL-15 and IL-21 cocktails
+  - label: Engineer
+    text: Viral or non-viral gene delivery support
+  products:
+  - actsep-cd3-cd28
+  - actcel-t-activation
+  - maxsortin-cd3
+  - il2
+  - il7
+  - il15
+- id: nk
+  name: NK Cell Therapy
+  title: High-purity NK expansion without feeder cells
+  desc: Kits that take PBMC or cord blood to high-purity NK populations, paired with the cytokines and CD16 mAbs
+    needed for ADCC-competent products.
+  pill: CAR-NK · NK · NKT
+  steps:
+  - label: Isolate
+    text: CD56⁺ enrichment from PBMC or CBMC
+  - label: Activate
+    text: IL-12 / IL-15 / IL-18 priming
+  - label: Expand
+    text: NK Culture Kit 2.0 / 3.0 (feeder-free)
+  - label: Harvest
+    text: Cryopreservation in 5% DMSO solution
+  products:
+  - nk-kit-30
+  - nk-kit-20
+  - il15
+  - il12
+  - il18
+  - cd16-mab
+- id: msc
+  name: MSC & Regenerative
+  title: Consistent MSC expansion across donors
+  desc: Xeno-free, phenol-red-free culture systems with the matrix and growth-factor pairings that keep doubling
+    times and surface markers stable through passage 5.
+  pill: MSC · exosome
+  steps:
+  - label: Seed
+    text: Fibronectin or vitronectin coating
+  - label: Expand
+    text: MSC Culture Kit 2.0 (phenol-red free)
+  - label: Differentiate
+    text: TGF-β1 / BMP-4 lineage control
+  - label: Harvest
+    text: Animal-origin-free dissociation
+  products:
+  - msc-kit-20
+  - fibronectin
+  - tgf-b1
+  - bfgf
+  - vitronectin
+  - cryo-solution
+- id: ipsc
+  name: iPSC & Pluripotent
+  title: Pluripotency you can audit
+  desc: Defined matrices, laminin-511 E8 and small-molecule-adjacent growth factors for feeder-free maintenance
+    and directed differentiation.
+  pill: iPSC · ESC · organoid
+  steps:
+  - label: Coat
+    text: Laminin-511 E8 or vitronectin
+  - label: Maintain
+    text: PSC medium, bFGF-supplemented
+  - label: Differentiate
+    text: Activin A, Noggin, BMP-4
+  - label: Assemble
+    text: Organoid matrix (basement membrane)
+  products:
+  - psc-medium
+  - laminin-511
+  - activin-a
+  - noggin
+  - bfgf
+  - organoid-matrix
+- id: hsc
+  name: Hematopoietic
+  title: HSC expansion and gene correction
+  desc: Early-acting cytokines for HSC maintenance during transduction, with the endotoxin control required for
+    ex vivo gene therapy workflows.
+  pill: HSC · gene therapy
+  steps:
+  - label: Enrich
+    text: CD34⁺ selection support
+  - label: Prime
+    text: SCF + FLT3-L + IL-6 cocktail
+  - label: Transduce
+    text: Low-endotoxin cytokine panel
+  - label: Engraft
+    text: Cryopreservation and QC release
+  products:
+  - scf
+  - flt3l
+  - il7
+  - cryo-solution
+  - maxsortin-cd14
+  - il2
+- id: dc
+  name: Dendritic & Macrophage
+  title: Monocyte-derived DC and macrophage protocols
+  desc: CD14⁺ isolation paired with GM-CSF / IL-4 maturation cocktails and TLR adjuvants for vaccine and immunotherapy
+    research.
+  pill: moDC · macrophage · vaccine
+  steps:
+  - label: Isolate
+    text: CD14⁺ monocytes or isolation kit
+  - label: Differentiate
+    text: GM-CSF + IL-4, 5–6 days
+  - label: Mature
+    text: TNF-α, IL-1β, IL-6, OK432
+  - label: Assay
+    text: 4-1BBL / CD137 co-stimulation readouts
+  products:
+  - maxsortin-cd14
+  - maxsortin-cd14-kit
+  - ok432
+  - tnfa
+  - 4-1bb-ligand
+  - cd137-mab

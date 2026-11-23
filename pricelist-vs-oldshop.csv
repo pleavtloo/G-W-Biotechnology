@@ -1,0 +1,110 @@
+﻿group,product,old_ids,matched_by,spec,sku,official_price,in_old_shop,status
+Cell Culture Kit,AMMS® NK Cell Culture Kit 2.0,"564,600,601",name,AMMS® NK Cell Culture Kit 2.0,AS-22,830.0,no,SPEC MISSING
+Cell Culture Kit,AMMS® NK Cell Culture Kit 2.0 Plus,564,sku,AMMS® NK Cell Culture Kit 2.0,AS-29,910.0,yes,OK
+Cell Culture Kit,AMMS® NK Cell Culture Kit 3.0,"564,600,601",name,AMMS® NK Cell Culture Kit 3.0,AS-25,970.0,yes,OK
+Cell Culture Kit,AMMS® High Purity NK Cell Culture Kit 2.0,601,sku,AMMS® NK Cell Culture Kit 2.0,AS-26,900.0,yes,OK
+Cell Culture Kit,AMMS® MSC Cell Culture Kit 2.0 (Phenol Red Free),565,sku,AMMS® MSC Additive 2.0 ×1 AMMS® MSC Basic Culture Medium (Phenol Red Free) ×1,AS-33,364.0,yes,OK
+Cell Culture Kit,AMMS®CIK Cell Expansion Reagent& Medium Kit,566,sku,AMMS® CIK Cell Expansion Kit,AS-15,350.0,yes,OK
+Cell Culture Kit,AMMS® Pluripotent Stem Cell Culture Medium,562,sku,AMMS® Pluripotent Stem Cell Basic Culture Medium ×1,AS-35,140.0,yes,OK
+Cell Culture Kit,AMMS®PrimeCell Culture  Medium,,,AMMS® PrimeCell Immune Cell Basal Medium ×1,AS-38,168.0,,PRODUCT MISSING
+Magnetic Beads,ActSep® CD3/CD28 Seperation &Activation Magnetic Beads,568,sku,1mL,GMP-TL603-1000,510.0,yes,OK
+Magnetic Beads,ActSep® CD3/CD28 Seperation &Activation Magnetic Beads,568,sku,5mL,GMP-TL603-5000,2310.0,yes,OK
+Magnetic Beads,MaxSortin® CD3 Beads,605,sku,2mL,TL-622-2000,440.0,yes,OK
+Magnetic Beads,MaxSortin® CD4 Beads,586,sku,2mL,TL-623-2000,440.0,yes,OK
+Magnetic Beads,MaxSortin® CD8 Beads,610,sku,2mL,TL-624-2000,440.0,yes,OK
+Magnetic Beads,MaxSortin® CD13 Beads,,,200μL,TL-681-0200,600.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® CD14 Beads,588,sku,2mL,TL-625-2000,440.0,yes,OK
+Magnetic Beads,MaxSortin® CD138 Beads,,,1mL,TL-811-1000,440.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® TCRαβ  Beads,589,sku,1mL,TL-810-1000,620.0,yes,OK
+Magnetic Beads,MaxSortin® CD3 Beads,581,sku,5mL,GMP-TL622-5000,1070.0,yes,OK
+Magnetic Beads,MaxSortin® CD4 Beads,"586,606",name,2mL,GMP-TL623-2000,946.0,no,SPEC MISSING
+Magnetic Beads,MaxSortin® CD8 Beads,"606,607",sku,2mL,GMP-TL624-2000,946.0,no,SPEC MISSING
+Magnetic Beads,MaxSortin® CD8 Beads,"606,607",sku,5mL,GMP-TL614-5000,915.0,yes,OK
+Magnetic Beads,MaxSortin® CD8 Beads,"606,607",sku,5mL,GMP-TL618-5000,915.0,yes,OK
+Magnetic Beads,MaxSortin® CD14 Beads,609,sku,2mL,GMP-TL625-2000,580.0,yes,OK
+Magnetic Beads,ActCel T Cell Activation Reagent,593,sku,1mL,GMP-TL6001-1000,2072.0,yes,OK
+Magnetic Beads,ActCel T Cell Activation Reagent,616,sku,1mL,TL-6001-1000,487.2,no,SPEC MISSING
+Magnetic Beads,MaxSortin® CD3 Isolation Kit,,,1KIT,TL-622KIT,460.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® CD4 Isolation Kit,,,1KIT,TL-623KIT,460.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® CD8 Isolation Kit,,,1KIT,TL-624KIT,460.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® CD14 Isolation Kit,576,sku,1KIT,TL-625KIT,460.0,yes,OK
+Magnetic Beads,MaxSortin® CD138 Isolation Kit,,,1KIT,TL-811KIT,460.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® TCRαβ Isolation Kit,,,1KIT,TL-810KIT,640.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® Seperation Buffer,,,100mL,MS-BF100,14.0,,PRODUCT MISSING
+Magnetic Beads,MaxSortin® L-Separation Columns,,,1Column,MS-CL01,20.0,,PRODUCT MISSING
+Anti-human Monoclonal Antibody,Anti-Human CD3 Monoclonal Antibody,561,sku,500μg,GMP-TL101-0500,140.0,yes,OK
+Anti-human Monoclonal Antibody,Anti-Human CD28 Monoclonal Antibody,559,sku,500μg,GMP-TL102-0500,140.0,yes,OK
+Anti-human Monoclonal Antibody,Anti-Human CD20 Monoclonal Antibody,560,sku,500μg,GMP-TL502-0500,250.0,yes,OK
+Anti-human Monoclonal Antibody,Anti-Human CD52 Monoclonal Antibody,558,sku,100μg,GMP-TL112-0100,350.0,yes,OK
+Anti-human Monoclonal Antibody,Anti-Human CD137 Monoclonal Antibody,530,sku,100μg,GMP-TL778-0100,350.0,yes,OK
+Anti-human Monoclonal Antibody,Anti-Human CD16 Monoclonal Antibody,597,sku,500μg,GMP-TL201-0500,500.0,yes,OK
+Anti-human Monoclonal Antibody,Anti-Human CD16 Monoclonal Antibody,617,sku,500μg,TL-201-0500,250.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-2 Protein (High Efficiency),528,sku,100μg,GMP-TL906-0100,110.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-3 Protein,569,sku,50μg,GMP-TL511-0050,350.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-3 Protein,569,sku,100μg,GMP-TL511-0100,500.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-6 Protein,532,sku,50μg,GMP-TL512-0050,350.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-6 Protein,532,sku,100μg,GMP-TL512-0100,500.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-7 Protein,533,sku,50μg,GMP-TL506-0050,500.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-7 Protein,533,sku,100μg,GMP-TL506-0100,800.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-7 Protein,533,sku,1mg,GMP-TL506-1000,inquiry,no,INQUIRY ONLY
+Recombinant Human Protein,Recombinant Human IL-12 Protein,539,sku,50μg,GMP-TL508-0050,460.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-12 Protein,539,sku,100μg,GMP-TL508-0100,720.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-12 Protein,539,sku,1mg,GMP-TL508-1000,inquiry,no,INQUIRY ONLY
+Recombinant Human Protein,Recombinant Human IL-15 Protein,572,sku,50μg,GMP-TL202-0050,345.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-15 Protein,572,sku,100μg,GMP-TL202-0100,500.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-15 Protein,572,sku,1mg,GMP-TL202-1000,inquiry,no,INQUIRY ONLY
+Recombinant Human Protein,Recombinant Human IL-18 Protein,541,sku,50μg,GMP-TL902-0050,345.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-18 Protein,541,sku,1mg,GMP-TL902-1000,inquiry,no,INQUIRY ONLY
+Recombinant Human Protein,Recombinant Human IL-21 Protein,622,sku,50μg,GMP-TL509-0050,430.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-21 Protein,622,sku,100μg,GMP-TL509-0100,690.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-21 Protein,622,sku,1mg,GMP-TL509-1000,inquiry,no,INQUIRY ONLY
+Recombinant Human Protein,Recombinant Human bFGF Protein (Heat-Stable),623,sku,50μg,TL-787-0050,345.0,yes,OK
+Recombinant Human Protein,Recombinant Human bFGF Protein,"544,618",sku,10μg,TL-901-0010,65.0,yes,OK
+Recombinant Human Protein,Recombinant Human bFGF Protein,"544,618",sku,50μg,GMP-TL901-0050,120.0,yes,OK
+Recombinant Human Protein,Recombinant Human EGF Protein,"570,619",sku,10μg,TL-613-0010,39.0,yes,OK
+Recombinant Human Protein,Recombinant Human EGF Protein,"570,619",sku,50μg,GMP-TL613-0050,60.0,yes,OK
+Recombinant Human Protein,Recombinant Human Fibronectin (FN) Protein,546,sku,50μg,GMP-TL903-0050,56.0,yes,OK
+Recombinant Human Protein,Recombinant Human Fibronectin (FN) Protein,546,sku,250μg,GMP-TL903-0250,170.0,yes,OK
+Recombinant Human Protein,Recombinant Human FLT3 Ligand Protein,545,sku,50μg,GMP-TL505-0050,350.0,yes,OK
+Recombinant Human Protein,Recombinant Human GM-CSF Protein,620,sku,10μg,TL-302-0010,60.0,yes,OK
+Recombinant Human Protein,Recombinant Human GM-CSF Protein,620,sku,100μg,GMP-TL302-0100,280.0,no,SPEC MISSING
+Recombinant Human Protein,Recombinant Human IFN-γ Protein,556,sku,10μg,TL-105-0010,39.0,no,SPEC MISSING
+Recombinant Human Protein,Recombinant Human IFN-γ Protein,556,sku,200μg,GMP-TL105-0200,226.0,yes,OK
+Recombinant Human Protein,Recombinant Human LIF Protein (10mg minimum order),551,sku,100 μg × 10 vials (1 mg reference price),GMP-TL633-0100,inquiry,no,INQUIRY ONLY
+Recombinant Human Protein,Recombinant Human PDGF-BB Protein,555,sku,50μg,GMP-TL644-0050,420.0,yes,OK
+Recombinant Human Protein,Recombinant Human PDGF-BB Protein,555,sku,100μg,GMP-TL644-0100,720.0,yes,OK
+Recombinant Human Protein,Recombinant Human SCF Protein,554,sku,10μg,TL-504-0010,110.0,yes,OK
+Recombinant Human Protein,Recombinant Human SCF Protein,554,sku,50μg,GMP-TL504-0050,360.0,yes,OK
+Recombinant Human Protein,Recombinant Human SCF Protein,554,sku,100μg,GMP-TL504-0100,560.0,yes,OK
+Recombinant Human Protein,Recombinant Human TNF α Protein,"552,615",sku,10μg,TL-303-0010,88.0,yes,OK
+Recombinant Human Protein,Recombinant Human TNF α Protein,"552,615",sku,100μg,GMP-TL303-0100,320.0,yes,OK
+Recombinant Human Protein,Recombinant Human TPO Protein,624,sku,50μg,TL-650-0050,276.0,yes,OK
+Recombinant Human Protein,Recombinant Human Vitronectin Protein,549,sku,100μg,GMP-TL651-0100,105.0,yes,OK
+Recombinant Human Protein,Recombinant Human Vitronectin Protein,549,sku,1000μg,GMP-TL651L-1000,270.0,yes,OK
+Recombinant Human Protein,OK432,548,sku,100μg,GMP-TL107-0100,207.0,yes,OK
+Recombinant Human Protein,OK432,548,sku,500μg,GMP-TL107-0500,837.2,no,SPEC MISSING
+Recombinant Human Protein,Recombinant Human 4-1BB Ligand Protein,543,sku,50μg,GMP-TL695-0050,422.0,yes,OK
+Recombinant Human Protein,Recombinant Human 4-1BB Ligand Protein,543,sku,100μg,GMP-TL695-0100,700.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-1α Protein,625,sku,10μg,TL-109-0010,140.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-1β Protein,626,sku,100μg,TL-513-0100,448.0,yes,OK
+Recombinant Human Protein,Recombinant Human IL-4 Protein,627,sku,100μg,TL-301-0100,480.0,yes,OK
+Recombinant Human Protein,Recombinant Human Activin A Protein,595,sku,50μg,TL-910-0050,280.0,yes,OK
+Recombinant Human Protein,Recombinant Human BDNF Protein,628,sku,50μg,TL-770-0050,350.0,yes,OK
+Recombinant Human Protein,Recombinant Human FGF4 Protein,629,sku,50μg,TL-782-0050,350.0,yes,OK
+Recombinant Human Protein,Recombinant Human GDNF Protein,630,sku,50μg,TL-771-0050,470.0,yes,OK
+Recombinant Human Protein,Recombinant Human M-CSF Protein,547,sku,10μg,TL-514-0010,67.0,yes,OK
+Recombinant Human Protein,Recombinant Human M-CSF Protein,547,sku,50μg,TL-514-0050,240.0,yes,OK
+Recombinant Human Protein,Recombinant Human Noggin Protein,631,sku,50μg,TL-642-0050,240.0,yes,OK
+Recombinant Human Protein,Recombinant Human OSM Protein,,,50μg,TL-772-0050,260.0,,PRODUCT MISSING
+Recombinant Human Protein,Recombinant Human TGF-β1 Protein,632,sku,10μg,TL-643-0010,120.0,yes,OK
+Recombinant Human Protein,Recombinant Human TGF-β1 Protein,632,sku,50μg,TL-643-0050,360.0,yes,OK
+Recombinant Human Protein,Recombinant Human Wnt3a Protein,633,sku,50μg,TL-783-0050,390.0,yes,OK
+Recombinant Human Protein,Recombinant Human EPO Protein,634,sku,50μg,TL-636-0050,225.0,yes,OK
+Recombinant Human Protein,Recombinant Human EPO Protein,634,sku,100μg,TL-636-0100,394.0,yes,OK
+Recombinant Human Protein,Recombinant Human Laminin-511 E8 Protein,635,sku,100μg,TL-766-0100,140.0,yes,OK
+Recombinant Human Protein,Recombinant Human BMP-4 Protein,636,sku,50μg,TL-607-0050,470.0,yes,OK
+Serum-free Medium,AMMS®HEK293 Serum-free Medium,603,sku,1000mL,AS-11,191.0,yes,OK
+Serum-free Medium,Cell Cryopreservation Solution,596,sku,100mL,AS-36,208.0,yes,OK
+Serum-free Medium,Lymphocyte Separation Medium,,,200mL,AS-37L-200,42.0,,PRODUCT MISSING
+Serum-free Medium,"AMMS® Matrix, for Organoid Culture",638,sku,5mL,AS-41-5,220.0,yes,OK
+Serum-free Medium,InSure DNA Transfection Reagent,,,1mL,AS-50-01,140.0,,PRODUCT MISSING

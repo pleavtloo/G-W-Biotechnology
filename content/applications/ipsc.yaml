@@ -1,0 +1,23 @@
+order: 4
+id: ipsc
+name: iPSC & Pluripotent
+title: Pluripotency you can audit
+desc: Defined matrices, laminin-511 E8 and small-molecule-adjacent growth factors for feeder-free maintenance and
+  directed differentiation.
+pill: iPSC · ESC · organoid
+steps:
+- label: Coat
+  text: Laminin-511 E8 or vitronectin
+- label: Maintain
+  text: PSC medium, bFGF-supplemented
+- label: Differentiate
+  text: Activin A, Noggin, BMP-4
+- label: Assemble
+  text: Organoid matrix (basement membrane)
+products:
+- psc-medium
+- laminin-511
+- activin-a
+- noggin
+- bfgf
+- organoid-matrix

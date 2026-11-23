@@ -1,0 +1,43 @@
+order: 4
+sku_code: TL-BD-104
+slug: cd8-beads
+name: MaxSortin® CD8 Beads
+cat: beads
+apps:
+- tcell
+price: 440
+variants:
+  - sku: TL-624-2000
+    spec: 2 mL
+    price: 440
+  - sku: GMP-TL618-5000
+    spec: 5 mL (GMP)
+    price: 915
+  - sku: GMP-TL624-2000
+    spec: 2 mL (GMP)
+    price: 946
+sizes:
+  - 2 mL
+  - 5 mL
+blurb: 50 nm nanobeads for human CD8⁺ cytotoxic T-cell isolation.
+desc: Isolates human CD8⁺ T cells for cytotoxicity assays, TCR characterisation and CD8-dominated expansion protocols.
+highlights:
+- 50 nm colloidal nanobeads
+- Untouched, label-free elution
+- Lot-to-lot consistency data available
+specs:
+- k: Target
+  v: Human CD8⁺ T cells
+- k: Bead size
+  v: 50 nm
+- k: Purity
+  v: '> 90% CD8⁺'
+- k: Endotoxin
+  v: ≤ 0.5 EU/mL
+- k: Storage
+  v: 2–8 °C
+- k: Shelf life
+  v: 24 months
+image_tile: assets/img/products/cd8-beads-tile.webp
+image: assets/img/products/cd8-beads.webp
+shop_product_id: 607

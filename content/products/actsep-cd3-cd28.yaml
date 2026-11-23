@@ -1,0 +1,42 @@
+order: 1
+sku_code: TL-BD-101
+slug: actsep-cd3-cd28
+name: ActSep® CD3/CD28 Separation & Activation Beads
+cat: beads
+apps:
+- tcell
+price: 510
+sizes:
+- 1 mL
+- 5 mL
+blurb: Single-reagent isolation and activation of human CD3⁺ T cells.
+desc: ActSep® beads combine anti-human CD3 and CD28 antibodies on a magnetic core, allowing CD3⁺ T cells
+  to be isolated from PBMC or leukopaks and activated in the same step. The bead-to-cell ratio can be
+  titrated for either a research-scale expansion or a closed, clinical manufacturing process.
+highlights:
+- FDA DMF filed — DMF 038124
+- Detachable, low-retention bead chemistry
+- Compatible with closed automated platforms
+image_tile: assets/img/products/actsep-cd3-cd28-tile.webp
+image: assets/img/products/actsep-cd3-cd28.webp
+shop_product_id: 568
+variants:
+- sku: GMP-TL603-1000
+  spec: 1 mL
+  price: 510
+- sku: GMP-TL603-5000
+  spec: 5 mL
+  price: 2310
+specs:
+- k: Target
+  v: Human CD3⁺ T cells
+- k: Bead size
+  v: ~4.5 µm
+- k: Conjugation
+  v: Anti-human CD3 + anti-human CD28
+- k: Endotoxin
+  v: ≤ 0.5 EU/mL
+- k: Storage
+  v: 2–8 °C, do not freeze
+- k: Shelf life
+  v: 24 months

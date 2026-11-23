@@ -1,0 +1,37 @@
+order: 35
+sku_code: TL-MD-135
+slug: nk-kit-20
+name: AMMS® NK Cell Culture Kit 2.0 Plus (AS29)
+cat: media
+apps:
+- nk
+price: 830
+variants:
+  - sku: AS-22
+    spec: AMMS® NK Cell Culture kit 2.0
+    price: 830
+sizes:
+- 1 kit (10⁹ PBMC)
+blurb: NK expansion from autologous peripheral or cord blood.
+desc: A two-component kit for NK-cell culture from autologous peripheral blood or umbilical cord blood, with a protocol
+  optimised for research-scale reproducibility.
+highlights:
+- Autologous PB / UCB starting material
+- Defined, serum-free medium
+- Research and process-development scale
+specs:
+- k: Starting material
+  v: PB / UCB
+- k: Format
+  v: Kit (medium + supplement)
+- k: Serum
+  v: Serum-free
+- k: Origin
+  v: Animal-origin-free
+- k: Storage
+  v: 2–8 °C (medium), ≤ -20 °C (supplement)
+- k: Shelf life
+  v: 12 months
+image_tile: assets/img/products/nk-kit-20-tile.webp
+image: assets/img/products/nk-kit-20.webp
+shop_product_id: 564

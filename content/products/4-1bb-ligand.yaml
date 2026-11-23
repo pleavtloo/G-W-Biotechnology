@@ -1,0 +1,42 @@
+order: 30
+sku_code: TL-PR-130
+slug: 4-1bb-ligand
+name: Recombinant Human 4-1BB Ligand
+cat: proteins
+apps:
+- tcell
+- dc
+price: 422
+sizes:
+- 50 μg
+- 100 μg
+blurb: CD137L / TNFSF9 co-stimulation for DC and T-cell assays.
+desc: A TNF superfamily member expressed on activated antigen-presenting cells. 4-1BBL provides costimulation
+  that sustains CD8⁺ T-cell responses and DC maturation.
+highlights:
+- CD137L / TNFSF9
+- DC maturation and T-cell costimulation
+- Carrier-free
+image_tile: assets/img/products/4-1bb-ligand-tile.webp
+image: assets/img/products/4-1bb-ligand.webp
+shop_product_id: 543
+variants:
+- sku: GMP-TL695-0050
+  spec: 50 μg
+  price: 422
+- sku: GMP-TL695-0100
+  spec: 100 μg
+  price: 700
+specs:
+- k: Expression system
+  v: HEK293
+- k: Purity
+  v: ≥ 95% (SDS-PAGE)
+- k: Endotoxin
+  v: ≤ 0.1 EU/µg
+- k: Format
+  v: Lyophilised
+- k: Storage
+  v: ≤ -20 °C
+- k: Shelf life
+  v: 24 months
