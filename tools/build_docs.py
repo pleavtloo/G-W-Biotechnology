@@ -558,7 +558,7 @@ def quality_overview():
     d.h1("Quality overview", "ISO 13485:2016 and ISO 9001 certified - one system, two scopes")
     meta_strip(d, [
         ("Certification", "ISO 13485:2016 / ISO 9001"),
-        ("Facility", "3,200 m2, Mainz CA"),
+        ("Facility", "3,400 m2, Mainz, Germany"),
         ("Last audit", "Customer audits supported"),
         ("Revision", "4.0"),
     ])

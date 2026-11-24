@@ -137,7 +137,7 @@ STACK = [
          meta=f"{len(PRODUCTS)} catalogue SKUs · GMP &amp; RUO grades · custom builds",
          tone="c"),
     dict(n="04", k="Lab network", title="Capacity to run the work",
-         desc="Our own 3,200 m² laboratory, plus qualified partner facilities that absorb overflow. "
+         desc="Our own 3,400 m² laboratory, plus qualified partner facilities that absorb overflow. "
               "One order, routed to whichever bench can run it best.",
          meta="In-house lab · partner facilities · automation roadmap",
          tone="d"),

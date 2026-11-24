@@ -317,7 +317,7 @@ def mega_company():
   </div>
   <div class="mega__promo">
     <div>
-      <h4>Established 2011 · 3,200 m² R&amp;D and GMP base</h4>
+      <h4>Established 2011 · 3,400 m² R&amp;D and GMP base</h4>
       <p>Half of the company works in R&amp;D and production. That is where the lot-to-lot consistency comes from.</p>
     </div>
     <a class="link-arrow" href="about.html">Inside the facility {ar}</a>
@@ -350,7 +350,7 @@ def header(active):
 <div class="topbar">
   <div class="container topbar__inner">
     <div class="topbar__note"><span class="topbar__dot"></span>
-      AI-designed tools · validated in a 3,200 m² lab · ISO 13485 &amp; ISO 9001 certified</div>
+      AI-designed tools · validated in a 3,400 m² lab · ISO 13485 &amp; ISO 9001 certified</div>
     <div class="topbar__links">
       <a href="platform.html">Platform</a>
       <a href="resources.html#coa">COA lookup</a>
@@ -467,7 +467,7 @@ def footer():
         <p>Pfarrer-Bergmann-Straße 59, 55127 Mainz<br>
         Tel +49 6131 000000 · Mon–Fri, 9:00–17:00 PT</p></div></div>
       <div class="office">{factory}<div><b>Manufacturing &amp; R&amp;D</b>
-        <p>3,200 m² GMP cleanroom and R&amp;D laboratory<br>
+        <p>3,400 m² GMP cleanroom and R&amp;D laboratory<br>
         Bead, protein and serum-free medium platforms</p></div></div>
     </div>
     <div class="footer__legal">
@@ -687,7 +687,7 @@ def page_home():
     trust = [
         ("shield", "ISO 13485:2016", "Medical-device quality system applied to CGT reagents"),
         ("doc", "FDA DMF 038124 / 038820", "Type II filings sponsors can reference in an IND"),
-        ("scale", "3,200 m² GMP base", "Bead, protein and medium platforms under one roof"),
+        ("scale", "3,400 m² GMP base", "Bead, protein and medium platforms under one roof"),
         ("users", "30+ customer audits", "Audit data packages and on-site inspection support"),
     ]
     trust_html = "".join("""
@@ -778,7 +778,7 @@ def page_home():
       </div>
       <div class="chip-float chip-float--b">
         <span class="chip-float__ico">{scale}</span>
-        <div><div class="chip-float__k">Facility</div><div class="chip-float__v">3,200 m² GMP</div></div>
+        <div><div class="chip-float__k">Facility</div><div class="chip-float__v">3,400 m² GMP</div></div>
       </div>
       <div class="chip-float chip-float--c">
         <span class="chip-float__ico">{clock}</span>
@@ -859,7 +859,7 @@ def page_home():
       <a class="link-arrow" href="quality.html">Quality &amp; regulatory {ar}</a>
     </div>
     <div class="stats">
-      <div class="stat"><div class="stat__n" data-count="3200">3,200<small> m²</small></div>
+      <div class="stat"><div class="stat__n" data-count="3400">3,400<small> m²</small></div>
         <div class="stat__l">R&amp;D laboratory and GMP cleanroom</div></div>
       <div class="stat"><div class="stat__n" data-count="15">15<small>+ yrs</small></div>
         <div class="stat__l">CGT reagent development experience</div></div>
@@ -988,7 +988,7 @@ def page_platform():
          "Our own laboratory executes: expression, purification, assay, release. When volume exceeds "
          "one bench, qualified partner facilities absorb the overflow under our methods and our "
          "quality system.",
-         ["3,200 m² in-house R&D and GMP base",
+         ["3,400 m² in-house R&D and GMP base",
           "Qualified partner facilities for overflow",
           "Capacity roadmap with committed windows"],
          "What it changes: throughput stops being a function of one building."),
@@ -2483,7 +2483,7 @@ def page_quality():
     cards = [
         ("shield", "ISO 13485:2016", "The medical-device quality management system applied to reagent manufacture — design control, risk management and traceability from raw material to release."),
         ("doc", "ISO 9001", "Company-wide quality management covering the R&amp;D, production and commercial processes around the ISO 13485 scope."),
-        ("factory", "GMP cleanroom", "3,200 m² R&amp;D and production base with a GMP-level clean workshop for bead, protein and medium manufacture."),
+        ("factory", "GMP cleanroom", "3,400 m² R&amp;D and production base with a GMP-level clean workshop for bead, protein and medium manufacture."),
         ("lock", "Two Type II DMFs", "DMF 038124 (ActSep® CD3/CD28 beads) and DMF 038820 (anti-human CD28 mAb), referenceable by sponsors in an IND."),
         ("chart", "Analytical release testing", "Identity, purity and activity testing per lot: SDS-PAGE, SEC-HPLC, endotoxin, residual host-cell protein and cell-based potency where applicable."),
         ("users", "Audit support", "Audit data packages delivered for more than 30 customers, plus on-site and remote inspection hosting."),
@@ -3376,7 +3376,7 @@ def page_about():
       can produce tools for any workflow — not just the one you started with.</p>
     <div class="phero__meta">
       <span class="pill pill--brand">Est. 2011</span>
-      <span class="pill">3,200 m² base</span>
+      <span class="pill">3,400 m² base</span>
       <span class="pill">50% R&amp;D and production</span>
       <span class="pill">AI for science</span>
     </div>
@@ -3408,7 +3408,7 @@ def page_about():
       <div class="reveal">
         <div class="datapanel">
           <div class="datapanel__k">R&amp;D and production base</div>
-          <div class="datapanel__n">3,200<small> m²</small></div>
+          <div class="datapanel__n">3,400<small> m²</small></div>
           <div class="datapanel__grid">
             <div><b>2011</b><span>Company founded</span></div>
             <div><b>50%</b><span>Of staff in R&amp;D and production</span></div>
@@ -3512,7 +3512,7 @@ def page_about():
 </main>""".format(c=ic("chev"), ar=ic("arrow"), ck=ic("check"), lab=IMG + "/brand/lab-wide.webp",
                   tl=tl, m=ic("magnet"), p=ic("protein"), f=ic("flask"), u=ic("arrow-up-right"))
     return head("Company — G&W Biotechnologie GmbH",
-                "Founded 2011, 3,200 m² R&D and GMP base, ISO 13485 and ISO 9001 certified, FDA DMF filings on record.",
+                "Founded 2011, 3,400 m² R&D and GMP base, ISO 13485 and ISO 9001 certified, FDA DMF filings on record.",
                 "about") + header("Company") + body + footer()
 
 
@@ -3583,7 +3583,7 @@ def page_contact():
         </div>
         <div class="qcard" style="margin-bottom:14px">
           <div class="qcard__ico">{fac}</div><h3>Manufacturing &amp; R&amp;D</h3>
-          <p>3,200 m² GMP cleanroom and R&amp;D laboratory. On-site and remote audits by
+          <p>3,400 m² GMP cleanroom and R&amp;D laboratory. On-site and remote audits by
             appointment — allow two weeks for scheduling.</p>
           <a class="link-arrow" style="margin-top:12px;font-size:.85rem" href="#audit">Schedule an audit {ar}</a>
         </div>
