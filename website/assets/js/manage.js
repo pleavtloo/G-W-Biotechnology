@@ -77,7 +77,7 @@
   }
 
   function money(n) {
-    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR || "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
 
   function when(ms) {
