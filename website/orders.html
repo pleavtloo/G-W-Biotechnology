@@ -220,7 +220,7 @@
   }
 
   function money(n) {
-    return "$" + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
 
   function when(ms) {
@@ -445,7 +445,8 @@
   </div>
 </div>
 <script src="assets/js/data.js?v=0fa05bacbd"></script>
-<script src="assets/js/main.js?v=796727d8de"></script>
+<script>window.TL_CUR="€";window.TL_CUR_CODE="EUR";</script>
+<script src="assets/js/main.js?v=0f7beca361"></script>
 <script>
 /* Cookie-free pageview ping. Failures never surface to the visitor. */
 (function () {

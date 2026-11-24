@@ -9,6 +9,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "website")
 IMG = "assets/img"
 NSKU = len(PRODUCTS)
+CUR = COMPANY.get("currency_symbol") or "$"   # the two sites differ only in this
 
 # --------------------------------------------------------------------------
 # icons
@@ -64,7 +65,7 @@ def e(s):
 
 
 def money(v):
-    return "${:,}".format(v) if v else "Quote"
+    return (CUR + "{:,}".format(v)) if v else "Quote"
 
 
 def prod(slug):
@@ -532,6 +533,7 @@ def footer():
   </div>
 </div>
 <script src="assets/js/data.js"></script>
+<script>window.TL_CUR="{cur}";window.TL_CUR_CODE="{curcode}";</script>
 <script src="assets/js/main.js"></script>
 <script>
 /* Cookie-free pageview ping. Failures never surface to the visitor. */
@@ -550,7 +552,7 @@ def footer():
 </script>
 </body>
 </html>
-""".format(cats=cats, apps=apps, pin=ic("pin"), factory=ic("factory"), nsku=NSKU)
+""".format(cats=cats, apps=apps, pin=ic("pin"), factory=ic("factory"), nsku=NSKU, cur=CUR, curcode=COMPANY.get("currency_code") or "USD")
 
 
 # --------------------------------------------------------------------------
@@ -1801,7 +1803,7 @@ def page_order_detail():
 <script>
 (function () {
   function money(n) {
-    return "$" + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
@@ -1944,7 +1946,7 @@ def page_account():
 <script>
 (function () {
   function money(n) {
-    return "$" + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
@@ -2174,7 +2176,7 @@ def page_orders():
   }
 
   function money(n) {
-    return "$" + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
 
   function when(ms) {
@@ -2910,10 +2912,10 @@ def page_transmembrane():
         <table class="data">
           <thead><tr><th>Format</th><th>From</th><th>Lead time</th></tr></thead>
           <tbody>
-            <tr><td>VLP</td><td>from $850</td><td>4&ndash;6 weeks</td></tr>
-            <tr><td>Detergent</td><td>from $1,500</td><td>6&ndash;8 weeks</td></tr>
-            <tr><td>Nanodisc</td><td>from $2,000</td><td>8&ndash;10 weeks</td></tr>
-            <tr><td>All three, in parallel</td><td>from $3,500</td><td>12&ndash;15 weeks</td></tr>
+            <tr><td>VLP</td><td>from {cur}850</td><td>4&ndash;6 weeks</td></tr>
+            <tr><td>Detergent</td><td>from {cur}1,500</td><td>6&ndash;8 weeks</td></tr>
+            <tr><td>Nanodisc</td><td>from {cur}2,000</td><td>8&ndash;10 weeks</td></tr>
+            <tr><td>All three, in parallel</td><td>from {cur}3,500</td><td>12&ndash;15 weeks</td></tr>
           </tbody>
         </table>
       </div>
@@ -3006,12 +3008,13 @@ def page_transmembrane():
         head_faq=section_head("Questions we get first",
                               "The things a project manager asks on the first call.", num="05"),
         faqs=faq_html,
+        cur=CUR,
     )
 
     return head(
         "Transmembrane Protein Production \u2014 VLP, Detergent and Nanodisc | T&amp;L Biotechnology",
         "Full-length transmembrane protein production with a paid feasibility stage before "
-        "scale-up. VLP, Detergent and Nanodisc formats, from $850.",
+        "scale-up. VLP, Detergent and Nanodisc formats, from " + CUR + "850.",
         "transmembrane-protein",
     ) + header("Services") + body + footer()
 

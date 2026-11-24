@@ -22,3 +22,5 @@ bank:
   bank_name: ''
   bank_address: ''
   terms: Payment due within 30 days of the invoice date
+currency_symbol: €
+currency_code: EUR

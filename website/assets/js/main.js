@@ -87,14 +87,14 @@
         '<button type="button" data-inc="' + i + '" aria-label="Increase quantity">+</button>' +
         "</div></div>" +
         '<div class="cart-line__price">' +
-        (it.price === null || it.price === undefined ? "—" : "$" + fmtMoney(line)) +
+        (it.price === null || it.price === undefined ? "—" : (window.TL_CUR; "$") + fmtMoney(line)) +
         "</div>" +
         '<button type="button" class="cart-line__del" data-del="' + i + '" aria-label="Remove">&times;</button>' +
         "</div>";
     }).join("");
 
     var sub = document.getElementById("cart-subtotal");
-    if (sub) sub.textContent = "$" + fmtMoney(total);
+    if (sub) sub.textContent = (window.TL_CUR; "$") + fmtMoney(total);
 
     function setQty(index, value) {
       var arr = cartRead();
@@ -170,7 +170,7 @@
       }).then(function (r) { return r.json(); }).then(function (d) {
         var paid = d && d.paid;
         if (paid) cartWrite([]);
-        var amount = d && d.amount ? "$" + fmtMoney(d.amount / 100) : "";
+        var amount = d && d.amount ? (window.TL_CUR; "$") + fmtMoney(d.amount / 100) : "";
         var box = document.querySelector(".checkout");
         if (!box) return;
         box.innerHTML = '<div class="checkout__done">' +
@@ -212,7 +212,7 @@
       var line = (Number(it.price) || 0) * (Number(it.qty) || 0);
       total += line;
       return '<div class="sum-line"><span>' + it.spec + " <em>× " + it.qty + "</em></span><b>" +
-        (it.price === null || it.price === undefined ? "—" : "$" + fmtMoney(line)) + "</b></div>";
+        (it.price === null || it.price === undefined ? "—" : (window.TL_CUR; "$") + fmtMoney(line)) + "</b></div>";
     }).join("");
 
     function payLabel() {
@@ -521,7 +521,7 @@
         return '<a class="search-pop__result" href="product.html?p=' + p.slug + '">' +
           '<img src="' + tileSrc(p) + '" alt="">' +
           "<span><b>" + p.name + "</b><i>" + (DATA.cats[p.cat] || "") +
-          (p.price ? " · from $" + p.price : "") + "</i></span></a>";
+          (p.price ? " · from " + (window.TL_CUR; "$") + p.price : "") + "</i></span></a>";
       }).join("") +
       '<a class="search-pop__all" href="products.html?q=' + encodeURIComponent(q) +
       '">See all ' + hits.length + " in the catalogue</a>";
@@ -787,7 +787,7 @@
     $("#pdp-cat").href = "products.html?cat=" + p.cat;
     $("#pdp-desc").innerHTML = richToHtml(p.desc);
     $("#pdp-price").innerHTML = p.price
-      ? "$" + p.price.toLocaleString("en-US") + " <span>USD</span>"
+      ? (window.TL_CUR; "$") + p.price.toLocaleString("en-US") + " <span>" + (window.TL_CUR_CODE; "USD") + "</span>"
       : "Price on request";
 
     $("#pdp-highlights").innerHTML = p.highlights.map(function (h) {
@@ -849,7 +849,7 @@
     $("#pdp-sizes").innerHTML = packs.map(function (v, i) {
       var price = (v.price === null || v.price === undefined)
         ? "Price on request"
-        : "$" + Number(v.price).toLocaleString("en-US");
+        : (window.TL_CUR; "$") + Number(v.price).toLocaleString("en-US");
       return '<button class="size' + (i === 0 ? " is-active" : "") + '">' +
         '<span class="size__spec">' + v.spec + '</span>' +
         '<span class="size__price">' + price + "</span></button>";
