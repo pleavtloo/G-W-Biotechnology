@@ -5,30 +5,41 @@ name: ActCel T Cell Activation Reagent
 cat: beads
 apps:
 - tcell
-price: 487.20
+price: 487.2
 variants:
-  - sku: TL-6001-1000
-    spec: 1 mL
-    price: 487.20
-  - sku: GMP-TL6001-1000
-    spec: 1 mL (GMP)
-    price: 2072
+- sku: TL-6001-1000
+  spec: 50 nm, 1 mL (GMP)
+  price: 487.2
+- sku: GMP-TL6001-1000
+  spec: 50 nm, 1 mL (GMP)
+  price: 2072
+- sku: GMP-TL6002-1000
+  spec: 100 nm, 1 mL (GMP)
+  price: 2072
 sizes:
-  - 1 mL
-blurb: Soluble, bead-free activation for clinical T-cell expansion.
-desc: A bead-free activation reagent for in-vitro T-cell activation and expansion, designed for manufacturing workflows
-  where a magnetic separation step is undesirable or where activation must be quenched before harvest.
+- 50 nm, 1 mL
+- 100 nm, 1 mL
+blurb: Nano-scale magnetic beads for clinical T-cell activation, degradable in culture with no bead removal
+  step.
+desc: 'A nano-scale magnetic bead reagent for in-vitro T-cell activation and expansion. The particles
+  degrade in culture, so no bead removal or magnetic separation step is needed before harvest - a fit
+  for closed, automated manufacturing where an extra separation would break the process. Two bead sizes
+  are available: 50 nm (GMP-TL6001) and 100 nm (GMP-TL6002).'
 highlights:
-- No magnetic removal step
+- Nano-scale magnetic beads, 50 nm and 100 nm
+- Degradable: no bead removal required
 - Scalable to closed bioreactors
-- Designed for T-cell therapy manufacturing
 specs:
+- k: Grade
+  v: GMP
 - k: Target
   v: Human T cells
 - k: Format
-  v: Soluble reagent
+  v: Nano-scale magnetic beads (50 nm / 100 nm)
 - k: Application
   v: Activation & expansion
+- k: Removal
+  v: Not required (degrades in culture)
 - k: Endotoxin
   v: ≤ 0.5 EU/mL
 - k: Storage
