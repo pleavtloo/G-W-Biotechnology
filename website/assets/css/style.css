@@ -7529,6 +7529,6 @@ body {
 }
 
 .search-trigger__txt {
-  color: var(--ink);
-  font-weight: 600;
+  color: var(--muted);
+  font-weight: 500;
 }

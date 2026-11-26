@@ -368,7 +368,7 @@ def header(active):
     <div class="nav__actions">
       <button class="search-trigger" id="search-open" aria-label="Search products" aria-haspopup="dialog">
         {search}
-        <span class="search-trigger__txt">Search {nsku} products</span>
+        <span class="search-trigger__txt">Search products</span>
         <kbd data-kbd>Ctrl K</kbd>
       </button>
       <a class="nav__account" id="nav-account" href="login.html">Sign in</a>
@@ -385,7 +385,7 @@ def header(active):
 </header>
 <div class="mobile-menu" id="mobile-menu">
   <button class="mm-search" id="mm-search" type="button">
-    {search}<span>Search {nsku} products, targets, documents</span>
+    {search}<span>Search products, targets, documents</span>
   </button>
   <nav aria-label="Mobile">
     {mlinks}
