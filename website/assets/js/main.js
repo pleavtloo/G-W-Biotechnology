@@ -272,7 +272,10 @@
       .then(function (r) { return r.json(); })
       .then(function (d) {
         if (d && d.user) {
-          el.textContent = String(d.user.name || "").split(" ")[0] || "Account";
+          // A fixed label reads better than a first name here: the nav already
+          // carries six items and "Site" (one account's name) looked like a link
+          // to site settings.
+          el.textContent = "Account";
           el.href = "account.html";
         }
       })
