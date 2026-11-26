@@ -1803,7 +1803,7 @@ def page_order_detail():
 <script>
 (function () {
   function money(n) {
-    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR || "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
@@ -1946,7 +1946,7 @@ def page_account():
 <script>
 (function () {
   function money(n) {
-    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR || "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
@@ -2176,7 +2176,7 @@ def page_orders():
   }
 
   function money(n) {
-    return (window.TL_CUR; "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
+    return (window.TL_CUR || "$") + Number(n || 0).toLocaleString("en-US", { maximumFractionDigits: 2 });
   }
 
   function when(ms) {
